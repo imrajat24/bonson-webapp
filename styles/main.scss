@@ -1,8 +1,15 @@
-main {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-size: 6rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-image: url("../assets/soon2.jpeg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #9a9a9a;
 }
