@@ -1,0 +1,39 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+  position: relative;
+
+  // * setting bg color to navigation parent
+
+  &__wrap {
+    background-color: $color-black;
+  }
+
+  &__menu {
+    ul {
+      display: flex;
+      list-style: none;
+
+      li {
+        a {
+          color: $color-white;
+          text-decoration: none;
+          text-transform: capitalize;
+          font-size: 1.8rem;
+        }
+        &:not(:last-of-type) {
+          margin-right: 4rem;
+        }
+
+        span {
+          margin-left: 1.5rem;
+        }
+      }
+    }
+  }
+
+  &__buttonWrap {
+  }
+}

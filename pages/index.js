@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import soon from "../assets/soon2.jpeg";
+import Nav from "../components/Nav";
 
 export default function Home() {
   return (
@@ -11,7 +11,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="row"></main>
+      <main className="">
+        <div className="nav__wrap">
+          <Nav />
+        </div>
+      </main>
     </>
   );
 }
