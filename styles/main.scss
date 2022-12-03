@@ -1,15 +1,6 @@
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body {
-  height: 100vh;
-  background-image: url("../assets/soon2.jpeg");
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-color: #9a9a9a;
-}
+// ! base
+@import "./base/variables";
+@import "./base/mediaQueryManager";
+@import "./base/base";
+@import "./base/btns";
+@import "./base/headings";
