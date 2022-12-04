@@ -1,5 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
+import HeroSection from "../components/home/HeroSection";
+import OurProcess from "../components/home/OurProcess";
+import WhyUs from "../components/home/WhyUs";
 import Nav from "../components/Nav";
 
 export default function Home() {
@@ -15,6 +18,9 @@ export default function Home() {
         <div className="nav__wrap">
           <Nav />
         </div>
+        <HeroSection />
+        <WhyUs />
+        <OurProcess />
       </main>
     </>
   );
