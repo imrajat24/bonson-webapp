@@ -1,0 +1,36 @@
+.ourprocess__wrap {
+  //   background-color: aqua;
+  height: 90vh;
+
+  .ourprocess--heading {
+    font-size: 3.4rem;
+    text-align: center;
+  }
+}
+.ourprocess {
+  display: flex;
+  width: 100%;
+  margin: auto;
+
+  &__graphics {
+    width: 30%;
+    margin: auto;
+  }
+  &__contentWrap {
+    width: 50%;
+    margin: auto;
+
+    &__card {
+      margin: 9rem;
+      padding: 0rem;
+      //   background-color: aquamarine;
+
+      &--heading {
+        font-size: 2.4rem;
+      }
+      &--para {
+        font-size: 1.6rem;
+      }
+    }
+  }
+}

@@ -29,6 +29,9 @@ const HeroSection = () => {
               src={image1}
               className="hero__graphics--image-section-wrap-image image1"
               alt="wires in hand"
+              width={200}
+              height={550}
+              objectFit="cover"
             />
           </div>
 
@@ -37,6 +40,9 @@ const HeroSection = () => {
               src={image2}
               className="hero__graphics--image-section-wrap-image image2"
               alt="electrical wires"
+              width={200}
+              height={550}
+              objectFit="cover"
             />
           </div>
 
@@ -45,6 +51,9 @@ const HeroSection = () => {
               src={image3}
               className="hero__graphics--image-section-wrap-image image3"
               alt="person working with machine"
+              width={200}
+              height={550}
+              objectFit="cover"
             />
           </div>
 
@@ -53,6 +62,9 @@ const HeroSection = () => {
               src={image4}
               alt="wire bundles"
               className="hero__graphics--image-section-wrap-image image4"
+              width={200}
+              height={550}
+              objectFit="cover"
             />
           </div>
         </div>

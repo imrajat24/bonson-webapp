@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import HeroSection from "../components/home/HeroSection";
 import OurProcess from "../components/home/OurProcess";
+import ProductCategories from "../components/home/ProductCategories";
 import WhyUs from "../components/home/WhyUs";
 import Nav from "../components/Nav";
 
@@ -21,6 +22,7 @@ export default function Home() {
         <HeroSection />
         <WhyUs />
         <OurProcess />
+        <ProductCategories />
       </main>
     </>
   );

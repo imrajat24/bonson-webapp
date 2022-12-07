@@ -1,0 +1,57 @@
+.categories__wrap {
+  height: 80vh;
+  color: white;
+  background-color: #231f20;
+}
+
+.categories {
+  display: flex;
+  flex-direction: column;
+
+  &__headingSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10rem;
+
+    &__content {
+      &--heading {
+        font-size: 3.4rem;
+      }
+      &--para {
+        font-size: 1.8rem;
+      }
+    }
+  }
+
+  &__section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+
+    &__card {
+      display: flex;
+      flex-direction: column;
+      width: 25%;
+      height: 100%;
+      background-color: #302c2d;
+      border-radius: 0.4rem;
+
+      &--name {
+        font-size: 1.8rem;
+        padding: 2rem 1.5rem;
+      }
+
+      &--arrow {
+        // display: inline;
+        position: absolute;
+        // position: relative;
+        // background-color: aqua;
+        padding: 1rem;
+        bottom: 0rem;
+        right: 0rem;
+      }
+    }
+  }
+}
