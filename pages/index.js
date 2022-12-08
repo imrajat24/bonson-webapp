@@ -1,5 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
+import Footer from "../components/Footer";
+import CTASection from "../components/home/CTASection";
 import HeroSection from "../components/home/HeroSection";
 import OurProcess from "../components/home/OurProcess";
 import ProductCategories from "../components/home/ProductCategories";
@@ -23,6 +25,8 @@ export default function Home() {
         <WhyUs />
         <OurProcess />
         <ProductCategories />
+        <CTASection/>
+        <Footer/>
       </main>
     </>
   );

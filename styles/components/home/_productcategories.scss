@@ -29,29 +29,37 @@
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
+    position: relative;
+    margin-top: 4rem;
 
     &__card {
       display: flex;
       flex-direction: column;
-      width: 25%;
+      
+      width: 24%;
+      min-width: 20rem;
       height: 100%;
       background-color: #302c2d;
       border-radius: 0.4rem;
+      margin: auto;
 
       &--name {
+        display: flex;
+        justify-content: space-between;
         font-size: 1.8rem;
         padding: 2rem 1.5rem;
       }
 
-      &--arrow {
-        // display: inline;
-        position: absolute;
-        // position: relative;
-        // background-color: aqua;
-        padding: 1rem;
-        bottom: 0rem;
-        right: 0rem;
-      }
+      
+    }
+    &__card:nth-child(1){
+
+      margin-left: 0;
+    }
+    &__card:nth-child(4){
+
+      margin-right: 0;
     }
   }
+  
 }

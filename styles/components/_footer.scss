@@ -1,0 +1,41 @@
+.footer__wrap{
+    background-color: $color-black;
+    color: $color-white;
+
+}
+
+.footer{
+   &__contents{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem 0;
+        position: relative;
+    
+        &__menu{
+            ul {
+                display: flex;
+                list-style: none;
+          
+                li {
+                  a {
+                    color: $color-white;
+                    text-decoration: none;
+                    text-transform: capitalize;
+                    font-size: 1.8rem;
+                  }
+                  &:not(:last-of-type) {
+                    margin-right: 4rem;
+                  }
+          
+                  
+                }
+              }
+
+              
+        }
+        &_contact{
+            display: flex;
+        }
+    }
+}

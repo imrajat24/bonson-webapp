@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import Image from "next/image";
 
@@ -21,18 +22,65 @@ const ProductCategories = () => {
           </div>
         </div>
         <div className="categories__section">
+          {/* ---------------------card starts--------------------- */}
           <div className="categories__section__card">
             <Image
               src={image4}
               objectFit="cover"
               width={250}
-              height={250}
+              height={300}
               className="categories__section__card--image"
             />
             <p className="categories__section__card--name">
               Product Category One
-            </p>
             <Image src={arrow} className="categories__section__card--arrow" />
+            </p>
+          </div>
+          
+          {/* ---------------------card starts--------------------- */}
+          <div className="categories__section__card">
+            <Image
+              src={image4}
+              objectFit="cover"
+              width={250}
+              height={300}
+              className="categories__section__card--image"
+            />
+            <p className="categories__section__card--name">
+              Product Category One
+            <Image src={arrow} className="categories__section__card--arrow" />
+            </p>
+          </div>
+
+          {/* ---------------------card starts--------------------- */}
+          <div className="categories__section__card">
+            <Image
+              src={image4}
+              objectFit="cover"
+              width={250}
+              height={300}
+              className="categories__section__card--image"
+              quality={100}
+            />
+            <p className="categories__section__card--name">
+              Product Category One
+            <Image src={arrow} className="categories__section__card--arrow" />
+            </p>
+          </div>
+
+          {/* ---------------------card starts--------------------- */}
+          <div className="categories__section__card">
+            <Image
+              src={image4}
+              objectFit="cover"
+              width={250}
+              height={300}
+              className="categories__section__card--image"
+            />
+            <p className="categories__section__card--name">
+              Product Category One
+            <Image src={arrow} className="categories__section__card--arrow" />
+            </p>
           </div>
         </div>
       </div>
