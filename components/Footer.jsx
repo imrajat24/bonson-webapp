@@ -10,25 +10,25 @@ const Footer = () => {
           <div className="footer__contents__menu">
             <ul>
               <li>
-                <Link href="#">Home</Link>
+                <Link href="home">Home</Link>
               </li>
               <li>
-                <Link href="#">About Us</Link>
+                <Link href="about">About Us</Link>
               </li>
               <li>
-                <Link href="#">Contact Us</Link>
+                <Link href="contact">Contact Us</Link>
               </li>
               <li>
-                <Link href="#">Privacy Policy</Link>
+                <Link href="privacy">Privacy Policy</Link>
               </li>
             </ul>
           </div>
           <div className="footer__contents_contact">
-            <p>
+            <p className="footer__contents_contact--address">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
               est?
             </p>
-            <div>
+            <div className="footer__contents_contact--phone">
               <p>+91987987987</p>
               <p>+96546546465</p>
             </div>
@@ -37,10 +37,7 @@ const Footer = () => {
             <Image src={logoMain} alt="logo-main" height={50} width={200} />
           </div>
         </div>
-        <p className="credits">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
-          ipsa?
-        </p>
+        <p className="credits">© 2022 Bonson Inc. All Rights Reserved</p>
       </div>
     </div>
   );

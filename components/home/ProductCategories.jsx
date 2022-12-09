@@ -1,6 +1,9 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
+
+import Button from "@mui/material/Button";
 
 import image4 from "../../assets/images/nina-mercado-ygl027z_Iw0-unsplash.jpg";
 import arrow from "../../assets/icons/Vector.svg";
@@ -11,7 +14,8 @@ const ProductCategories = () => {
         <div className="categories__headingSection">
           <div className="categories__headingSection__content">
             <h2 className="categories__headingSection__content--heading">
-              Product Categories
+              Product Categories{" "}
+              <Button variant="contained">Hello World</Button>
             </h2>
             <p className="categories__headingSection__content--para">
               The Products that are of best qualitty and at market affordable.
@@ -23,65 +27,86 @@ const ProductCategories = () => {
         </div>
         <div className="categories__section">
           {/* ---------------------card starts--------------------- */}
-          <div className="categories__section__card">
-            <Image
-              src={image4}
-              objectFit="cover"
-              width={250}
-              height={300}
-              className="categories__section__card--image"
-            />
-            <p className="categories__section__card--name">
-              Product Category One
-            <Image src={arrow} className="categories__section__card--arrow" />
-            </p>
-          </div>
-          
-          {/* ---------------------card starts--------------------- */}
-          <div className="categories__section__card">
-            <Image
-              src={image4}
-              objectFit="cover"
-              width={250}
-              height={300}
-              className="categories__section__card--image"
-            />
-            <p className="categories__section__card--name">
-              Product Category One
-            <Image src={arrow} className="categories__section__card--arrow" />
-            </p>
-          </div>
+
+          <Link href="#">
+            <div className="categories__section__card">
+              <Image
+                src={image4}
+                objectFit="cover"
+                width={250}
+                height={300}
+                className="categories__section__card--image"
+              />
+              <p className="categories__section__card--name">
+                Product Category One
+                <Image
+                  src={arrow}
+                  className="categories__section__card--arrow"
+                />
+              </p>
+            </div>
+          </Link>
 
           {/* ---------------------card starts--------------------- */}
-          <div className="categories__section__card">
-            <Image
-              src={image4}
-              objectFit="cover"
-              width={250}
-              height={300}
-              className="categories__section__card--image"
-              quality={100}
-            />
-            <p className="categories__section__card--name">
-              Product Category One
-            <Image src={arrow} className="categories__section__card--arrow" />
-            </p>
-          </div>
+          <Link href="product2">
+            <div className="categories__section__card">
+              <Image
+                src={image4}
+                objectFit="cover"
+                width={250}
+                height={300}
+                className="categories__section__card--image"
+              />
+              <p className="categories__section__card--name">
+                Product Category One
+                <Image
+                  src={arrow}
+                  className="categories__section__card--arrow"
+                />
+              </p>
+            </div>
+          </Link>
 
           {/* ---------------------card starts--------------------- */}
-          <div className="categories__section__card">
-            <Image
-              src={image4}
-              objectFit="cover"
-              width={250}
-              height={300}
-              className="categories__section__card--image"
-            />
-            <p className="categories__section__card--name">
-              Product Category One
-            <Image src={arrow} className="categories__section__card--arrow" />
-            </p>
-          </div>
+          <Link href="#">
+            <div className="categories__section__card">
+              <Image
+                src={image4}
+                objectFit="cover"
+                width={250}
+                height={300}
+                className="categories__section__card--image"
+                quality={100}
+              />
+              <p className="categories__section__card--name">
+                Product Category One
+                <Image
+                  src={arrow}
+                  className="categories__section__card--arrow"
+                />
+              </p>
+            </div>
+          </Link>
+
+          {/* ---------------------card starts--------------------- */}
+          <Link href="#">
+            <div className="categories__section__card">
+              <Image
+                src={image4}
+                objectFit="cover"
+                width={250}
+                height={300}
+                className="categories__section__card--image"
+              />
+              <p className="categories__section__card--name">
+                Product Category One
+                <Image
+                  src={arrow}
+                  className="categories__section__card--arrow"
+                />
+              </p>
+            </div>
+          </Link>
         </div>
       </div>
     </div>
