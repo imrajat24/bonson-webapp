@@ -1,0 +1,14 @@
+.info{
+    display: flex;
+    text-align: justify;
+    &--para{
+        width: 50%;
+        padding: 5rem 3rem;
+        font-size: 1.8rem;
+    }
+    &__imgContainer{
+        // margin: 5rem;
+        width: 50%;
+        padding: 5rem;
+    }
+}

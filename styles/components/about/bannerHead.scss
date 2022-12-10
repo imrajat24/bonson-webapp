@@ -1,0 +1,21 @@
+.bannerHead{
+    height: 62rem;
+    position: absolute;
+    top: 30%;
+    left: 13.8rem;
+
+color: $color-white;
+    &__wrap{
+        position: relative;
+    }
+
+    &--heading{
+        font-size: 5.4rem;
+text-transform: uppercase;
+    }
+
+    &--sub{
+        font-size: 1.8rem;
+
+    }
+}

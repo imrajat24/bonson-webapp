@@ -15,7 +15,7 @@ function Nav(props) {
       <div className="nav__menu">
         <ul>
           <li>
-            <Link href="#">Home</Link>
+            <Link href="/">Home</Link>
           </li>
           <li>
             <Link href="#">Products</Link>
@@ -24,7 +24,7 @@ function Nav(props) {
             </span>
           </li>
           <li>
-            <Link href="#">about us</Link>
+            <Link href="/about">about us</Link>
           </li>
           <li>
             <Link href="#">gallery</Link>

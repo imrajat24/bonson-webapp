@@ -26,6 +26,7 @@ const WhyUs = () => {
             width={750}
             height={330}
             className="whyUs__slider--image"
+            quality={100}
           />
         </div>
       </div>

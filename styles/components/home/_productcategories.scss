@@ -39,11 +39,14 @@
       
       width: 24%;
       min-width: 20rem;
-      height: 100%;
+    //  height: 25rem;
+      // height: 30rem;
       background-color: #302c2d;
       border-radius: 0.4rem;
       margin: auto;
 
+
+z-index: 2;
       &--name {
         display: flex;
         justify-content: space-between;
@@ -63,4 +66,9 @@
     }
   }
   
+}
+.imgContainer{
+  width: 100%;
+  height: 25rem;
+  position: relative;
 }

@@ -14,8 +14,7 @@ const ProductCategories = () => {
         <div className="categories__headingSection">
           <div className="categories__headingSection__content">
             <h2 className="categories__headingSection__content--heading">
-              Product Categories{" "}
-              <Button variant="contained">Hello World</Button>
+              Product Categories
             </h2>
             <p className="categories__headingSection__content--para">
               The Products that are of best qualitty and at market affordable.
@@ -30,13 +29,15 @@ const ProductCategories = () => {
 
           <Link href="#">
             <div className="categories__section__card">
-              <Image
-                src={image4}
-                objectFit="cover"
-                width={250}
-                height={300}
-                className="categories__section__card--image"
-              />
+              <div className="imgContainer">
+                <Image
+                  src={image4}
+                  objectFit="cover"
+                  layout="fill"
+                  className="categories__section__card--image"
+                />
+              </div>
+
               <p className="categories__section__card--name">
                 Product Category One
                 <Image
@@ -50,13 +51,14 @@ const ProductCategories = () => {
           {/* ---------------------card starts--------------------- */}
           <Link href="product2">
             <div className="categories__section__card">
-              <Image
-                src={image4}
-                objectFit="cover"
-                width={250}
-                height={300}
-                className="categories__section__card--image"
-              />
+              <div className="imgContainer">
+                <Image
+                  src={image4}
+                  objectFit="cover"
+                  layout="fill"
+                  className="categories__section__card--image"
+                />
+              </div>
               <p className="categories__section__card--name">
                 Product Category One
                 <Image
@@ -70,14 +72,14 @@ const ProductCategories = () => {
           {/* ---------------------card starts--------------------- */}
           <Link href="#">
             <div className="categories__section__card">
-              <Image
-                src={image4}
-                objectFit="cover"
-                width={250}
-                height={300}
-                className="categories__section__card--image"
-                quality={100}
-              />
+              <div className="imgContainer">
+                <Image
+                  src={image4}
+                  objectFit="cover"
+                  layout="fill"
+                  className="categories__section__card--image"
+                />
+              </div>
               <p className="categories__section__card--name">
                 Product Category One
                 <Image
@@ -91,13 +93,14 @@ const ProductCategories = () => {
           {/* ---------------------card starts--------------------- */}
           <Link href="#">
             <div className="categories__section__card">
-              <Image
-                src={image4}
-                objectFit="cover"
-                width={250}
-                height={300}
-                className="categories__section__card--image"
-              />
+              <div className="imgContainer">
+                <Image
+                  src={image4}
+                  objectFit="cover"
+                  layout="fill"
+                  className="categories__section__card--image"
+                />
+              </div>
               <p className="categories__section__card--name">
                 Product Category One
                 <Image

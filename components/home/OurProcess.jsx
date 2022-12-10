@@ -7,7 +7,7 @@ const OurProcess = () => {
       <h2 className="ourprocess--heading">Our Process</h2>
       <div className="ourprocess ">
         <div className="ourprocess__graphics">
-          <Image src={processImg} className="processImg" />
+          <Image src={processImg} className="processImg" alt="process img" />
         </div>
         <div className="ourprocess__contentWrap">
           <div className="ourprocess__contentWrap__card">
