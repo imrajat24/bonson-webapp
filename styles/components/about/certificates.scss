@@ -1,0 +1,41 @@
+.certificate {
+  text-align: center;
+  &--heading {
+    font-size: 3.6rem;
+    margin: 3rem 0rem;
+  }
+  &__cardsWrap {
+    margin: 3rem;
+    display: flex;
+  }
+  &__card {
+    margin: auto;
+    width: 23%;
+    text-align: left;
+    border-radius: 0.4rem;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+
+    &--imgContainer {
+      height: 20rem;
+
+      margin: auto;
+      position: relative;
+    }
+
+    &__content {
+      padding: 2rem;
+
+      &--name {
+        font-size: 1.8rem;
+      }
+      &--issueDate {
+        font-size: 1.2rem;
+        opacity: 60%;
+      }
+      &--para {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}

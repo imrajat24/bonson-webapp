@@ -6,6 +6,9 @@ import Nav from "../components/Nav";
 import Info from "../components/about/Info";
 import MadeIndia from "../components/about/MadeIndia";
 import Vision from "../components/about/Vision";
+import Team from "../components/about/Team";
+import Certificates from "../components/about/Certificates";
+import OurHistory from "../components/about/OurHistory";
 
 function AboutUs() {
   return (
@@ -22,6 +25,10 @@ function AboutUs() {
       <Info/>
       <MadeIndia/>
       <Vision/>
+      <Team/>
+      <OurHistory/>
+      <Certificates/>
+      <Footer/>
     </>
   );
 }

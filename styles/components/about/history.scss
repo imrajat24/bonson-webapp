@@ -1,0 +1,71 @@
+.history {
+  text-align: center;
+  &--heading {
+    font-size: 3.6rem;
+    margin: 3rem 0rem;
+  }
+
+  &__cardWrap {
+    height: 70vh;
+    // background-color: aqua;
+  }
+
+  &__card {
+    height: 100%;
+    width: 100%;
+    display: flex;
+  }
+  &__graphics {
+    position: relative;
+    width: 50%;
+    // background-color: aquamarine;
+    &--image {
+      position: relative;
+      border: 0.7rem solid white;
+      box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+    }
+  }
+
+  &__content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &--year {
+      //   font-family: "Oswald";
+      font-size: 10rem;
+      text-align: center;
+      opacity: 20%;
+    }
+    &--para {
+      width: 60%;
+      font-size: 1.6rem;
+    }
+  }
+}
+
+.img1 {
+  position: absolute;
+  width: 45rem;
+  height: 40rem;
+  left: 8rem;
+  top: 3rem;
+}
+
+.img2 {
+  position: absolute;
+  width: 30rem;
+  height: 25rem;
+  left: 3rem;
+  top: 30rem;
+  transform: rotate(10.9deg);
+}
+.img3 {
+  position: absolute;
+  left: 40rem;
+  top: 25rem;
+  width: 25rem;
+  height: 20rem;
+  transform: rotate(-17.82deg);
+}

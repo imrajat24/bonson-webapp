@@ -1,0 +1,46 @@
+.vision {
+  display: flex;
+  padding: 6rem;
+  &__wrap {
+    background-color: $color-black;
+  }
+
+  &__card {
+    background-color: $color-white;
+    width: 30%;
+    // height: 30rem;
+    margin: auto;
+    position: relative;
+    border-radius: 0.4rem;
+    &__content {
+      padding: 3rem;
+      padding-top: 7rem;
+
+      &--heading {
+        font-size: 2.4rem;
+        text-align: center;
+      }
+
+      &--para {
+        font-size: 1.4rem;
+        text-align: justify;
+        line-height: 22px;
+      }
+    }
+    &_graphic {
+      position: absolute;
+      top: 0%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: $color-white;
+      width: 8rem;
+      height: 8rem;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      //   left: 50%;
+    }
+  }
+}
