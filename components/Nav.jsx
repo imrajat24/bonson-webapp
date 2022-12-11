@@ -18,7 +18,7 @@ function Nav(props) {
             <Link href="/">Home</Link>
           </li>
           <li>
-            <Link href="#">Products</Link>
+            <Link href="/product">Products</Link>
             <span>
               <Image src={arrowDown} alt="arrow-down" width={15} height={10} />
             </span>

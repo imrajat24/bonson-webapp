@@ -1,0 +1,115 @@
+.product {
+  &__wrap {
+    font-size: 1rem;
+    background-color: aqua;
+  }
+  &__hero {
+    height: 90vh;
+
+    display: flex;
+    margin: auto;
+    &__content {
+      width: 60%;
+      margin: auto;
+      padding: 3rem;
+
+      &--heading {
+        font-size: 4.8rem;
+      }
+      &--para {
+        font-size: 1.6rem;
+      }
+    }
+    &__graphics {
+      width: 40%;
+      margin: auto;
+      padding: 3rem;
+    }
+  }
+  &__technical {
+    font-size: 1rem;
+
+    padding-bottom: 6rem;
+    background-color: #f7f7f7;
+    &--heading {
+      font-size: 3.6rem;
+      text-align: center;
+      padding: 3rem;
+    }
+    &--subHeading {
+      font-size: 2.5rem;
+    }
+    &--info {
+      font-size: 1.6rem;
+    }
+  }
+  &__application {
+    font-size: 1rem;
+    background-color: $color-black;
+    color: $color-white;
+    // height: 100vh;
+    &--heading {
+      font-size: 3.6rem;
+      text-align: center;
+      color: $color-white;
+      padding: 3rem;
+    }
+
+    &__cardWrap {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      padding: 6rem 0rem;
+    }
+
+    &__card {
+      width: 20%;
+      margin: auto;
+      text-align: center;
+
+      &--img {
+        position: relative;
+        width: 18rem;
+        height: 18rem;
+        border-radius: 100%;
+        overflow: hidden;
+        margin: auto;
+      }
+
+      &--heading {
+        font-size: 2.4rem;
+        padding: 2.4rem;
+      }
+      &--para {
+        text-align: justify;
+        padding: 1.2rem;
+        font-size: 1.6rem;
+      }
+    }
+  }
+  &__advantages {
+    &--heading {
+      font-size: 3.6rem;
+      text-align: center;
+
+      color: $color-black;
+      padding: 3rem;
+    }
+    &--pointsWrap {
+      display: flex;
+      padding: 3rem;
+    }
+    &--points {
+      font-size: 1.6rem;
+      padding: 3rem;
+
+      li {
+        padding: 1rem;
+      }
+    }
+  }
+  &__otherProducts {
+    font-size: 1rem;
+  }
+}

@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 // images
 import certificate1 from "../../assets/icons/certificate-icon.svg";
-import Link from "next/link";
 
 const Certificates = () => {
   return (
