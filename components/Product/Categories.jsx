@@ -8,6 +8,7 @@ import categories from "./categories.json";
 import image1 from "../../assets/images/dollar-gill-VW1xJfuOj2g-unsplash.jpg";
 
 const Categories = () => {
+  const url = "category1";
   return (
     <div className="categoriesSection__wrap">
       <nav className="categories_nav">

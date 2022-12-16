@@ -1,0 +1,104 @@
+.contact {
+  background: url("../../../assets/images/about-us-banner.png");
+  height: 90vh;
+  margin: auto;
+  &__container {
+    margin: auto;
+  }
+}
+
+.contact-form-wrap {
+  margin: auto;
+  height: 70vh;
+}
+.contact-form {
+  flex-direction: column;
+  width: 50%;
+
+  margin: auto;
+  background-color: $color-white;
+  border-radius: 0.8rem;
+  display: flex;
+
+  .content-wrap {
+    background-color: $color-black;
+    color: $color-white;
+    text-align: center;
+
+    .content {
+      width: 80%;
+      margin: auto;
+      padding: 1.5rem 0rem;
+
+      .heading {
+        font-size: 3.2rem;
+      }
+      .para {
+        font-size: 1.2rem;
+      }
+    }
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 3rem;
+
+    input {
+      border: 0.5px solid rgb(0, 0, 0, 0.1);
+      margin: 0.6rem 0rem;
+      height: 5.6rem;
+      border-radius: 0.4rem;
+      background-color: #faf9fc;
+    }
+    input::-webkit-input-placeholder {
+      /* Chrome/Opera/Safari/Edge */
+      /*styles here*/
+      padding-left: 1rem;
+      font-size: 1.4rem;
+    }
+
+    input::-ms-input-placeholder {
+      /* Microsoft Edge */
+      /*styles here*/
+      padding-left: 1rem;
+      font-size: 1.4rem;
+    }
+
+    input:-ms-input-placeholder {
+      /* IE 10+ */
+      /*styles here*/
+      padding-left: 1rem;
+      font-size: 1.4rem;
+    }
+
+    .message {
+      height: 15rem;
+    }
+  }
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+
+  .col {
+    width: 30%;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.06);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    height: 25rem;
+  }
+}
+
+.map {
+  width: 100%;
+  height: 50vh;
+  background-color: rgb(207, 207, 207);
+  text-align: center;
+}
