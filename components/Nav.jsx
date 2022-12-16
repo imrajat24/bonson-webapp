@@ -27,10 +27,10 @@ function Nav(props) {
             <Link href="/about">about us</Link>
           </li>
           <li>
-            <Link href="#">gallery</Link>
+            <Link href="/gallery">gallery</Link>
           </li>
           <li>
-            <Link href="#">contact us</Link>
+            <Link href="/contact">contact us</Link>
           </li>
         </ul>
       </div>

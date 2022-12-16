@@ -1,13 +1,14 @@
 import Head from "next/head";
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
-import ProductPage from "../components/Product/ProductPage";
+import Categories from "../components/Product/Categories";
+import Products from "../components/Product/Products";
 
-function Product() {
+function ProductsPage() {
   return (
     <>
       <Head>
-        <title>Product - Bonson Pvt Ltd</title>
+        <title>Products - Bonson Pvt Ltd</title>
         <meta
           name="description"
           content=" this page shows all the products we are offering"
@@ -17,11 +18,11 @@ function Product() {
       <div className="nav__wrap">
         <Nav />
       </div>
-
-      <ProductPage />
+      <Products />
+      <Categories />
       <Footer />
     </>
   );
 }
 
-export default Product;
+export default ProductsPage;
