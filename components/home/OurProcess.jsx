@@ -7,7 +7,7 @@ const OurProcess = () => {
       <div className="section__heading">
         <h2 className="whyUs--heading">Our Process</h2>
       </div>
-      <div className="ourprocess ">
+      <div className="ourprocess">
         <div className="ourprocess__graphics">
           <Image src={processImg} className="processImg" alt="process img" />
         </div>

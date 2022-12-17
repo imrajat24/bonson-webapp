@@ -7,24 +7,25 @@
 
 .whyUs__slider {
   display: flex;
-  // margin: 8rem 0rem;
-  width: 100%;
-  //   align-items: center;
-
+  align-items: center;
   &__content {
-    width: 40%;
-    padding: 2rem;
-    padding-top: 3rem;
+    width: 50%;
+    padding: 0 2rem;
+    text-align: center;
 
-    &--heading {
+    h3 {
       font-size: 2.8rem;
+      font-weight: gilroy-med, sans-serif;
     }
-    &--copy {
+    p {
       font-size: 2.2rem;
+      margin-top: 2rem;
+      width: 60%;
+      display: inline-block;
     }
   }
-  .whyUs__slider--image {
+  &__graphics {
     border-radius: 0.5rem;
-    width: 60%;
+    width: 50%;
   }
 }

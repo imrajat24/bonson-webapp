@@ -27,6 +27,30 @@ const WhyUs = () => {
       items: 1,
     },
   };
+
+  // ! data for usps
+  const uspData = [
+    {
+      title: "randomTitle",
+      para: "lLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
+      img: sliderImage1,
+    },
+    {
+      title: "randomTitle",
+      para: "lLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
+      img: sliderImage1,
+    },
+    {
+      title: "randomTitle",
+      para: "lLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
+      img: sliderImage1,
+    },
+    {
+      title: "randomTitle",
+      para: "lLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
+      img: sliderImage1,
+    },
+  ];
   return (
     <section className="whyUs__wrap">
       <div className="whyUs row">
@@ -35,25 +59,27 @@ const WhyUs = () => {
             The Qualities that makes us stand out in the marker
           </h2>
         </div>
-        <div className="whyUs__slider">
-          <div className="whyUs__slider__content">
-            <h3 className="whyUs__slider__content--heading">
-              Exclusive Dealers
-            </h3>
-            <p className="whyUs__slider__content--copy">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores,
-              porro?
-            </p>
-          </div>
-          <Image
-            src={sliderImage1}
-            alt="dealership image"
-            width={750}
-            height={330}
-            className="whyUs__slider--image"
-            quality={100}
-          />
-        </div>
+
+        <Carousel responsive={responsive}>
+          {uspData?.map((data, i) => {
+            return (
+              <div className="whyUs__slider" key={i}>
+                <div className="whyUs__slider__content">
+                  <h3>{data.title}</h3>
+                  <p>{data.para}</p>
+                </div>
+                <div className="whyUs__slider__graphics">
+                  <Image
+                    src={data.img}
+                    alt={`usp-image${i + 1}`}
+                    className="whyUs__slider--image"
+                    quality={100}
+                  />
+                </div>
+              </div>
+            );
+          })}
+        </Carousel>
       </div>
     </section>
   );

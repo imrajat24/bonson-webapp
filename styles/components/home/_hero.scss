@@ -4,7 +4,6 @@
   align-items: center;
 
   &__content {
-    margin: auto;
     width: 50%;
 
     &--heading {
@@ -19,5 +18,41 @@
   }
   &__graphics {
     width: 50%;
+  }
+
+  // ! For tablets (potrait)
+
+  @include respond(tab-pot) {
+    flex-direction: column;
+    height: 95vh;
+    &__content {
+      width: 100%;
+      text-align: center;
+      &--heading {
+        p {
+          width: 100%;
+        }
+      }
+
+      &--btn {
+        margin-top: 5rem;
+      }
+    }
+
+    &__graphics {
+      width: 60%;
+      margin-top: 10rem;
+    }
+  }
+
+  @include respond(phone-med) {
+    &__graphics {
+      width: 70%;
+    }
+  }
+  @include respond(phone) {
+    &__graphics {
+      width: 85%;
+    }
   }
 }
