@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 // images
 import heroImg from "../../assets/images/heroImage.png";
 
@@ -8,14 +9,15 @@ const HeroSection = () => {
     <section className="hero row">
       <div className="hero__content">
         <div className="hero__heading hero__content--heading">
-          <h1>Value proposition of the company</h1>
+          <h1>Separate the risk with our cables</h1>
           <p className="hero__content--subheading">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis,
-            id.
+            As an industrial cable supplier, we are renowned for our quality.
           </p>
         </div>
         <div className="hero__content--btn">
-          <button className="btn btn--primary">View Products</button>
+          <Link href={"/products"}>
+            <button className="btn btn--primary">View Products</button>
+          </Link>
         </div>
       </div>
       <div className="hero__graphics">
