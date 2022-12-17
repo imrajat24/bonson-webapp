@@ -3,8 +3,10 @@ import Image from "next/image";
 import processImg from "../../assets/images/processImg.png";
 const OurProcess = () => {
   return (
-    <div className="ourprocess__wrap row">
-      <h2 className="ourprocess--heading">Our Process</h2>
+    <section className="ourprocess__wrap row">
+      <div className="section__heading">
+        <h2 className="whyUs--heading">Our Process</h2>
+      </div>
       <div className="ourprocess ">
         <div className="ourprocess__graphics">
           <Image src={processImg} className="processImg" alt="process img" />
@@ -41,7 +43,7 @@ const OurProcess = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

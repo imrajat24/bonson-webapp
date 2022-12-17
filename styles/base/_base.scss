@@ -1,4 +1,20 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@font-face {
+  font-family: "gilroy-reg";
+  src: url("../../assets/fonts/Gilroy-Regular.ttf");
+}
+@font-face {
+  font-family: "gilroy-med";
+  src: url("../../assets/fonts/Gilroy-Medium.ttf");
+}
+@font-face {
+  font-family: "gilroy-bold";
+  src: url("../../assets/fonts/Gilroy-Bold.ttf");
+}
+
+@font-face {
+  font-family: "grifter";
+  src: url("../../assets/fonts/grifterbold.otf");
+}
 
 *,
 *::after,
@@ -57,6 +73,9 @@ html {
 
 body {
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
+  font-family: gilroy-reg, sans-serif;
+}
+
+section {
+  padding: 8rem 0;
 }

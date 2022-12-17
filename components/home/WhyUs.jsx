@@ -1,15 +1,40 @@
 import React from "react";
 import Image from "next/image";
 
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+
 // images
 import sliderImage1 from "../../assets/images/Rectangle 18@2x.png";
 const WhyUs = () => {
+  // ! Object for carosuel reseponsiveness
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 1,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 1,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 1,
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+    },
+  };
   return (
-    <div className="whyUs__wrap ">
+    <section className="whyUs__wrap">
       <div className="whyUs row">
-        <h2 className="whyUs--heading">
-          The Qualities that makes us stand out in the marker
-        </h2>
+        <div className="section__heading">
+          <h2 className="whyUs--heading">
+            The Qualities that makes us stand out in the marker
+          </h2>
+        </div>
         <div className="whyUs__slider">
           <div className="whyUs__slider__content">
             <h3 className="whyUs__slider__content--heading">
@@ -30,7 +55,7 @@ const WhyUs = () => {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
