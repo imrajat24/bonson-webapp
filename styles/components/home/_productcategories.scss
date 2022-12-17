@@ -1,5 +1,5 @@
 .categories__wrap {
-  height: 80vh;
+  padding-bottom: 8rem;
   color: white;
   background-color: #231f20;
 }
@@ -12,11 +12,11 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 10rem;
-
+    align-items: center;
     &__content {
-      &--heading {
-        font-size: 3.4rem;
+      h2 {
+        margin-bottom: 1rem;
+        text-align: left;
       }
       &--para {
         font-size: 1.8rem;
@@ -27,48 +27,91 @@
   &__section {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    position: relative;
-    margin-top: 4rem;
+    justify-content: space-between;
 
     &__card {
       cursor: pointer;
       display: flex;
       flex-direction: column;
-      
       width: 24%;
-      min-width: 20rem;
-    //  height: 25rem;
-      // height: 30rem;
+      min-width: 30rem;
       background-color: #302c2d;
       border-radius: 0.4rem;
-      margin: auto;
 
-
-z-index: 2;
       &--name {
         display: flex;
         justify-content: space-between;
         font-size: 1.8rem;
         padding: 2rem 1.5rem;
       }
-
-      
-    }
-    &__card:nth-child(1){
-
-      margin-left: 0;
-    }
-    &__card:nth-child(4){
-
-      margin-right: 0;
     }
   }
-  
-}
-.imgContainer{
-  width: 100%;
-  height: 25rem;
-  position: relative;
+  .imgContainer {
+    width: 100%;
+    height: 25rem;
+    position: relative;
+  }
+
+  @include respond(tab-land) {
+    &__section {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      &__card {
+        width: 24%;
+        min-width: 18rem;
+      }
+    }
+  }
+
+  @include respond(tab-pot) {
+    .section__heading {
+      padding: 8rem 3rem;
+    }
+
+    &__headingSection {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+
+      align-items: center;
+      &__content {
+        margin-bottom: 2rem;
+        h2 {
+          text-align: center;
+        }
+      }
+    }
+    &__section {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+
+      &__card {
+        width: 45%;
+        min-width: 30rem;
+
+        margin-bottom: 3rem;
+      }
+    }
+  }
+
+  @include respond(phone) {
+    .section__heading {
+      padding: 8rem 3rem;
+    }
+    &__section {
+      &__card {
+        width: 45%;
+        min-width: 20rem;
+      }
+    }
+    .imgContainer {
+      width: 100%;
+      height: 20rem;
+      position: relative;
+    }
+  }
 }

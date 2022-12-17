@@ -11,7 +11,7 @@ const ProductCategories = () => {
   return (
     <div className="categories__wrap">
       <div className="categories row">
-        <div className="categories__headingSection">
+        <section className="categories__headingSection section__heading">
           <div className="categories__headingSection__content">
             <h2 className="categories__headingSection__content--heading">
               Product Categories
@@ -21,9 +21,9 @@ const ProductCategories = () => {
             </p>
           </div>
           <div className="categories__headingSection__btnWrap">
-            <button className="btn--exploreAll btn">Explore All</button>{" "}
+            <button className="btn--exploreAll btn">Explore All</button>
           </div>
-        </div>
+        </section>
         <div className="categories__section">
           {/* ---------------------card starts--------------------- */}
 
@@ -42,6 +42,7 @@ const ProductCategories = () => {
                 Product Category One
                 <Image
                   src={arrow}
+                  objectFit="cover"
                   className="categories__section__card--arrow"
                 />
               </p>
