@@ -24,6 +24,7 @@ const Info = () => {
           src={mainImg}
           alt="warehouse image"
           className="info--img"
+          layout="fill"
           objectFit="cover"
         />
       </div>
