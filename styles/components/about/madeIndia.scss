@@ -1,35 +1,56 @@
-.madeIndia{
-  
-  
-    left: 25rem;
+.madeIndia {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  padding: 5rem;
+  .badge {
+    width: 50%;
+    // padding: 5rem;
+  }
+  &__wrap {
+    width: 100%;
+    background-image: url("../../../assets/images/make-in-india-bg.png");
+    background-size: cover;
+
+    background-repeat: no-repeat;
+  }
+}
+.section__heading {
+  width: 50%;
+  padding: 3rem;
+  h2 {
+    text-align: left;
+  }
+}
+
+@include respond(tab-pot) {
+  .madeIndia {
+    height: auto;
+  }
+}
+@include respond(phone) {
+  .madeIndia {
     display: flex;
-
-    .badge{
-
-        width: 50%;
-        padding: 5rem;
+    flex-direction: column;
+    padding: 3rem;
+    width: 100%;
+    &__wrap {
+      background: rgb(248, 247, 250);
     }
-    &__wrap{
-        
-        background-image: url("../../../assets/images/make-in-india-bg.png");
-background-size: contain;
+  }
 
+  .badge {
+    width: 50%;
+  }
+
+  .section__heading {
+    text-align: justify;
+    width: 100%;
+    padding: 3rem;
+    h2 {
+      text-align: center;
     }
-
-    &__content{
-        width: 50%;
-        padding: 5rem;
-        margin: auto;
-
-        &--heading{
-            font-size: 3.6rem;
-        }
-        &--para{
-            font-size: 1.6rem;
-            width: 80%;
-            text-align: justify;
-           
-        }
-    }
-    
+  }
 }

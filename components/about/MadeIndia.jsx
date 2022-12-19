@@ -11,10 +11,10 @@ const MadeIndia = () => {
         <div className="badge">
           <Image src={madeBadge} alt="made in india badge" />
         </div>
-        <div className="madeIndia__content">
-          <h3 className="madeIndia__content--heading">
+        <div className="section__heading">
+          <h2 className="madeIndia__content--heading">
             Honestly Make in India
-          </h3>
+          </h2>
           <p className="madeIndia__content--para">
             We are proud to have attained all important certifications on our
             products that are indicative of out commitment of producing safe
