@@ -45,6 +45,7 @@ const Categories = () => {
                 className="products__graphics-wrap-image image1"
                 alt="wires in hand"
                 layout="fill"
+                objectFit="cover"
               />
             </div>
           </div>
