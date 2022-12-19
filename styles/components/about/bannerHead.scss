@@ -1,21 +1,36 @@
-.bannerHead{
-    height: 62rem;
-    position: absolute;
-    top: 30%;
-    left: 13.8rem;
+.bannerHead {
+  color: $color-white;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
 
-color: $color-white;
-    &__wrap{
-        position: relative;
-    }
+  &__wrap {
+    background: url("../../../assets/images/about-us-banner.png");
 
-    &--heading{
-        font-size: 5.4rem;
-text-transform: uppercase;
-    }
+    background-size: cover;
+    position: relative;
+    height: 60vh;
+  }
 
-    &--sub{
-        font-size: 1.8rem;
-
-    }
+  .hero__heading {
+    width: 100%;
+    margin: auto;
+  }
+}
+@include respond(tab-pot) {
+  .bannerHead__wrap {
+    height: 40vh;
+  }
+  .hero__heading {
+    text-align: center;
+  }
+}
+@include respond(phone) {
+  .bannerHead__wrap {
+    height: 25vh;
+  }
+  .hero__heading {
+    text-align: center;
+  }
 }

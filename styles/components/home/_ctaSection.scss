@@ -1,37 +1,60 @@
-.ctaSection__wrap{
+.ctaSection__wrap {
+  display: flex;
+  align-items: center;
+  height: 70vh;
+  background: url("../../../assets/images/cta-bg.png");
+  background-size: cover;
+
+  .ctaSection {
     display: flex;
     align-items: center;
-    height: 70vh;
-    background:url("../../../assets/images/cta-bg.png");
-    background-size: cover;
-}
-
-.ctaSection{
-  
+    justify-content: center;
+    overflow: hidden;
     width: 100%;
+    height: 70%;
     color: $color-black;
     background-color: $color-white;
     border-radius: 3rem;
-    margin: auto;
-    position: relative;
-    display: flex;
-justify-content: start;
-    &__content{
-        padding: 8rem 12rem;
-        margin: auto;
 
-        &--heading{
-            font-size: 4.4rem;
-        }
-        &--para{
-    font-size: 1.8rem;
-        }
+    &__content {
+      padding: 0rem 8rem;
+      width: 50%;
+      margin: auto;
+
+      &--heading {
+        font-size: 4.4rem;
+      }
+      &--para {
+        font-size: 1.8rem;
+      }
     }
-
+  }
 }
-.cableimg{
-    position: absolute;
-    right: 0;
-    bottom: 0;
+
+.img-container {
+  display: block;
+  width: 40%;
+  height: 100%;
+  .img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
     // width: 40%;
+  }
+}
+
+@include respond(tab-land) {
+  .img-container {
+    display: block;
+    width: 40%;
+    height: 100%;
+    .img {
+      position: relative;
+      width: 80%;
+      height: 80%;
+
+      // width: 40%;
+    }
+  }
 }
