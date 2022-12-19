@@ -1,12 +1,14 @@
 .team {
   text-align: center;
-  &--heading {
-    font-size: 3.6rem;
-    margin: 3rem 0rem;
+  .section__heading {
+    width: 100%;
+    h2 {
+      text-align: center;
+    }
   }
   &__cardsWrap {
-    margin: 3rem;
     display: flex;
+    justify-content: space-between;
   }
   &__card {
     margin: auto;
@@ -14,7 +16,6 @@
     text-align: center;
     border-radius: 0.4rem;
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.12);
-
     &--imgContainer {
       height: 30rem;
       width: 100%;
@@ -26,10 +27,48 @@
       padding: 2rem;
 
       &--name {
-        font-size: 2.4rem;
+        font-size: 1.8rem;
       }
       &--position {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
+      }
+    }
+  }
+}
+
+@include respond(tab-land) {
+  .team {
+    text-align: center;
+
+    &__card {
+      &--imgContainer {
+        height: 25rem;
+      }
+    }
+  }
+}
+@include respond(phone-med) {
+  .team {
+    text-align: center;
+
+    &__cardsWrap {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &__card {
+      margin: 2rem 0rem;
+      width: 80%;
+      text-align: center;
+      border-radius: 0.4rem;
+      box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.12);
+      &--imgContainer {
+        height: 30rem;
+        width: 100%;
+        background-color: aqua;
+        position: relative;
       }
     }
   }

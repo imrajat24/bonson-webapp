@@ -8,7 +8,9 @@ const Team = () => {
   return (
     <div className="team__wrap">
       <div className="team row">
-        <h2 className="team--heading">Our team</h2>
+        <div className="section__heading">
+          <h2>Our team</h2>
+        </div>
         <div className="team__cardsWrap">
           {/* card starts */}
           <div className="team__card">
