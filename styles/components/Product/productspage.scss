@@ -38,9 +38,11 @@
     }
     &--subHeading {
       font-size: 2.5rem;
+      line-height: 150%;
     }
     &--info {
       font-size: 1.6rem;
+      line-height: 150%;
     }
   }
   &__application {
@@ -109,7 +111,117 @@
       }
     }
   }
-  &__otherProducts {
-    font-size: 1rem;
+}
+
+@include respond(tab-pot) {
+  .product {
+    &__hero {
+      height: 60vh;
+
+      display: flex;
+      margin: auto;
+      &__content {
+        width: 60%;
+        margin: auto;
+        padding: 3rem;
+
+        &--heading {
+          font-size: 4.8rem;
+        }
+        &--para {
+          font-size: 1.6rem;
+        }
+      }
+      &__graphics {
+        width: 40%;
+        margin: auto;
+        padding: 3rem;
+      }
+    }
+
+    &__application {
+      &__cardWrap {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+
+      &__card {
+        width: 50%;
+      }
+    }
+  }
+}
+
+@include respond(phone-med) {
+  .product {
+    &__hero {
+      height: 70vh;
+
+      display: flex;
+      flex-direction: column-reverse;
+      text-align: center;
+      &__content {
+        width: 100%;
+        .btn-enquiry {
+          margin-top: 4rem;
+        }
+      }
+      &__graphics {
+        width: 60%;
+      }
+    }
+
+    &__application {
+      &__cardWrap {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+
+      &__card {
+        width: 40%;
+        margin: 2rem;
+      }
+    }
+  }
+}
+
+@include respond(phone) {
+  .product {
+    &__application {
+      &__cardWrap {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+
+      &__card {
+        width: 80%;
+        margin: 2rem;
+      }
+    }
+    &__advantages {
+      &--heading {
+        font-size: 3.6rem;
+        text-align: center;
+
+        color: $color-black;
+        padding: 3rem;
+      }
+      &--pointsWrap {
+        display: flex;
+        flex-direction: column;
+        padding: 3rem;
+      }
+      &--points {
+        font-size: 1.6rem;
+        padding: 0rem;
+
+        li {
+          padding: 1rem;
+        }
+      }
+    }
   }
 }
