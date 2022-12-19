@@ -10,7 +10,7 @@ const Vision = () => {
         <div className="vision__card">
           <div className="vision__card__content">
             <h3 className="vision__card__content--heading">Our Vision</h3>
-            <p className="vision__card_content--para">
+            <p className="vision__card__content--para">
               Donec odio ex, rhoncus non iaculis id, sagittis accumsanLorem
               ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
               tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec
@@ -25,7 +25,7 @@ const Vision = () => {
         <div className="vision__card">
           <div className="vision__card__content">
             <h3 className="vision__card__content--heading">Our Vision</h3>
-            <p className="vision__card_content--para">
+            <p className="vision__card__content--para">
               Donec odio ex, rhoncus non iaculis id, sagittis accumsanLorem
               ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
               tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec
@@ -40,7 +40,7 @@ const Vision = () => {
         <div className="vision__card">
           <div className="vision__card__content">
             <h3 className="vision__card__content--heading">Our Vision</h3>
-            <p className="vision__card_content--para">
+            <p className="vision__card__content--para">
               Donec odio ex, rhoncus non iaculis id, sagittis accumsanLorem
               ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
               tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec
