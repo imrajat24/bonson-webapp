@@ -1,0 +1,36 @@
+.gallery {
+  width: 100%;
+  height: 100%;
+
+  .tags_wrap {
+    width: 100%;
+    display: flex;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 6rem 0rem;
+
+    h3 {
+      padding: 1rem 4rem;
+      border: 1px solid black;
+      background-color: $color-white;
+    }
+  }
+
+  .gallery__graphics {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    .gallery--imgWrap {
+      position: relative;
+      width: 30%;
+      height: 30rem;
+      margin: 3rem 0rem;
+    }
+  }
+}

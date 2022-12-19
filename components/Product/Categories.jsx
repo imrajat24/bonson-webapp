@@ -9,6 +9,7 @@ import image1 from "../../assets/images/dollar-gill-VW1xJfuOj2g-unsplash.jpg";
 
 const Categories = () => {
   const url = "category1";
+
   return (
     <div className="categoriesSection__wrap">
       <nav className="categories_nav">
@@ -53,10 +54,7 @@ const Categories = () => {
 
         <div className="products__card__container">
           {categories.map((category) => {
-            // eslint-disable-next-line react/jsx-key
             return (
-              // eslint-disable-next-line react/jsx-key
-
               <div className="product__card" key={category.id}>
                 <div className="product__card__graphics">
                   <div className="product__card__graphics--wrap">

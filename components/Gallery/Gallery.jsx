@@ -7,15 +7,96 @@ const Gallery = () => {
     <div className="gallery__wrap">
       <div className="gallery row">
         <div className="tags_wrap">
-          <h2 className="tag">tag1</h2>
-          <h2 className="tag">tag2</h2>
-          <h2 className="tag">tag3</h2>
-          <h2 className="tag">tag4</h2>
-          <h2 className="tag">tag5</h2>
+          <h3 className="tagd">tag1</h3>
+          <h3 className="tags">tag2</h3>
+          <h3 className="tags">tag3</h3>
+          <h3 className="tags">tag4</h3>
+          <h3 className="tags">tag5</h3>
         </div>
 
         <div className="gallery__graphics">
-          <div className="otherProduct__card--imgContainer">
+          <div className="gallery--imgWrap">
+            <Image
+              src={mainImg}
+              alt="otherProduct person"
+              layout="fill"
+              objectFit="cover"
+            />
+          </div>
+
+          <div className="gallery--imgWrap">
+            <Image
+              src={mainImg}
+              alt="otherProduct person"
+              layout="fill"
+              objectFit="cover"
+            />
+          </div>
+
+          <div className="gallery--imgWrap">
+            <Image
+              src={mainImg}
+              alt="otherProduct person"
+              layout="fill"
+              objectFit="cover"
+            />
+          </div>
+
+          <div className="gallery--imgWrap">
+            <Image
+              src={mainImg}
+              alt="otherProduct person"
+              layout="fill"
+              objectFit="cover"
+            />
+          </div>
+
+          <div className="gallery--imgWrap">
+            <Image
+              src={mainImg}
+              alt="otherProduct person"
+              layout="fill"
+              objectFit="cover"
+            />
+          </div>
+
+          <div className="gallery--imgWrap">
+            <Image
+              src={mainImg}
+              alt="otherProduct person"
+              layout="fill"
+              objectFit="cover"
+            />
+          </div>
+
+          <div className="gallery--imgWrap">
+            <Image
+              src={mainImg}
+              alt="otherProduct person"
+              layout="fill"
+              objectFit="cover"
+            />
+          </div>
+
+          <div className="gallery--imgWrap">
+            <Image
+              src={mainImg}
+              alt="otherProduct person"
+              layout="fill"
+              objectFit="cover"
+            />
+          </div>
+
+          <div className="gallery--imgWrap">
+            <Image
+              src={mainImg}
+              alt="otherProduct person"
+              layout="fill"
+              objectFit="cover"
+            />
+          </div>
+
+          <div className="gallery--imgWrap">
             <Image
               src={mainImg}
               alt="otherProduct person"
