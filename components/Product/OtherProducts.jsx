@@ -1,14 +1,44 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 
 import mainImg from "../../assets/images/66kv product img.png";
 const OtherProducts = () => {
+  // ! Object for carosuel responsiveness
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 5,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 3,
+    },
+    mobileMid: {
+      breakpoint: { max: 580, min: 464 },
+      items: 2,
+    },
+    mobile: {
+      breakpoint: { max: 430, min: 0 },
+      items: 1,
+    },
+  };
+
   return (
     <div className="otherProduct__wrap">
       <div className="otherProduct row">
         <h2 className="otherProduct--heading">Other Products</h2>
-        <div className="otherProduct__cardsWrap">
+
+        <Carousel responsive={responsive}>
+          {/* card starts */}
+
           {/* card starts */}
           <Link href="https://drive.google.com/file/d/1u7qsSPsqWDug2q6Ap4UuFcEufypGiMrw/view?usp=sharing">
             <div className="otherProduct__card">
@@ -130,7 +160,7 @@ const OtherProducts = () => {
               </p>
             </div>
           </div>
-        </div>
+        </Carousel>
       </div>
     </div>
   );
