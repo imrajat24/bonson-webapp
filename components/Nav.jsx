@@ -44,7 +44,7 @@ function Nav(props) {
 
       <div className="nav__buttonWrap">
         <Link href="/contact">
-          <button className="btn btn--nav">get a quote</button>
+          <button className="btn btn--nav">Contact Us</button>
         </Link>
       </div>
     </nav>
