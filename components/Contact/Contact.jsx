@@ -9,7 +9,7 @@ const Contact = () => {
             <div className="contact-form">
               <div className="contact-form-wrap">
                 <div className="content-wrap">
-                  <div className="content">
+                  <div className="hero__heading">
                     <h1 className="heading">Contact Us</h1>
                     <p className="para">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -30,13 +30,25 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-          </div>{" "}
+          </div>
         </div>
 
         <div className="contact-details row">
-          <div className=" col phone">6464</div>
-          <div className="col email">dnkjsd</div>
-          <div className="col address">fdsd</div>
+          <div className=" col phone">
+            <div className="top">Phone Number</div>
+            <div className="botton">+9534354544</div>
+          </div>
+          <div className="col email">
+            <div className="top">Email</div>
+            <div className="botton">info@dynamiccables.co.in</div>
+          </div>
+          <div className="col address">
+            <div className="top">Address</div>
+            <div className="botton">
+              Dynamic Cables Limited F-260, Road Number 13 V.K.I Area, Jaipur,
+              Rajasthan India
+            </div>
+          </div>
         </div>
 
         <div className="map">map</div>

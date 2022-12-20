@@ -29,7 +29,7 @@ const OurHistory = () => {
   };
 
   return (
-    <div className="history__wrap">
+    <section className="history__wrap">
       <div className="history row">
         <div className="section__heading">
           <h2 className="history--heading">Our History</h2>
@@ -50,10 +50,7 @@ const OurHistory = () => {
             </div>
             <div className="history__content">
               <h3 className="history__content--year">1998</h3>
-              <p className="history__content--para">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae
-                sed corporis nam ad dolore dicta id nisi fuga, adipisci quod!
-              </p>
+              <p className="history__content--para">Wires & Cables</p>
             </div>
           </div>
 
@@ -70,11 +67,8 @@ const OurHistory = () => {
               </div>
             </div>
             <div className="history__content">
-              <h3 className="history__content--year">1998</h3>
-              <p className="history__content--para">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae
-                sed corporis nam ad dolore dicta id nisi fuga, adipisci quod!
-              </p>
+              <h3 className="history__content--year">2005</h3>
+              <p className="history__content--para">Winding Wire</p>
             </div>
           </div>
 
@@ -91,11 +85,8 @@ const OurHistory = () => {
               </div>
             </div>
             <div className="history__content">
-              <h3 className="history__content--year">1998</h3>
-              <p className="history__content--para">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae
-                sed corporis nam ad dolore dicta id nisi fuga, adipisci quod!
-              </p>
+              <h3 className="history__content--year">2009</h3>
+              <p className="history__content--para">Winding Wire</p>
             </div>
           </div>
 
@@ -112,16 +103,31 @@ const OurHistory = () => {
               </div>
             </div>
             <div className="history__content">
-              <h3 className="history__content--year">1998</h3>
-              <p className="history__content--para">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae
-                sed corporis nam ad dolore dicta id nisi fuga, adipisci quod!
-              </p>
+              <h3 className="history__content--year">2010</h3>
+              <p className="history__content--para">Copper Wire Drawing 2010</p>
+            </div>
+          </div>
+
+          {/* card starts */}
+          <div className="history__card">
+            <div className="history__graphics">
+              <div className="history__graphics--image img1">
+                <Image
+                  src={team1}
+                  alt="team"
+                  layout="fill"
+                  objectFit="contain"
+                />
+              </div>
+            </div>
+            <div className="history__content">
+              <h3 className="history__content--year">2011</h3>
+              <p className="history__content--para">PVC</p>
             </div>
           </div>
         </Carousel>
       </div>
-    </div>
+    </section>
   );
 };
 

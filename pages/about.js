@@ -20,14 +20,14 @@ function AboutUs() {
       <div className="nav__wrap">
         <Nav />
       </div>
-      <BannerHead/>
-      <Info/>
-      <MadeIndia/>
-      <Vision/>
-      <Team/>
-      <OurHistory/>
-      <Certificates/>
-      <Footer/>
+      <BannerHead />
+      <Info />
+      <MadeIndia />
+      <Vision />
+      <Team />
+      <OurHistory />
+      {/* <Certificates/> */}
+      <Footer />
     </>
   );
 }

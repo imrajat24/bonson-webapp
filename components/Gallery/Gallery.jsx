@@ -65,7 +65,7 @@ const Gallery = () => {
     },
   ];
   return (
-    <div className="gallery__wrap">
+    <section className="gallery__wrap">
       <div className="gallery row">
         <div className="tags_wrap">
           <h3 className="tagd" onClick={tag1}>
@@ -102,7 +102,7 @@ const Gallery = () => {
             })}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

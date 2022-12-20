@@ -29,7 +29,7 @@ const Certificates = () => {
   };
 
   return (
-    <div className="certificate__wrap">
+    <section className="certificate__wrap">
       <div className="certificate row">
         <h2 className="certificate--heading">Certificates</h2>
         <div>
@@ -136,7 +136,7 @@ const Certificates = () => {
           </Carousel>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
