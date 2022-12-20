@@ -2,6 +2,9 @@ import React from "react";
 import Image from "next/image";
 import Certificates from "../about/Certificates";
 import Products from "./Products.json";
+
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 // images
 import mainImg from "../../assets/images/66kv product img.png";
 import OtherProducts from "./OtherProducts";
@@ -10,7 +13,7 @@ const ProductPage = () => {
     <div className="product_wrap">
       <div className="product">
         <section>
-          {Products.map((product) => {
+          {Products.filter((pr) => pr.id == 1).map((product) => {
             return (
               <>
                 {/* // Product hero section */}
