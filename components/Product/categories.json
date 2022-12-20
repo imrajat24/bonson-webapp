@@ -2,6 +2,7 @@
   {
     "id": 1,
     "category": "category1",
+    "catImg": "/assets/images/66kv product img.png",
     "productName": "66 KV HV Power Cable 1",
     "productDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae non hic voluptatibus ex dolor, cumque itaque fuga! Esse, quo voluptatem!",
     "mainImg": "/assets/images/66kv product img.png",
@@ -13,33 +14,132 @@
   {
     "id": 2,
     "category": "category1",
-    "productName": "66 KV HV Power Cable 2",
-    "productDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae non hic voluptatibus ex dolor, cumque itaque fuga! Esse, quo voluptatem!",
-    "mainImg": "/assets/images/66kv product img.png",
-    "techInfo-1": "Lorem ipsum dolor sit,  Recusandae non ",
-    "techInfo-2": "Lorem ipsum dolor sit,  Recusandae non ",
-    "btn-viewMore": "www.threesides.in"
-  },
-
-  {
-    "id": 3,
-    "category": "category1",
-    "productName": "66 KV HV Power Cable 3",
-    "productDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae non hic voluptatibus ex dolor, cumque itaque fuga! Esse, quo voluptatem!",
-    "mainImg": "/assets/images/66kv product img.png",
-    "techInfo-1": "Lorem ipsum dolor sit,  Recusandae non ",
-    "techInfo-2": "Lorem ipsum dolor sit,  Recusandae non ",
-    "btn-viewMore": "www.threesides.in"
-  },
-
-  {
-    "id": 4,
-    "category": "category2",
+    "catImg": "/assets/images/66kv product img.png",
     "productName": "66 KV HV Power Cable 1",
     "productDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae non hic voluptatibus ex dolor, cumque itaque fuga! Esse, quo voluptatem!",
     "mainImg": "/assets/images/66kv product img.png",
     "techInfo-1": "Lorem ipsum dolor sit,  Recusandae non ",
     "techInfo-2": "Lorem ipsum dolor sit,  Recusandae non ",
-    "btn-viewMore": "www.threesides.in"
+    "btn-viewMore": "product1"
+  },
+
+  {
+    "id": 3,
+    "category": "category1",
+    "catImg": "/assets/images/66kv product img.png",
+    "productName": "66 KV HV Power Cable 1",
+    "productDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae non hic voluptatibus ex dolor, cumque itaque fuga! Esse, quo voluptatem!",
+    "mainImg": "/assets/images/66kv product img.png",
+    "techInfo-1": "Lorem ipsum dolor sit,  Recusandae non ",
+    "techInfo-2": "Lorem ipsum dolor sit,  Recusandae non ",
+    "btn-viewMore": "product1"
+  },
+
+  {
+    "id": 4,
+    "category": "category2",
+    "catImg": "/assets/images/66kv product img.png",
+    "productName": "66 KV HV Power Cable 2",
+    "productDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae non hic voluptatibus ex dolor, cumque itaque fuga! Esse, quo voluptatem!",
+    "mainImg": "/assets/images/66kv product img.png",
+    "techInfo-1": "Lorem ipsum dolor sit,  Recusandae non ",
+    "techInfo-2": "Lorem ipsum dolor sit,  Recusandae non ",
+    "btn-viewMore": "product1"
+  },
+
+  {
+    "id": 5,
+    "category": "category2",
+    "catImg": "/assets/images/66kv product img.png",
+    "productName": "66 KV HV Power Cable 2",
+    "productDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae non hic voluptatibus ex dolor, cumque itaque fuga! Esse, quo voluptatem!",
+    "mainImg": "/assets/images/66kv product img.png",
+    "techInfo-1": "Lorem ipsum dolor sit,  Recusandae non ",
+    "techInfo-2": "Lorem ipsum dolor sit,  Recusandae non ",
+    "btn-viewMore": "product1"
+  },
+
+  {
+    "id": 6,
+    "category": "category2",
+    "catImg": "/assets/images/66kv product img.png",
+    "productName": "66 KV HV Power Cable 2",
+    "productDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae non hic voluptatibus ex dolor, cumque itaque fuga! Esse, quo voluptatem!",
+    "mainImg": "/assets/images/66kv product img.png",
+    "techInfo-1": "Lorem ipsum dolor sit,  Recusandae non ",
+    "techInfo-2": "Lorem ipsum dolor sit,  Recusandae non ",
+    "btn-viewMore": "product1"
+  },
+
+  {
+    "id": 7,
+    "category": "category3",
+    "catImg": "/assets/images/66kv product img.png",
+    "productName": "66 KV HV Power Cable 3",
+    "productDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae non hic voluptatibus ex dolor, cumque itaque fuga! Esse, quo voluptatem!",
+    "mainImg": "/assets/images/66kv product img.png",
+    "techInfo-1": "Lorem ipsum dolor sit,  Recusandae non ",
+    "techInfo-2": "Lorem ipsum dolor sit,  Recusandae non ",
+    "btn-viewMore": "product1"
+  },
+
+  {
+    "id": 8,
+    "category": "category3",
+    "catImg": "/assets/images/66kv product img.png",
+    "productName": "66 KV HV Power Cable 3",
+    "productDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae non hic voluptatibus ex dolor, cumque itaque fuga! Esse, quo voluptatem!",
+    "mainImg": "/assets/images/66kv product img.png",
+    "techInfo-1": "Lorem ipsum dolor sit,  Recusandae non ",
+    "techInfo-2": "Lorem ipsum dolor sit,  Recusandae non ",
+    "btn-viewMore": "product1"
+  },
+
+  {
+    "id": 9,
+    "category": "category3",
+    "catImg": "/assets/images/66kv product img.png",
+    "productName": "66 KV HV Power Cable 3",
+    "productDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae non hic voluptatibus ex dolor, cumque itaque fuga! Esse, quo voluptatem!",
+    "mainImg": "/assets/images/66kv product img.png",
+    "techInfo-1": "Lorem ipsum dolor sit,  Recusandae non ",
+    "techInfo-2": "Lorem ipsum dolor sit,  Recusandae non ",
+    "btn-viewMore": "product1"
+  },
+
+  {
+    "id": 10,
+    "category": "category4",
+    "catImg": "/assets/images/66kv product img.png",
+    "productName": "66 KV HV Power Cable 4",
+    "productDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae non hic voluptatibus ex dolor, cumque itaque fuga! Esse, quo voluptatem!",
+    "mainImg": "/assets/images/66kv product img.png",
+    "techInfo-1": "Lorem ipsum dolor sit,  Recusandae non ",
+    "techInfo-2": "Lorem ipsum dolor sit,  Recusandae non ",
+    "btn-viewMore": "product1"
+  },
+
+  {
+    "id": 11,
+    "category": "category4",
+    "catImg": "/assets/images/66kv product img.png",
+    "productName": "66 KV HV Power Cable 4",
+    "productDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae non hic voluptatibus ex dolor, cumque itaque fuga! Esse, quo voluptatem!",
+    "mainImg": "/assets/images/66kv product img.png",
+    "techInfo-1": "Lorem ipsum dolor sit,  Recusandae non ",
+    "techInfo-2": "Lorem ipsum dolor sit,  Recusandae non ",
+    "btn-viewMore": "product1"
+  },
+
+  {
+    "id": 12,
+    "category": "category4",
+    "catImg": "/assets/images/66kv product img.png",
+    "productName": "66 KV HV Power Cable 4",
+    "productDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae non hic voluptatibus ex dolor, cumque itaque fuga! Esse, quo voluptatem!",
+    "mainImg": "/assets/images/66kv product img.png",
+    "techInfo-1": "Lorem ipsum dolor sit,  Recusandae non ",
+    "techInfo-2": "Lorem ipsum dolor sit,  Recusandae non ",
+    "btn-viewMore": "product1"
   }
 ]

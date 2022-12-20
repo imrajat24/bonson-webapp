@@ -1,7 +1,12 @@
 .contact {
-  background: url("../../../assets/images/about-us-banner.png");
   height: 90vh;
   margin: auto;
+  display: flex;
+  align-items: center;
+  .enclosed {
+    background: url("../../../assets/images/about-us-banner.png");
+    background-size: contain;
+  }
   &__container {
     margin: auto;
   }

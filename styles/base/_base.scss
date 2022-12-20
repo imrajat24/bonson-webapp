@@ -78,4 +78,8 @@ body {
 
 section {
   padding: 8rem 0;
+
+  @include respond(phone-med) {
+    padding: 6rem 0;
+  }
 }

@@ -63,7 +63,8 @@
   background-color: #fafafa;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
   border-radius: 0.8rem;
-  margin: 1.6rem 0rem;
+  margin: 2rem 0rem;
+  padding: 2rem;
 
   &__graphics {
     width: 25%;
@@ -73,12 +74,14 @@
       height: 22rem;
       position: relative;
       margin: 3rem 4rem;
+      border-radius: 0.8rem;
+      overflow: hidden;
     }
   }
 
   &__content {
     font-size: 1.6rem;
-    width: 70%;
+    width: 65%;
 
     &--heading {
       font-size: 3.2rem;
@@ -160,17 +163,35 @@
 
   .product__card {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     &__graphics {
-      width: 45%;
+      width: 100%;
       margin: auto;
+      position: relative;
+
+      &--wrap {
+        position: relative;
+        width: 100%;
+        margin: auto;
+      }
     }
 
     &__content {
+      text-align: justify;
+
       font-size: 1.6rem;
-      width: 50%;
+      width: 100%;
       margin: 3rem;
       padding: 0rem 2rem;
+
+      &__btn-wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
     }
   }
 }
@@ -181,20 +202,6 @@
     flex-direction: column;
     align-items: center;
     margin: 3rem;
-    &__graphics {
-      width: 100%;
-      margin: auto;
-      justify-content: center;
-      align-items: center;
-
-      &--wrap {
-        width: 22rem;
-        height: 22rem;
-        position: relative;
-        margin: auto;
-        margin-top: 3rem;
-      }
-    }
 
     &__content {
       font-size: 1.6rem;

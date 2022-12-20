@@ -6,7 +6,7 @@ import image1 from "../../assets/images/categories-hero-img.png";
 
 const Products = () => {
   return (
-    <div className="products__wrap">
+    <section className="products__wrap">
       <div className="products row">
         <div className="hero__heading">
           <h1 className="products__content--heading">Product Range Offered</h1>
@@ -37,7 +37,7 @@ const Products = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

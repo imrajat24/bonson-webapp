@@ -15,6 +15,7 @@
       padding: 1rem 4rem;
       border: 1px solid black;
       background-color: $color-white;
+      border-radius: 0.4rem;
     }
   }
 
@@ -22,15 +23,18 @@
     display: flex;
     width: 100%;
     height: 100%;
-    margin: auto;
+    margin: 3rem;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+
     .gallery--imgWrap {
       position: relative;
       width: 30%;
       height: 30rem;
       margin: 3rem 0rem;
+      min-width: 25rem;
+      min-height: 25rem;
     }
   }
 }
