@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
+// import Link from "next/link";
+import { Link } from "react-scroll/modules";
+
 // images
 import image1 from "../../assets/images/categories-hero-img.png";
 
@@ -23,7 +25,17 @@ const Products = () => {
             mollitia nemo beatae sit dignissimos eos.
           </p>
 
-          <button className="products__content--btnExplore btn">Explore</button>
+          <Link
+            to="category-nav"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
+            <button className="products__content--btnExplore btn">
+              Explore
+            </button>
+          </Link>
         </div>
         <div className="products__graphics">
           <div className="products__graphics-wrap image1">

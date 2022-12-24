@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Image from "next/image";
 
@@ -10,6 +11,19 @@ const Team = () => {
       <div className="team row">
         <div className="section__heading">
           <h2>Our team</h2>
+
+          <p className="full">
+            Our great team is made up of three core individuals that come from
+            multi-generational business families. This provides us with a
+            distinct perspective and advantage in comprehending and operating
+            the business. We have a strong foundation of business knowledge and
+            ideas that we apply in a unique and inventive way. We also draw on
+            our family's experiences and utilize their networks. This has
+            enabled us to form a strong and cohesive team capable of great
+            things. We are constantly looking for ways to develop and expand,
+            and we are dedicated to assisting one another in achieving our
+            goals.
+          </p>
         </div>
         <div className="team__cardsWrap">
           {/* card starts */}

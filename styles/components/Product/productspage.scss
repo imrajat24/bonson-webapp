@@ -161,10 +161,10 @@
 @include respond(phone-med) {
   .product {
     &__hero {
-      height: 70vh;
+      height: auto;
 
       display: flex;
-      flex-direction: column-reverse;
+      flex-direction: column;
       text-align: center;
       &__content {
         width: 100%;
@@ -173,7 +173,7 @@
         }
       }
       &__graphics {
-        width: 60%;
+        width: 100%;
       }
     }
 

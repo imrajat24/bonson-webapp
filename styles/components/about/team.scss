@@ -6,6 +6,12 @@
       text-align: center;
     }
   }
+
+  .full {
+    width: 100%;
+    text-align: justify;
+    padding-bottom: 2rem;
+  }
   &__cardsWrap {
     display: flex;
     justify-content: space-between;
@@ -37,6 +43,22 @@
         padding: 1rem;
         text-align: justify;
         font-size: 1.4rem;
+        height: 10rem;
+        overflow: auto;
+
+        &::-webkit-scrollbar {
+          margin: 1rem;
+          padding: 1rem;
+          width: 0.2rem;
+          height: 1rem;
+          background-color: #ccc;
+          border-radius: 0.5rem;
+          overflow-y: hidden;
+        }
+        &::-webkit-scrollbar-thumb {
+          border-radius: 0.5rem;
+          background-color: $color-black;
+        }
       }
     }
   }

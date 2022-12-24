@@ -1,7 +1,8 @@
 import Head from "next/head";
-import Footer from "../components/Footer";
-import Nav from "../components/Nav";
-import ProductPage from "../components/Product/ProductPage";
+import Footer from "../../components/Footer";
+import Nav from "../../components/Nav";
+import ProductPage from "../../components/Product/ProductPage";
+import { useRouter } from "next/router";
 
 function Product() {
   return (
@@ -17,7 +18,6 @@ function Product() {
       <div className="nav__wrap">
         <Nav />
       </div>
-
       <ProductPage />
       <Footer />
     </>
