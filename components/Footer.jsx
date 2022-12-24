@@ -25,16 +25,15 @@ const Footer = () => {
           </div>
           <div className="footer__contents_contact">
             <p className="footer__contents_contact--address">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
-              est?
+              E-41 C, RIICO, Khushkhera, Rajasthan
             </p>
             <div className="footer__contents_contact--phone">
-              <p>+91987987987</p>
-              <p>+96546546465</p>
+              <p>+91 987987987</p>
+              <p>+91 6546546465</p>
             </div>
           </div>
           <div className="footer__logo">
-            <Image src={logoMain} alt="logo-main" height={50} width={200} />
+            <Image src={logoMain} alt="logo-main" />
           </div>
         </div>
         <p className="credits">© 2022 Bonson Inc. All Rights Reserved</p>

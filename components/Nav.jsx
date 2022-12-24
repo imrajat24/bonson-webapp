@@ -8,26 +8,31 @@ import "react-dropdown/style.css";
 import logoMain from "../assets/images/logoMain.png";
 import arrowDown from "../assets/icons/arrowDown.svg";
 import arrowUp from "../assets/icons/arrowUp.svg";
+import hamburger from "../assets/icons/hamburger.svg";
 
 function Nav(props) {
   const options = ["Category 1", "Category 2", "Category 3", "Category 4"];
+
+  // ! function to toggle class in small screen sizes
+  const handleClick = () => {
+    const menu = document.getElementById("nav__menu");
+    const btnWrap = document.getElementById("nav__btnWrap");
+    menu.classList.toggle("nav__menu--active");
+    btnWrap.classList.toggle("nav__btnWrap--active");
+  };
   return (
     <nav className="nav row">
       <div className="nav__logo">
-        <Image src={logoMain} alt="logo-main" height={50} width={200} />
+        <Image src={logoMain} alt="logo-main" />
       </div>
 
-      <div className="nav__menu">
+      <div className="nav__menu" id="nav__menu">
         <ul>
           <li>
             <Link href="/">Home</Link>
           </li>
           <li>
-            <Link href="/product">Products</Link>
-            <span>
-              <Image src={arrowDown} alt="arrow-down" width={15} height={10} />
-            </span>
-            {/* <Dropdown
+            <Dropdown
               options={options}
               placeholder="Products"
               className="nav__menu--dropdown"
@@ -60,10 +65,15 @@ function Nav(props) {
         </ul>
       </div>
 
-      <div className="nav__buttonWrap">
+      <div className="nav__buttonWrap" id="nav__btnWrap">
         <Link href="/contact">
           <button className="btn btn--nav">Contact Us</button>
         </Link>
+      </div>
+
+      {/* Hamburger Menu */}
+      <div className="hamburger__menu" onClick={handleClick}>
+        <Image src={hamburger} alt="hamburger" />
       </div>
     </nav>
   );
