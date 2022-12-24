@@ -1,7 +1,8 @@
 [
   {
     "id": 1,
-    "productName": "66 KV HV Power Cable",
+    "productName": "66 KV HV Power Cable 1",
+    "url": "/product/product1",
     "productDesc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore similique voluptatem accusantium est adipisci laborum illo sequi incidunt odio! Unde suscipit reiciendis accusantium fugiat labore, delectus sit perferendis vero placeat harum voluptatem dolorem ipsum nulla porro similique! Sint quae dignissimos reiciendis officia facere debitis illum id, eligendi voluptatum! Eligendi, eos.",
     "mainImg": "/assets/images/66kv product img.png",
     "applicaton1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae biLorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -17,7 +18,8 @@
   },
   {
     "id": 2,
-    "productName": "66 KV HV Power Cable",
+    "productName": "66 KV HV Power Cable 2",
+    "url": "/product/product2",
     "productDesc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore similique voluptatem accusantium est adipisci laborum illo sequi incidunt odio! Unde suscipit reiciendis accusantium fugiat labore, delectus sit perferendis vero placeat harum voluptatem dolorem ipsum nulla porro similique! Sint quae dignissimos reiciendis officia facere debitis illum id, eligendi voluptatum! Eligendi, eos.",
     "mainImg": "/assets/images/66kv product img.png",
     "applicaton1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae biLorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -33,7 +35,8 @@
   },
   {
     "id": 3,
-    "productName": "66 KV HV Power Cable",
+    "productName": "66 KV HV Power Cable 3",
+    "url": "/product/product3",
     "productDesc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore similique voluptatem accusantium est adipisci laborum illo sequi incidunt odio! Unde suscipit reiciendis accusantium fugiat labore, delectus sit perferendis vero placeat harum voluptatem dolorem ipsum nulla porro similique! Sint quae dignissimos reiciendis officia facere debitis illum id, eligendi voluptatum! Eligendi, eos.",
     "mainImg": "/assets/images/66kv product img.png",
     "applicaton1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae biLorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -49,7 +52,8 @@
   },
   {
     "id": 4,
-    "productName": "66 KV HV Power Cable",
+    "productName": "66 KV HV Power Cable 4",
+    "url": "/product/product4",
     "productDesc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore similique voluptatem accusantium est adipisci laborum illo sequi incidunt odio! Unde suscipit reiciendis accusantium fugiat labore, delectus sit perferendis vero placeat harum voluptatem dolorem ipsum nulla porro similique! Sint quae dignissimos reiciendis officia facere debitis illum id, eligendi voluptatum! Eligendi, eos.",
     "mainImg": "/assets/images/66kv product img.png",
     "applicaton1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae biLorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -65,7 +69,8 @@
   },
   {
     "id": 5,
-    "productName": "66 KV HV Power Cable",
+    "productName": "66 KV HV Power Cable 5",
+    "url": "/product/product5",
     "productDesc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore similique voluptatem accusantium est adipisci laborum illo sequi incidunt odio! Unde suscipit reiciendis accusantium fugiat labore, delectus sit perferendis vero placeat harum voluptatem dolorem ipsum nulla porro similique! Sint quae dignissimos reiciendis officia facere debitis illum id, eligendi voluptatum! Eligendi, eos.",
     "mainImg": "/assets/images/66kv product img.png",
     "applicaton1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae biLorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -81,7 +86,8 @@
   },
   {
     "id": 6,
-    "productName": "66 KV HV Power Cable",
+    "productName": "66 KV HV Power Cable 6",
+    "url": "/product/product6",
     "productDesc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore similique voluptatem accusantium est adipisci laborum illo sequi incidunt odio! Unde suscipit reiciendis accusantium fugiat labore, delectus sit perferendis vero placeat harum voluptatem dolorem ipsum nulla porro similique! Sint quae dignissimos reiciendis officia facere debitis illum id, eligendi voluptatum! Eligendi, eos.",
     "mainImg": "/assets/images/66kv product img.png",
     "applicaton1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae biLorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -97,7 +103,8 @@
   },
   {
     "id": 7,
-    "productName": "66 KV HV Power Cable",
+    "productName": "66 KV HV Power Cable 7",
+    "url": "/product/product7",
     "productDesc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore similique voluptatem accusantium est adipisci laborum illo sequi incidunt odio! Unde suscipit reiciendis accusantium fugiat labore, delectus sit perferendis vero placeat harum voluptatem dolorem ipsum nulla porro similique! Sint quae dignissimos reiciendis officia facere debitis illum id, eligendi voluptatum! Eligendi, eos.",
     "mainImg": "/assets/images/66kv product img.png",
     "applicaton1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae biLorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -113,7 +120,8 @@
   },
   {
     "id": 8,
-    "productName": "66 KV HV Power Cable",
+    "productName": "66 KV HV Power Cable 8",
+    "url": "/product/product8",
     "productDesc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore similique voluptatem accusantium est adipisci laborum illo sequi incidunt odio! Unde suscipit reiciendis accusantium fugiat labore, delectus sit perferendis vero placeat harum voluptatem dolorem ipsum nulla porro similique! Sint quae dignissimos reiciendis officia facere debitis illum id, eligendi voluptatum! Eligendi, eos.",
     "mainImg": "/assets/images/66kv product img.png",
     "applicaton1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae biLorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -129,7 +137,8 @@
   },
   {
     "id": 9,
-    "productName": "66 KV HV Power Cable",
+    "productName": "66 KV HV Power Cable 9",
+    "url": "/product/product9",
     "productDesc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore similique voluptatem accusantium est adipisci laborum illo sequi incidunt odio! Unde suscipit reiciendis accusantium fugiat labore, delectus sit perferendis vero placeat harum voluptatem dolorem ipsum nulla porro similique! Sint quae dignissimos reiciendis officia facere debitis illum id, eligendi voluptatum! Eligendi, eos.",
     "mainImg": "/assets/images/66kv product img.png",
     "applicaton1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae biLorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -146,7 +155,8 @@
 
   {
     "id": 10,
-    "productName": "66 KV HV Power Cable",
+    "productName": "66 KV HV Power Cable 10",
+    "url": "/product/product10",
     "productDesc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore similique voluptatem accusantium est adipisci laborum illo sequi incidunt odio! Unde suscipit reiciendis accusantium fugiat labore, delectus sit perferendis vero placeat harum voluptatem dolorem ipsum nulla porro similique! Sint quae dignissimos reiciendis officia facere debitis illum id, eligendi voluptatum! Eligendi, eos.",
     "mainImg": "/assets/images/66kv product img.png",
     "applicaton1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae biLorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -162,7 +172,8 @@
   },
   {
     "id": 11,
-    "productName": "66 KV HV Power Cable",
+    "productName": "66 KV HV Power Cable 11",
+    "url": "/product/product11",
     "productDesc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore similique voluptatem accusantium est adipisci laborum illo sequi incidunt odio! Unde suscipit reiciendis accusantium fugiat labore, delectus sit perferendis vero placeat harum voluptatem dolorem ipsum nulla porro similique! Sint quae dignissimos reiciendis officia facere debitis illum id, eligendi voluptatum! Eligendi, eos.",
     "mainImg": "/assets/images/66kv product img.png",
     "applicaton1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae biLorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -178,7 +189,8 @@
   },
   {
     "id": 12,
-    "productName": "66 KV HV Power Cable",
+    "productName": "66 KV HV Power Cable 12",
+    "url": "/product/product12",
     "productDesc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore similique voluptatem accusantium est adipisci laborum illo sequi incidunt odio! Unde suscipit reiciendis accusantium fugiat labore, delectus sit perferendis vero placeat harum voluptatem dolorem ipsum nulla porro similique! Sint quae dignissimos reiciendis officia facere debitis illum id, eligendi voluptatum! Eligendi, eos.",
     "mainImg": "/assets/images/66kv product img.png",
     "applicaton1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae biLorem ipsum dolor sit amet, consectetur adipiscing elit.",

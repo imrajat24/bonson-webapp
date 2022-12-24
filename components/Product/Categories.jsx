@@ -55,7 +55,7 @@ const Categories = () => {
   return (
     <div className="categoriesSection__wrap">
       {/* category navbar */}
-      <nav className="categories_nav">
+      <nav className="categories_nav" id="category-nav">
         <ul>
           <li onClick={cat1}>category1</li>
           <li onClick={cat2}>category2</li>
@@ -139,7 +139,7 @@ const Categories = () => {
                     </p>
 
                     <div className="product__card__content__btn-wrap">
-                      <Link href={category["btn-viewMore"]}>
+                      <Link href={`/product/${category["btn-viewMore"]}`}>
                         <button className="product__card__content__btn-viewmore btn">
                           View More
                         </button>

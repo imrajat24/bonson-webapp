@@ -10,6 +10,7 @@ import arrowDown from "../assets/icons/arrowDown.png";
 
 function Nav(props) {
   const options = ["one", "two", "three"];
+
   return (
     <nav className="nav row">
       <div className="nav__logo">
@@ -22,7 +23,7 @@ function Nav(props) {
             <Link href="/">Home</Link>
           </li>
           <li>
-            <Link href="/product">Products</Link>
+            <Link href="/products">Products</Link>
             <span>
               <Image src={arrowDown} alt="arrow-down" width={15} height={10} />
             </span>
