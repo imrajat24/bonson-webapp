@@ -6,10 +6,11 @@ import Dropdown from "react-dropdown";
 import "react-dropdown/style.css";
 
 import logoMain from "../assets/images/logoMain.png";
-import arrowDown from "../assets/icons/arrowDown.png";
+import arrowDown from "../assets/icons/arrowDown.svg";
+import arrowUp from "../assets/icons/arrowUp.svg";
 
 function Nav(props) {
-  const options = ["one", "two", "three"];
+  const options = ["Category 1", "Category 2", "Category 3", "Category 4"];
   return (
     <nav className="nav row">
       <div className="nav__logo">
@@ -28,10 +29,27 @@ function Nav(props) {
             </span> */}
             <Dropdown
               options={options}
-              value={options[0]}
-              placeholder="Select an option"
+              placeholder="Products"
+              className="nav__menu--dropdown"
+              controlClassName="nav__menu--dropdown--control"
+              placeholderClassName="nav__menu--dropdown--placeholder"
+              menuClassName="nav__menu--dropdown--menu"
+              arrowClosed={
+                <span>
+                  <Image
+                    src={arrowDown}
+                    alt="arrow-down"
+                    width={15}
+                    height={10}
+                  />
+                </span>
+              }
+              arrowOpen={
+                <span>
+                  <Image src={arrowUp} alt="arrow-up" width={15} height={10} />
+                </span>
+              }
             />
-            ;
           </li>
           <li>
             <Link href="/about">about us</Link>
