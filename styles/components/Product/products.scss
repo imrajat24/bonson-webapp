@@ -1,79 +1,63 @@
 .products {
   display: flex;
   flex-direction: row;
-  width: 100%;
+
   height: 90vh;
-  //   background-color: aqua;
 
-  &__content {
-    flex-direction: column;
-    margin: auto;
+  .hero__heading {
     width: 50%;
-
-    &--heading {
-      font-size: 4.8rem;
-      padding: 0rem 1rem;
-    }
-
-    &--para {
-      font-size: 1.6rem;
-      padding: 1rem;
-      line-height: 2.4rem;
-    }
+    margin: auto;
   }
 
   &__graphics {
-    //   width: 50%;
     display: flex;
-    // flex-wrap: wrap;
-    z-index: 1;
+
     width: 50%;
-    position: relative;
 
     &-wrap {
-      //   width: 20rem;
-      //   height: 22rem;
-      //   //   border-radius: 50%;
-      //   overflow: hidden;
-      //   position: relative;
-
-      height: 20rem;
-      width: 20rem;
-      margin: 1.2rem;
-
-      border-radius: 50%;
-      overflow: hidden;
+      width: 100%;
       position: relative;
-      transition: 0.2s ease-in-out;
       cursor: pointer;
+    }
+  }
+}
 
-      &-image {
-        object-fit: cover;
+@include respond(tab-land) {
+  .products {
+    .hero__heading {
+      padding: 5rem;
+    }
+
+    &__graphics {
+      width: 50%;
+    }
+  }
+}
+
+@include respond(tab-pot) {
+  .products {
+    display: flex;
+    flex-direction: column-reverse;
+
+    height: 90vh;
+
+    .hero__heading {
+      width: 100%;
+      margin: auto;
+    }
+
+    &__graphics {
+      display: flex;
+      height: 100%;
+      width: 70%;
+      margin: auto;
+
+      &-wrap {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        cursor: pointer;
       }
-    }
-    &-wrap:hover {
-      box-shadow: 0px 15px 35px 0px rgba(0, 0, 0, 0.35);
-      transform: translateY(2px);
-    }
-    .image1 {
-      position: absolute;
-      right: 42rem;
-      top: 22rem;
-    }
-    .image2 {
-      position: absolute;
-      right: 18rem;
-      top: 12rem;
-    }
-    .image3 {
-      position: absolute;
-      right: 23rem;
-      top: 36rem;
-    }
-    .image4 {
-      position: absolute;
-      right: 0rem;
-      top: 28rem;
     }
   }
 }

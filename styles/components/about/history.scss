@@ -1,39 +1,31 @@
 .history {
   text-align: center;
-  &--heading {
-    font-size: 3.6rem;
-    margin: 3rem 0rem;
+  .section__heading {
+    width: 100%;
   }
-
-  &__cardWrap {
-    height: 70vh;
-    // background-color: aqua;
+  h2 {
+    text-align: center;
+    margin-bottom: 0;
   }
 
   &__card {
-    height: 100%;
+    height: 60vh;
     width: 100%;
     display: flex;
+    flex-direction: row;
   }
   &__graphics {
+    width: 60%;
     position: relative;
-    width: 50%;
-    // background-color: aquamarine;
-    &--image {
-      position: relative;
-      border: 0.7rem solid white;
-      box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
-    }
   }
 
   &__content {
-    width: 50%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     &--year {
-      //   font-family: "Oswald";
       font-size: 10rem;
       text-align: center;
       opacity: 20%;
@@ -45,27 +37,28 @@
   }
 }
 
-.img1 {
-  position: absolute;
-  width: 45rem;
-  height: 40rem;
-  left: 8rem;
-  top: 3rem;
-}
+@include respond(tab-pot) {
+  .history {
+    text-align: center;
 
-.img2 {
-  position: absolute;
-  width: 30rem;
-  height: 25rem;
-  left: 3rem;
-  top: 30rem;
-  transform: rotate(10.9deg);
-}
-.img3 {
-  position: absolute;
-  left: 40rem;
-  top: 25rem;
-  width: 25rem;
-  height: 20rem;
-  transform: rotate(-17.82deg);
+    &__card {
+      display: flex;
+      flex-direction: column;
+    }
+    &__graphics {
+      width: 80%;
+      height: 80%;
+      margin: auto;
+      position: relative;
+    }
+
+    &__content {
+      width: 100%;
+      display: flex;
+      margin: 4rem 0rem;
+      // flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+  }
 }

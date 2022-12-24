@@ -8,7 +8,7 @@
   &__card {
     background-color: $color-white;
     width: 30%;
-    // height: 30rem;
+
     margin: auto;
     position: relative;
     border-radius: 0.4rem;
@@ -24,7 +24,8 @@
       &--para {
         font-size: 1.4rem;
         text-align: justify;
-        line-height: 22px;
+        line-height: 130%;
+        padding: 2rem;
       }
     }
     &_graphic {
@@ -40,7 +41,25 @@
       align-items: center;
       justify-content: center;
       border-radius: 50%;
-      //   left: 50%;
+    }
+  }
+}
+
+@include respond(tab-pot) {
+  .vision {
+    display: flex;
+    flex-direction: column;
+    padding: 6rem;
+    align-items: center;
+    justify-content: center;
+    &__wrap {
+      background-color: $color-black;
+    }
+
+    &__card {
+      background-color: $color-white;
+      width: 100%;
+      margin: 4rem;
     }
   }
 }

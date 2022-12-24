@@ -23,11 +23,11 @@ function Nav(props) {
             <Link href="/">Home</Link>
           </li>
           <li>
-            {/* <Link href="/product">Products</Link>
+            <Link href="/product">Products</Link>
             <span>
               <Image src={arrowDown} alt="arrow-down" width={15} height={10} />
-            </span> */}
-            <Dropdown
+            </span>
+            {/* <Dropdown
               options={options}
               placeholder="Products"
               className="nav__menu--dropdown"
@@ -57,14 +57,13 @@ function Nav(props) {
           <li>
             <Link href="/gallery">gallery</Link>
           </li>
-          <li>
-            <Link href="/contact">contact us</Link>
-          </li>
         </ul>
       </div>
 
       <div className="nav__buttonWrap">
-        <button className="btn btn--nav">get a quote</button>
+        <Link href="/contact">
+          <button className="btn btn--nav">Contact Us</button>
+        </Link>
       </div>
     </nav>
   );
