@@ -23,7 +23,6 @@ const CTASection = () => {
             <Image
               src={cableImg}
               objectPosition={"cover"}
-              layout={"fill"}
               className="cableimg"
             />
           </div>

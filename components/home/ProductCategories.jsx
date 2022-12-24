@@ -19,13 +19,15 @@ const ProductCategories = () => {
             </p>
           </div>
           <div className="categories__headingSection__btnWrap">
-            <button className="btn--exploreAll btn">Explore All</button>
+            <Link href={"/products"}>
+              <button className="btn--exploreAll btn">Explore All</button>
+            </Link>
           </div>
         </section>
         <div className="categories__section">
           {/* ---------------------card starts--------------------- */}
 
-          <Link href="#">
+          <Link href={"products"}>
             <div className="categories__section__card">
               <div className="imgContainer">
                 <Image
@@ -48,7 +50,7 @@ const ProductCategories = () => {
           </Link>
 
           {/* ---------------------card starts--------------------- */}
-          <Link href="product2">
+          <Link href={"products"}>
             <div className="categories__section__card">
               <div className="imgContainer">
                 <Image
@@ -69,7 +71,7 @@ const ProductCategories = () => {
           </Link>
 
           {/* ---------------------card starts--------------------- */}
-          <Link href="#">
+          <Link href={"products"}>
             <div className="categories__section__card">
               <div className="imgContainer">
                 <Image
@@ -90,7 +92,7 @@ const ProductCategories = () => {
           </Link>
 
           {/* ---------------------card starts--------------------- */}
-          <Link href="#">
+          <Link href={"products"}>
             <div className="categories__section__card">
               <div className="imgContainer">
                 <Image
