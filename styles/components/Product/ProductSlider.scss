@@ -1,0 +1,22 @@
+.product-images-slider {
+  .swiper-button-prev {
+    left: 0;
+    color: #000;
+  }
+
+  .swiper-button-next {
+    right: 0;
+    color: #000;
+  }
+}
+
+.product-images-slider-thumbs {
+  .swiper-slide {
+    cursor: pointer;
+    border: 1px solid #dddbdb;
+
+    &-thumb-active {
+      border-color: #ff0000;
+    }
+  }
+}

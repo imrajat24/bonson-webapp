@@ -3,8 +3,6 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-import Button from "@mui/material/Button";
-
 import image4 from "../../assets/images/nina-mercado-ygl027z_Iw0-unsplash.jpg";
 import arrow from "../../assets/icons/Vector.svg";
 const ProductCategories = () => {

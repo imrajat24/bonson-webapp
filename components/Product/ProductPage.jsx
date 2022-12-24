@@ -8,6 +8,7 @@ import "react-multi-carousel/lib/styles.css";
 // images
 import mainImg from "../../assets/images/66kv product img.png";
 import OtherProducts from "./OtherProducts";
+import ProductSlider from "./ProductSlider";
 const ProductPage = () => {
   return (
     <div className="product_wrap">
@@ -32,7 +33,7 @@ const ProductPage = () => {
                     </button>
                   </div>
                   <div className="product__hero__graphics">
-                    <Image src={mainImg} alt="wire img" />
+                    <ProductSlider />
                   </div>
                 </section>
                 {/* product technical section */}
