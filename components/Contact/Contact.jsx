@@ -19,14 +19,36 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="form">
-                  <input type="text" placeholder="Full Name" />
-                  <input type="text" placeholder="Email or Phone Number" />
-                  <input
-                    type="text"
-                    placeholder="Enter your Query here"
-                    className="message"
-                  />
-                  <button className="btn-submit">Get a quote</button>
+                  <form
+                    action="https://formsubmit.co/88637bbf0300aa869530e2742ff13c23"
+                    method="POST"
+                    name="_next"
+                    className="form"
+                  >
+                    <input
+                      type="text"
+                      placeholder="Full Name"
+                      name="name"
+                      required
+                    />
+                    <input
+                      type="text"
+                      placeholder="Email or Phone Number"
+                      name="email"
+                      required
+                    />
+                    <input
+                      type="text"
+                      placeholder="Enter your Query here"
+                      className="message"
+                      name="message"
+                      required
+                    />
+
+                    <button className="btn-submit" type="submit">
+                      Get a quote
+                    </button>
+                  </form>
                 </div>
               </div>
             </div>
