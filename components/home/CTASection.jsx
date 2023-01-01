@@ -4,6 +4,7 @@ import Image from "next/image";
 
 // images
 import cableImg from "../../assets/images/cta-image.png";
+import Link from "next/link";
 const CTASection = () => {
   return (
     <div className="ctaSection__wrap ">
@@ -14,9 +15,11 @@ const CTASection = () => {
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias,
             quibusdam.
           </p>
-          <button className="ctaSection__content--btn-quote btn">
-            Get a Quote
-          </button>
+          <Link href="/contact">
+            <button className="ctaSection__content--btn-quote btn">
+              Get a Quote
+            </button>
+          </Link>
         </div>
         <div className="img-container">
           <div className="img">

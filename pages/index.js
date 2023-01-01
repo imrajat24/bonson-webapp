@@ -7,7 +7,6 @@ import OurProcess from "../components/home/OurProcess";
 import ProductCategories from "../components/home/ProductCategories";
 import WhyUs from "../components/home/WhyUs";
 import Nav from "../components/Nav";
-import ProductPage from "../components/Product/ProductPage";
 
 export default function Home() {
   return (
@@ -26,9 +25,8 @@ export default function Home() {
         <WhyUs />
         <OurProcess />
         <ProductCategories />
-        <CTASection />
-
-        <Footer />
+        <CTASection/>
+        <Footer/>
       </main>
     </>
   );

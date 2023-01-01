@@ -10,9 +10,8 @@ import arrowDown from "../assets/icons/arrowDown.svg";
 import arrowUp from "../assets/icons/arrowUp.svg";
 import hamburger from "../assets/icons/hamburger.svg";
 
-function Nav(props) {
+function Nav() {
   const options = ["Category 1", "Category 2", "Category 3", "Category 4"];
-
   // ! function to toggle class in small screen sizes
   const handleClick = () => {
     const menu = document.getElementById("nav__menu");
@@ -20,7 +19,6 @@ function Nav(props) {
     menu.classList.toggle("nav__menu--active");
     btnWrap.classList.toggle("nav__btnWrap--active");
   };
-
   return (
     <nav className="nav row">
       <div className="nav__logo">
