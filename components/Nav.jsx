@@ -20,10 +20,13 @@ function Nav(props) {
     menu.classList.toggle("nav__menu--active");
     btnWrap.classList.toggle("nav__btnWrap--active");
   };
+
   return (
     <nav className="nav row">
       <div className="nav__logo">
-        <Image src={logoMain} alt="logo-main" />
+        <Link href={"/"}>
+          <Image src={logoMain} alt="logo-main" />
+        </Link>
       </div>
 
       <div className="nav__menu" id="nav__menu">
@@ -57,7 +60,7 @@ function Nav(props) {
             />
           </li>
           <li>
-            <Link href="/about">about us</Link>
+            <Link href={"/about"}>about us</Link>
           </li>
           <li>
             <Link href="/gallery">gallery</Link>

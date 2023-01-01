@@ -9,7 +9,7 @@ const HeroSection = () => {
     <section className="hero row">
       <div className="hero__content">
         <div className="hero__heading hero__content--heading">
-          <h1>Separate the risk with our cables</h1>
+          <h1>Separating the risk from<br/> your lives</h1>
           <p className="hero__content--subheading">
             As an industrial cable supplier, we are renowned for our quality.
           </p>
