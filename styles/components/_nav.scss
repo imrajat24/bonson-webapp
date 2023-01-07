@@ -61,6 +61,7 @@
         .Dropdown-option {
           color: $color-white !important;
           font-size: 1.3rem !important;
+          width: auto;
 
           &:hover {
             background-color: #f4f4f4 !important;

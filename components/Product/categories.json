@@ -1,10 +1,10 @@
 [
   {
     "id": 1,
-    "category": "category1",
+    "category": "category3",
     "catImg": "/assets/images/66kv product img.png",
-    "productName": "66 KV HV Power Cable 1",
-    "productDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae non hic voluptatibus ex dolor, cumque itaque fuga! Esse, quo voluptatem!",
+    "productName": "2-core round cables",
+    "productDesc": "  2-core round cables are utilized in a wide range of applications, from low-voltage lighting, 2 phase home appliances like coolers, air conditioners, fans, etc. The most popular varieties are made of copper and aluminum and have a cross-sectional area ranging from 0.5 to 6 square millimeters.",
     "mainImg": "/assets/images/66kv product img.png",
     "techInfo-1": "Lorem ipsum dolor sit,  Recusandae non ",
     "techInfo-2": "Lorem ipsum dolor sit,  Recusandae non ",
@@ -13,10 +13,10 @@
 
   {
     "id": 2,
-    "category": "category1",
+    "category": "category3",
     "catImg": "/assets/images/66kv product img.png",
-    "productName": "66 KV HV Power Cable 1",
-    "productDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae non hic voluptatibus ex dolor, cumque itaque fuga! Esse, quo voluptatem!",
+    "productName": " 3-core round cables",
+    "productDesc": " 3-core round cables are available in a variety of thicknesses ranging from 0.5 sq. mm to 25 sq. mm and are made of high-quality copper and are insulated with Heat Resistant PVC. These are used in heavy-duty appliances and industrial applications such as Street Lighting, Heavy Duty Air Conditioners, electrical motors, etc.",
     "mainImg": "/assets/images/66kv product img.png",
     "techInfo-1": "Lorem ipsum dolor sit,  Recusandae non ",
     "techInfo-2": "Lorem ipsum dolor sit,  Recusandae non ",
@@ -25,10 +25,10 @@
 
   {
     "id": 3,
-    "category": "category1",
+    "category": "category3",
     "catImg": "/assets/images/66kv product img.png",
-    "productName": "66 KV HV Power Cable 1",
-    "productDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae non hic voluptatibus ex dolor, cumque itaque fuga! Esse, quo voluptatem!",
+    "productName": "4-core round cables",
+    "productDesc": " The 4-core round cables come in sizes ranging from 0.5 sq. mm to 25 sq. mm and are designed to give an outstanding electrical performance. Power distribution from electrical panels to machines. These cables are tested under heavy stress to withstand the heavy current transfers.",
     "mainImg": "/assets/images/66kv product img.png",
     "techInfo-1": "Lorem ipsum dolor sit,  Recusandae non ",
     "techInfo-2": "Lorem ipsum dolor sit,  Recusandae non ",
@@ -37,10 +37,10 @@
 
   {
     "id": 4,
-    "category": "category2",
+    "category": "category4",
     "catImg": "/assets/images/66kv product img.png",
-    "productName": "66 KV HV Power Cable 2",
-    "productDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae non hic voluptatibus ex dolor, cumque itaque fuga! Esse, quo voluptatem!",
+    "productName": "Aluminium 2-Core cable",
+    "productDesc": "Aluminium 2-Core cable is a high-tension cable that is perfect for electrical installations. Made from aluminum, this cable is durable and can withstand high voltages. The PVC insulation protects the cores from damage and makes them resistant to corrosion. They are generally used in home and office fittings.",
     "mainImg": "/assets/images/66kv product img.png",
     "techInfo-1": "Lorem ipsum dolor sit,  Recusandae non ",
     "techInfo-2": "Lorem ipsum dolor sit,  Recusandae non ",
@@ -49,97 +49,13 @@
 
   {
     "id": 5,
-    "category": "category2",
+    "category": "category4",
     "catImg": "/assets/images/66kv product img.png",
-    "productName": "66 KV HV Power Cable 2",
-    "productDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae non hic voluptatibus ex dolor, cumque itaque fuga! Esse, quo voluptatem!",
+    "productName": " Aluminium 3-core and 4-core electrical wires",
+    "productDesc": " Aluminium 3-core and 4-core electrical wires are used in industrial fittings to transfer heavy electrical loads. They are made with special PVC to withstand high mechanical abrasion. These are available from 10 sq. mm to 70 sq. mm.",
     "mainImg": "/assets/images/66kv product img.png",
     "techInfo-1": "Lorem ipsum dolor sit,  Recusandae non ",
     "techInfo-2": "Lorem ipsum dolor sit,  Recusandae non ",
     "btn-viewMore": "product5"
-  },
-
-  {
-    "id": 6,
-    "category": "category2",
-    "catImg": "/assets/images/66kv product img.png",
-    "productName": "66 KV HV Power Cable 2",
-    "productDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae non hic voluptatibus ex dolor, cumque itaque fuga! Esse, quo voluptatem!",
-    "mainImg": "/assets/images/66kv product img.png",
-    "techInfo-1": "Lorem ipsum dolor sit,  Recusandae non ",
-    "techInfo-2": "Lorem ipsum dolor sit,  Recusandae non ",
-    "btn-viewMore": "product6"
-  },
-
-  {
-    "id": 7,
-    "category": "category3",
-    "catImg": "/assets/images/66kv product img.png",
-    "productName": "66 KV HV Power Cable 3",
-    "productDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae non hic voluptatibus ex dolor, cumque itaque fuga! Esse, quo voluptatem!",
-    "mainImg": "/assets/images/66kv product img.png",
-    "techInfo-1": "Lorem ipsum dolor sit,  Recusandae non ",
-    "techInfo-2": "Lorem ipsum dolor sit,  Recusandae non ",
-    "btn-viewMore": "product7"
-  },
-
-  {
-    "id": 8,
-    "category": "category3",
-    "catImg": "/assets/images/66kv product img.png",
-    "productName": "66 KV HV Power Cable 3",
-    "productDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae non hic voluptatibus ex dolor, cumque itaque fuga! Esse, quo voluptatem!",
-    "mainImg": "/assets/images/66kv product img.png",
-    "techInfo-1": "Lorem ipsum dolor sit,  Recusandae non ",
-    "techInfo-2": "Lorem ipsum dolor sit,  Recusandae non ",
-    "btn-viewMore": "product8"
-  },
-
-  {
-    "id": 9,
-    "category": "category3",
-    "catImg": "/assets/images/66kv product img.png",
-    "productName": "66 KV HV Power Cable 3",
-    "productDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae non hic voluptatibus ex dolor, cumque itaque fuga! Esse, quo voluptatem!",
-    "mainImg": "/assets/images/66kv product img.png",
-    "techInfo-1": "Lorem ipsum dolor sit,  Recusandae non ",
-    "techInfo-2": "Lorem ipsum dolor sit,  Recusandae non ",
-    "btn-viewMore": "product9"
-  },
-
-  {
-    "id": 10,
-    "category": "category4",
-    "catImg": "/assets/images/66kv product img.png",
-    "productName": "66 KV HV Power Cable 4",
-    "productDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae non hic voluptatibus ex dolor, cumque itaque fuga! Esse, quo voluptatem!",
-    "mainImg": "/assets/images/66kv product img.png",
-    "techInfo-1": "Lorem ipsum dolor sit,  Recusandae non ",
-    "techInfo-2": "Lorem ipsum dolor sit,  Recusandae non ",
-    "btn-viewMore": "product10"
-  },
-
-  {
-    "id": 11,
-    "category": "category4",
-    "catImg": "/assets/images/66kv product img.png",
-    "productName": "66 KV HV Power Cable 4",
-    "productDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae non hic voluptatibus ex dolor, cumque itaque fuga! Esse, quo voluptatem!",
-    "mainImg": "/assets/images/66kv product img.png",
-    "techInfo-1": "Lorem ipsum dolor sit,  Recusandae non ",
-    "techInfo-2": "Lorem ipsum dolor sit,  Recusandae non ",
-    "btn-viewMore": "product11"
-  },
-
-  {
-    "id": 12,
-    "category": "category4",
-    "catImg": "/assets/images/66kv product img.png",
-    "productName": "66 KV HV Power Cable 4",
-    "productDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae non hic voluptatibus ex dolor, cumque itaque fuga! Esse, quo voluptatem!",
-    "mainImg": "/assets/images/66kv product img.png",
-    "techInfo-1": "Lorem ipsum dolor sit,  Recusandae non ",
-    "techInfo-2": "Lorem ipsum dolor sit,  Recusandae non ",
-    "btn-viewMore": "product12"
   }
 ]

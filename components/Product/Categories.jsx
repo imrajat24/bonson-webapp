@@ -15,28 +15,30 @@ const Categories = () => {
   const cat2 = () => setActiveCat("category2");
   const cat3 = () => setActiveCat("category3");
   const cat4 = () => setActiveCat("category4");
+  const cat5 = () => setActiveCat("category5");
+  const cat6 = () => setActiveCat("category6");
 
   //category object
   const categoriesInfo = [
     {
       category: "category1",
-      categoryHeading: "Category 1 Description",
+      categoryHeading: "Housewire & Industrial Cables",
       categoryDesc:
-        "1 Lorem ipsum dolor sit amet consectetur adipisicing elit Nemo blanditiis quidem voluptatem aliquam sint nis iusto. Eveniet repellat quam vero.",
+        "  A home's electrical outlets and fixtures are connected via house wire. From 0.5 square millimeters to 70 square millimeters, a variety of sizes are provided. High-quality copper is used in the construction of house wire, which is intended for reliable operation.",
       categoryImg: "../../assets/images/dollar-gill-VW1xJfuOj2g-unsplash.jpg",
     },
 
     {
       category: "category2",
-      categoryHeading: "Category 2 Description",
+      categoryHeading: "3 core flat submersible cables",
       categoryDesc:
-        "2 Lorem ipsum dolor sit amet consectetur adipisicing elit Nemo blanditiis quidem voluptatem aliquam sint nis iusto. Eveniet repellat quam vero.",
+        "The three-core flat submersible cables are available in a range of sizes from 1.5 sq. mm. to 25 sq. mm. They are built to withstand the rigors of submersion. These cables are perfect for a range of applications, including submersible water pumping.",
       categoryImg: "../../assets/images/dollar-gill-VW1xJfuOj2g-unsplash.jpg",
     },
 
     {
       category: "category3",
-      categoryHeading: "Category 3 Description",
+      categoryHeading: "Multicore flexible cables",
       categoryDesc:
         "3 Lorem ipsum dolor sit amet consectetur adipisicing elit Nemo blanditiis quidem voluptatem aliquam sint nis iusto. Eveniet repellat quam vero.",
       categoryImg: "../../assets/images/dollar-gill-VW1xJfuOj2g-unsplash.jpg",
@@ -44,9 +46,23 @@ const Categories = () => {
 
     {
       category: "category4",
-      categoryHeading: "Category 4 Description",
+      categoryHeading: "Aluminium Multi core cable",
       categoryDesc:
         "4 Lorem ipsum dolor sit amet consectetur adipisicing elit Nemo blanditiis quidem voluptatem aliquam sint nis iusto. Eveniet repellat quam vero.",
+      categoryImg: "../../assets/images/dollar-gill-VW1xJfuOj2g-unsplash.jpg",
+    },
+    {
+      category: "category5",
+      categoryHeading: "Copper Wire",
+      categoryDesc:
+        "We also deal in bare copper wire, annealed bare copper wire, and fine copper wire which is used in industries as a raw material for further processing. We also have a provision for an online resistance annealer to double anneal the copper to provide even higher softness in our copper. We may also offer Bunched copper as per your requirement.",
+      categoryImg: "../../assets/images/dollar-gill-VW1xJfuOj2g-unsplash.jpg",
+    },
+    {
+      category: "category6",
+      categoryHeading: "Submersible Poly Winding Wire",
+      categoryDesc:
+        "Submersible Poly Winding Wire is a common type of insulated wire used in electrical motors. This wire is resistant to water and other liquids, making it an excellent choice for submersible pumps and motors. To satisfy the needs of various electrical systems, the wire is offered in a variety of gauges and conductor diameters.",
       categoryImg: "../../assets/images/dollar-gill-VW1xJfuOj2g-unsplash.jpg",
     },
   ];
@@ -57,10 +73,12 @@ const Categories = () => {
       {/* category navbar */}
       <nav className="categories_nav" id="category-nav">
         <ul>
-          <li onClick={cat1}>category1</li>
-          <li onClick={cat2}>category2</li>
-          <li onClick={cat3}>category3</li>
-          <li onClick={cat4}>category4</li>
+          <li onClick={cat1}>Housewire & Industrial Cables</li>
+          <li onClick={cat2}>3 core flat submersible cables</li>
+          <li onClick={cat3}>Multicore flexible cables</li>
+          <li onClick={cat4}> Aluminium Multi core cable</li>
+          <li onClick={cat5}> Copper Wire</li>
+          <li onClick={cat6}>Submersible Poly Winding Wire</li>
         </ul>
       </nav>
 
@@ -128,7 +146,7 @@ const Categories = () => {
                     </p>
                     <br />
 
-                    <h4 className="product__card__content--subheading">
+                    {/* <h4 className="product__card__content--subheading">
                       Basic Technical Info
                     </h4>
                     <p className="product__card__content--techinfo">
@@ -136,7 +154,7 @@ const Categories = () => {
                     </p>
                     <p className="product__card__content--techinfo">
                       {category["techInfo-2"]}
-                    </p>
+                    </p> */}
 
                     <div className="product__card__content__btn-wrap">
                       <Link href={`/product/${category["btn-viewMore"]}`}>

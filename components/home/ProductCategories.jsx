@@ -39,7 +39,7 @@ const ProductCategories = () => {
               </div>
 
               <p className="categories__section__card--name">
-                Product Category One
+                Housewire & Industrial Cables
                 <Image
                   src={arrow}
                   objectFit="cover"
@@ -61,7 +61,7 @@ const ProductCategories = () => {
                 />
               </div>
               <p className="categories__section__card--name">
-                Product Category One
+                3 core flat submersible cables
                 <Image
                   src={arrow}
                   className="categories__section__card--arrow"
@@ -82,7 +82,7 @@ const ProductCategories = () => {
                 />
               </div>
               <p className="categories__section__card--name">
-                Product Category One
+                Multicore flexible cables
                 <Image
                   src={arrow}
                   className="categories__section__card--arrow"
@@ -103,7 +103,7 @@ const ProductCategories = () => {
                 />
               </div>
               <p className="categories__section__card--name">
-                Product Category One
+                Aluminium Multi core cable
                 <Image
                   src={arrow}
                   className="categories__section__card--arrow"
