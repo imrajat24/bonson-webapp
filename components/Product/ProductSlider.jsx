@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
 import { useState } from "react";
-// import { Swiper, SwiperSlide } from "swiper/react";
-// import "swiper/css";
-// import "swiper/css/navigation";
-// import "swiper/css/thumbs";
-// import { Navigation, Thumbs } from "swiper";
+import { Navigation, Thumbs } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/thumbs";
 // images
 import mainImg from "../../assets/images/66kv product img.png";
 import mainImg2 from "../../assets/images/66kv product img - Copy.png";
