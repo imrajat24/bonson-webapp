@@ -47,17 +47,17 @@ const WhyUs = () => {
     },
     {
       title: "Modernized Machinery",
-      para: "lLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
+      para: "We constantly update our machinery to stay up with the latest industry trends and advancements, allowing us to remain competitive and ensuring that our production process is efficient and smooth.",
       img: sliderImage3,
     },
     {
       title: "High-speed extrusion lines",
-      para: "lLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
+      para: "High-speed extrusion lines are extremely efficient, producing a great volume of product in a short period of time. They are frequently utilised in our high-volume manufacturing applications where speed and volume are crucial.",
       img: sliderImage4,
     },
     {
       title: "Superior-quality products",
-      para: "lLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
+      para: "We feel that producing a lesser quantity of superior quality products is preferable to producing a bigger number of inferior",
       img: sliderImage5,
     },
   ];

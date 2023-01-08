@@ -9,7 +9,7 @@ function GalleryShow() {
   return (
     <>
       <Head>
-        <title>Contact - Bonson Pvt Ltd</title>
+        <title>Gallery - Bonson Pvt Ltd</title>
         <meta
           name="description"
           content=" this page shows all the products we are offering"

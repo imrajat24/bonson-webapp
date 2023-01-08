@@ -10,7 +10,9 @@ const CTASection = () => {
     <div className="ctaSection__wrap ">
       <div className="ctaSection row">
         <div className="ctaSection__content">
-          <h2 className="ctaSection__content--heading">Cables CTA Heading</h2>
+          <h2 className="ctaSection__content--heading">
+            Leading the way in electric cable innovation
+          </h2>
           <p className="ctaSection__content--para">
             When it comes to electrical cables, using high-quality cables is the
             key to safety.
