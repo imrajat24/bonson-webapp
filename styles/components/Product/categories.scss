@@ -1,19 +1,37 @@
 .categories_nav {
   background-color: $color-black;
   color: $color-white;
-
   ul {
+    overflow-x: auto;
     display: flex;
     width: 80%;
     margin: auto;
     list-style: none;
     justify-content: space-evenly;
-    height: 4.8rem;
+    // height: 4.8rem;
+    padding: 2rem 0rem;
+
+    &::-webkit-scrollbar {
+      margin: 0.5rem;
+      padding: 1rem;
+      width: 0.5rem;
+      height: 0.5rem;
+      background-color: #ccc;
+      border-radius: 0.5rem;
+      overflow-y: hidden;
+    }
+    &::-webkit-scrollbar-thumb {
+      border-radius: 0.5rem;
+      background-color: rgb(122, 122, 122);
+    }
     li {
       font-size: 1.4rem;
       margin: auto;
       cursor: pointer;
       opacity: 0.65;
+      padding: 0rem 1rem;
+      // word-wrap: normal;
+      white-space: nowrap;
     }
     li:hover {
       opacity: 1;
@@ -97,10 +115,22 @@
   }
 }
 
+.active {
+  opacity: 100%;
+  color: aquamarine;
+  font-weight: 600;
+}
+
+.inactive {
+  opacity: 65%;
+  color: white;
+  font-weight: normal;
+}
+
 @include respond(tab-land) {
   .categories_nav {
     ul {
-      width: 75%;
+      width: 85%;
 
       li {
         font-size: 1.4rem;
@@ -123,6 +153,16 @@
 }
 
 @include respond(phone-med) {
+  .categories_nav {
+    ul {
+      width: 85%;
+
+      li {
+        font-size: 1.4rem;
+        width: 100%;
+      }
+    }
+  }
   .categoriesSection {
     &__info {
       display: flex;

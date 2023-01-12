@@ -13,7 +13,7 @@ import hamburger from "../assets/icons/hamburger.svg";
 function Nav() {
   const options = [
     "Housewire & Industrial Cables",
-    " 3 core flat submersible cables",
+    "3 core flat submersible cables",
     "Multicore flexible cables ",
     "Aluminium Multi core cable",
     "Copper Wire",
@@ -38,29 +38,36 @@ function Nav() {
             <Link href="/">Home</Link>
           </li>
           <li>
-            <Dropdown
-              options={options}
-              placeholder="Products"
-              className="nav__menu--dropdown"
-              controlClassName="nav__menu--dropdown--control"
-              placeholderClassName="nav__menu--dropdown--placeholder"
-              menuClassName="nav__menu--dropdown--menu"
-              arrowClosed={
-                <span>
-                  <Image
-                    src={arrowDown}
-                    alt="arrow-down"
-                    width={15}
-                    height={10}
-                  />
-                </span>
-              }
-              arrowOpen={
-                <span>
-                  <Image src={arrowUp} alt="arrow-up" width={15} height={10} />
-                </span>
-              }
-            />
+            <Link href="/products">
+              <Dropdown
+                options={options}
+                placeholder="Products"
+                className="nav__menu--dropdown"
+                controlClassName="nav__menu--dropdown--control"
+                placeholderClassName="nav__menu--dropdown--placeholder"
+                menuClassName="nav__menu--dropdown--menu"
+                arrowClosed={
+                  <span>
+                    <Image
+                      src={arrowDown}
+                      alt="arrow-down"
+                      width={15}
+                      height={10}
+                    />
+                  </span>
+                }
+                arrowOpen={
+                  <span>
+                    <Image
+                      src={arrowUp}
+                      alt="arrow-up"
+                      width={15}
+                      height={10}
+                    />
+                  </span>
+                }
+              />
+            </Link>
           </li>
           <li>
             <Link href="/about">about us</Link>

@@ -6,8 +6,9 @@
   height: 100%;
 
   &__wrap {
-    background: url("../../../assets/images/about-us-banner.png");
+    background: url("../../../assets/images/about-us-banner.webp");
 
+    backdrop-filter: brightness(10%);
     background-size: cover;
     position: relative;
     background-position: center;

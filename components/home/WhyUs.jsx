@@ -6,8 +6,8 @@ import "react-multi-carousel/lib/styles.css";
 
 // images
 import sliderImage1 from "../../assets/images/pvc-pipe.jpg";
-import sliderImage2 from "../../assets/images/copper-slide.jpg";
-import sliderImage3 from "../../assets/images/machine-slider.jpg";
+import sliderImage2 from "../../assets/images/copper-winding-slider.webp";
+import sliderImage3 from "../../assets/images/machine-slider.webp";
 import sliderImage4 from "../../assets/images/motor-slider.jpg";
 import sliderImage5 from "../../assets/images/wireProduct-slider.jpg";
 
@@ -66,7 +66,7 @@ const WhyUs = () => {
       <div className="whyUs row">
         <div className="section__heading">
           <h2 className="whyUs--heading">
-            The Qualities that makes us stand out in the marker
+            The Qualities that makes us stand out in the market
           </h2>
         </div>
 

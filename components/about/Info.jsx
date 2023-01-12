@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 
 // images
-import mainImg from "../../assets/images/about-us-main-img.png";
+import mainImg from "../../assets/images/about-us-main-img.webp";
 const Info = () => {
   return (
     <section className="info row">
