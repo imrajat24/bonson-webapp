@@ -5,7 +5,12 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
 // images
-import sliderImage1 from "../../assets/images/Rectangle 18@2x.png";
+import sliderImage1 from "../../assets/images/pvc-pipe.jpg";
+import sliderImage2 from "../../assets/images/copper-winding-slider.webp";
+import sliderImage3 from "../../assets/images/machine-slider.webp";
+import sliderImage4 from "../../assets/images/motor-slider.jpg";
+import sliderImage5 from "../../assets/images/wireProduct-slider.jpg";
+
 const WhyUs = () => {
   // ! Object for carosuel reseponsiveness
   const responsive = {
@@ -31,24 +36,29 @@ const WhyUs = () => {
   // ! data for usps
   const uspData = [
     {
-      title: "randomTitle",
-      para: "lLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
+      title: "Production of PVC in-house",
+      para: "PVC is a versatile plastic that can be used for a wide range of applications, from pipes and tubing to windows and doors, and we produce high-quality PVC that fulfills our customer-specific requirements.",
       img: sliderImage1,
     },
     {
-      title: "randomTitle",
-      para: "lLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
-      img: sliderImage1,
+      title: "In-house copper drawing",
+      para: "Our company manufactures its own copper products from beginning to end. The process begins with the mining of copper ore, which is then purified and smelted into pure copper, and it subsequently manufactures copper wire and tubing in a variety of sizes and shapes.",
+      img: sliderImage2,
     },
     {
-      title: "randomTitle",
-      para: "lLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
-      img: sliderImage1,
+      title: "Modernized Machinery",
+      para: "We constantly update our machinery to stay up with the latest industry trends and advancements, allowing us to remain competitive and ensuring that our production process is efficient and smooth.",
+      img: sliderImage3,
     },
     {
-      title: "randomTitle",
-      para: "lLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
-      img: sliderImage1,
+      title: "High-speed extrusion lines",
+      para: "High-speed extrusion lines are extremely efficient, producing a great volume of product in a short period of time. They are frequently utilised in our high-volume manufacturing applications where speed and volume are crucial.",
+      img: sliderImage4,
+    },
+    {
+      title: "Superior-quality products",
+      para: "We feel that producing a lesser quantity of superior quality products is preferable to producing a bigger number of inferior",
+      img: sliderImage5,
     },
   ];
   return (
@@ -56,7 +66,7 @@ const WhyUs = () => {
       <div className="whyUs row">
         <div className="section__heading">
           <h2 className="whyUs--heading">
-            The Qualities that makes us stand out in the marker
+            The Qualities that makes us stand out in the market
           </h2>
         </div>
 

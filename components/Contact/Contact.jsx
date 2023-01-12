@@ -11,11 +11,11 @@ const Contact = () => {
                 <div className="content-wrap">
                   <div className="hero__heading">
                     <h1 className="heading">Contact Us</h1>
-                    <p className="para">
+                    {/* <p className="para">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Aliquid expedita placeat modi nisi, iusto eum laboriosam
                       ducimus autem cupiditate labore.
-                    </p>
+                    </p> */}
                   </div>
                 </div>
                 <div className="form">

@@ -26,7 +26,19 @@
 
 html {
   font-size: 62.5%; //1rem = 10px; 10px/16px% = 62.5
-
+  &::-webkit-scrollbar {
+    margin: 0.5rem;
+    padding: 1rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: #ccc;
+    border-radius: 0.5rem;
+    overflow-y: hidden;
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 0.5rem;
+    background-color: rgb(80, 80, 80);
+  }
   @include respond(big-desk) {
     //width < 1200px ?
     font-size: 75%; // 1rem = 12px; 9/16% = 75%

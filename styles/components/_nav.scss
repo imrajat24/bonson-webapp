@@ -52,16 +52,19 @@
         cursor: pointer !important;
         padding: 0 !important;
       }
-      &--arrow {
-      }
+
       &--menu {
         background-color: $color-black !important;
         border: none !important;
         margin-top: 1.2rem !important;
         padding: 0.5rem 0 !important;
+        max-height: fit-content !important;
+        min-width: 20rem !important;
+
         .Dropdown-option {
           color: $color-white !important;
           font-size: 1.3rem !important;
+          width: auto;
 
           &:hover {
             background-color: #f4f4f4 !important;
@@ -90,8 +93,6 @@
     align-items: flex-start !important;
     padding-top: 2rem;
 
-    &__logo {
-    }
     &__menu,
     &__buttonWrap {
       display: none;

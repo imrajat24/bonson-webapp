@@ -50,7 +50,10 @@ const OurHistory = () => {
             </div>
             <div className="history__content">
               <h3 className="history__content--year">1998</h3>
-              <p className="history__content--para">Wires & Cables</p>
+              <p className="history__content--para">
+                launched its first electrical products, which were wires and
+                cables.
+              </p>
             </div>
           </div>
 
@@ -68,7 +71,10 @@ const OurHistory = () => {
             </div>
             <div className="history__content">
               <h3 className="history__content--year">2005</h3>
-              <p className="history__content--para">Winding Wire</p>
+              <p className="history__content--para">
+                {" "}
+                began working on winding wire.
+              </p>
             </div>
           </div>
 
@@ -86,7 +92,9 @@ const OurHistory = () => {
             </div>
             <div className="history__content">
               <h3 className="history__content--year">2009</h3>
-              <p className="history__content--para">Winding Wire</p>
+              <p className="history__content--para">
+                we began supplying and distributing ceiling fans.
+              </p>
             </div>
           </div>
 
@@ -104,7 +112,9 @@ const OurHistory = () => {
             </div>
             <div className="history__content">
               <h3 className="history__content--year">2010</h3>
-              <p className="history__content--para">Copper Wire Drawing 2010</p>
+              <p className="history__content--para">
+                we proceeded to the copper wire drawing.
+              </p>
             </div>
           </div>
 
@@ -122,7 +132,9 @@ const OurHistory = () => {
             </div>
             <div className="history__content">
               <h3 className="history__content--year">2011</h3>
-              <p className="history__content--para">PVC</p>
+              <p className="history__content--para">
+                PVC manufacturing and selling began in 2011.
+              </p>
             </div>
           </div>
         </Carousel>

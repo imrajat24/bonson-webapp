@@ -1,7 +1,7 @@
 import Head from "next/head";
-import Footer from "../components/Footer";
-import Nav from "../components/Nav";
-import ProductPage from "../components/Product/ProductPage";
+import Footer from "../../components/Footer";
+import Nav from "../../components/Nav";
+import ProductPage from "../../components/Product/ProductPage";
 
 function Product() {
   return (

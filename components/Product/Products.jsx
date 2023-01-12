@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-// import Link from "next/link";
 import { Link } from "react-scroll/modules";
+// import Link from "next/link";
 
 // images
 import image1 from "../../assets/images/categories-hero-img.png";
@@ -13,16 +13,12 @@ const Products = () => {
         <div className="hero__heading">
           <h1 className="products__content--heading">Product Range Offered</h1>
           <p className="products__content--para">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-            impedit exercitationem doloremque quidem dicta harum quaerat
-            mollitia asperiores? Iste praesentium sint numquam hic adipisci
-            mollitia nemo beatae sit dignissimos eos.
-          </p>
-          <p className="products__content--para">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-            impedit exercitationem doloremque quidem dicta harum quaerat
-            mollitia asperiores? Iste praesentium sint numquam hic adipisci
-            mollitia nemo beatae sit dignissimos eos.
+            As a fast-growing manufacturer of industrial cables, we offer a wide
+            variety of options according to the market needs, including control
+            cables, multicore cables, low and high-voltage cables, and more. Our
+            cables are safe, dependable, heat retardant, fire resistant, and
+            made to the highest standards while adhering to national standards
+            and meeting environmental requirements.
           </p>
 
           <Link
