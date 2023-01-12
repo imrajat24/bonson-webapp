@@ -1,8 +1,8 @@
 .categories_nav {
   background-color: $color-black;
   color: $color-white;
+  overflow-x: auto;
   ul {
-    overflow-x: auto;
     display: flex;
     width: 80%;
     margin: auto;

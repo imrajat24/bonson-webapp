@@ -4,7 +4,11 @@ import Image from "next/image";
 import Link from "next/link";
 // import { Route, Routes, Navigate, BrowserRouter } from "react-router-dom";
 // images
-import image4 from "../../assets/images/nina-mercado-ygl027z_Iw0-unsplash.jpg";
+import houseWire from "../../assets/images/house-wire-category.webp";
+import copper from "../../assets/images/copper-category.webp";
+import multicore from "../../assets/images/multicore-category.webp";
+import submersible from "../../assets/images/submersible-category.webp";
+
 import arrow from "../../assets/icons/Vector.svg";
 // component function starts
 const ProductCategories = () => {
@@ -101,21 +105,21 @@ const uspData = [
   {
     title: "Housewire & Industrial cables",
     para: "PVC is a versatile plastic that can be used for a wide range of applications, from pipes and tubing to windows and doors, and we produce high-quality PVC that fulfills our customer-specific requirements.",
-    img: image4,
+    img: houseWire,
   },
   {
     title: "3 core flat submersible cables",
     para: "Our company manufactures its own copper products from beginning to end. The process begins with the mining of copper ore, which is then purified and smelted into pure copper, and it subsequently manufactures copper wire and tubing in a variety of sizes and shapes.",
-    img: image4,
+    img: submersible,
   },
   {
     title: "Multicore flexible cables",
     para: "We constantly update our machinery to stay up with the latest industry trends and advancements, allowing us to remain competitive and ensuring that our production process is efficient and smooth.",
-    img: image4,
+    img: multicore,
   },
   {
-    title: "Aluminium Multi core cable",
+    title: "Copper Wire",
     para: "High-speed extrusion lines are extremely efficient, producing a great volume of product in a short period of time. They are frequently utilised in our high-volume manufacturing applications where speed and volume are crucial.",
-    img: image4,
+    img: copper,
   },
 ];

@@ -6,7 +6,12 @@ import categories from "./categories.json";
 
 // images
 import image1 from "../../assets/images/dollar-gill-VW1xJfuOj2g-unsplash.jpg";
-
+import houseWire from "../../assets/images/house-wire-category.webp";
+import copper from "../../assets/images/copper-category.webp";
+import multicore from "../../assets/images/multicore-category.webp";
+import submersible from "../../assets/images/submersible-category.webp";
+import threecore from "../../assets/images/3-core-submersible-category.webp";
+import alumninum from "../../assets/images/aluminum-category.webp";
 const Categories = () => {
   const router = useRouter();
   const url = router.asPath;
@@ -141,7 +146,7 @@ const Categories = () => {
                 <div className="categoriesSection__info__graphics">
                   <div className="categoriesSection__info__graphics--wrap">
                     <Image
-                      src={image1}
+                      src={categoryInfo.categoryImg}
                       className="products__graphics-wrap-image image1"
                       alt="wires in hand"
                       layout="fill"
@@ -164,7 +169,7 @@ const Categories = () => {
                   <div className="product__card__graphics">
                     <div className="product__card__graphics--wrap">
                       <Image
-                        src={image1}
+                        src={multicore}
                         className="products__graphics-wrap-image image1"
                         alt="wires in hand"
                         layout="fill"
@@ -222,7 +227,7 @@ const categoriesInfo = [
     categoryHeading: "Housewire & Industrial Cables",
     categoryDesc:
       "  A home's electrical outlets and fixtures are connected via house wire. From 0.5 square millimeters to 70 square millimeters, a variety of sizes are provided. High-quality copper is used in the construction of house wire, which is intended for reliable operation.",
-    categoryImg: "../../assets/images/dollar-gill-VW1xJfuOj2g-unsplash.jpg",
+    categoryImg: houseWire,
   },
 
   {
@@ -230,7 +235,7 @@ const categoriesInfo = [
     categoryHeading: "3 core flat submersible cables",
     categoryDesc:
       "The three-core flat submersible cables are available in a range of sizes from 1.5 sq. mm. to 25 sq. mm. They are built to withstand the rigors of submersion. These cables are perfect for a range of applications, including submersible water pumping.",
-    categoryImg: "../../assets/images/dollar-gill-VW1xJfuOj2g-unsplash.jpg",
+    categoryImg: threecore,
   },
 
   {
@@ -238,7 +243,7 @@ const categoriesInfo = [
     categoryHeading: "Multicore flexible cables",
     categoryDesc:
       "3 Lorem ipsum dolor sit amet consectetur adipisicing elit Nemo blanditiis quidem voluptatem aliquam sint nis iusto. Eveniet repellat quam vero.",
-    categoryImg: "../../assets/images/dollar-gill-VW1xJfuOj2g-unsplash.jpg",
+    categoryImg: multicore,
   },
 
   {
@@ -246,20 +251,20 @@ const categoriesInfo = [
     categoryHeading: "Aluminium Multi core cable",
     categoryDesc:
       "4 Lorem ipsum dolor sit amet consectetur adipisicing elit Nemo blanditiis quidem voluptatem aliquam sint nis iusto. Eveniet repellat quam vero.",
-    categoryImg: "../../assets/images/dollar-gill-VW1xJfuOj2g-unsplash.jpg",
+    categoryImg: alumninum,
   },
   {
     category: "category5",
     categoryHeading: "Copper Wire",
     categoryDesc:
       "We also deal in bare copper wire, annealed bare copper wire, and fine copper wire which is used in industries as a raw material for further processing. We also have a provision for an online resistance annealer to double anneal the copper to provide even higher softness in our copper. We may also offer Bunched copper as per your requirement.",
-    categoryImg: "../../assets/images/dollar-gill-VW1xJfuOj2g-unsplash.jpg",
+    categoryImg: copper,
   },
   {
     category: "category6",
     categoryHeading: "Submersible Poly Winding Wire",
     categoryDesc:
       "Submersible Poly Winding Wire is a common type of insulated wire used in electrical motors. This wire is resistant to water and other liquids, making it an excellent choice for submersible pumps and motors. To satisfy the needs of various electrical systems, the wire is offered in a variety of gauges and conductor diameters.",
-    categoryImg: "../../assets/images/dollar-gill-VW1xJfuOj2g-unsplash.jpg",
+    categoryImg: submersible,
   },
 ];
