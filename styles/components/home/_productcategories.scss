@@ -86,8 +86,9 @@
     &__section {
       display: flex;
       flex-direction: row;
-      justify-content: space-evenly;
+      justify-content: center;
       flex-wrap: wrap;
+      column-gap: 2rem;
 
       &__card {
         width: 45%;
@@ -100,11 +101,11 @@
 
   @include respond(phone) {
     .section__heading {
-      padding: 8rem 3rem;
+      padding: 8rem 1rem;
     }
     &__section {
       &__card {
-        width: 45%;
+        width: 80%;
         min-width: 20rem;
       }
     }

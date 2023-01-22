@@ -39,7 +39,7 @@ function Nav() {
           <li>
             <Link href="/">Home</Link>
           </li>
-          <li>
+          {/* <li>
             <Link href="/products">
               <Dropdown
                 options={options}
@@ -70,7 +70,7 @@ function Nav() {
                 }
               />
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link href={"/about"}>about us</Link>
           </li>

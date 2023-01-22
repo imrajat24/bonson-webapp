@@ -32,7 +32,7 @@
           font-size: 1.8rem;
         }
         &:not(:last-of-type) {
-          margin-right: 4rem;
+          margin-right: 8rem;
         }
 
         span {
@@ -92,6 +92,8 @@
   @include respond(tab-pot) {
     align-items: flex-start !important;
     padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 
     &__menu,
     &__buttonWrap {
@@ -114,10 +116,10 @@
           position: absolute;
           top: 7rem;
           li {
-            &:nth-of-type(2) {
-              display: none;
-              pointer-events: none;
-            }
+            // &:nth-of-type(2) {
+            //   display: none;
+            //   pointer-events: none;
+            // }
             a {
               color: $color-white;
               text-decoration: none;

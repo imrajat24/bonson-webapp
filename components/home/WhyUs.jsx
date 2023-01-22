@@ -70,7 +70,13 @@ const WhyUs = () => {
           </h2>
         </div>
 
-        <Carousel responsive={responsive}>
+        <Carousel
+          responsive={responsive}
+          arrows={false}
+          showDots={true}
+          autoPlay={true}
+          infinite={true}
+        >
           {uspData?.map((data, i) => {
             return (
               <div className="whyUs__slider" key={i}>
@@ -83,7 +89,6 @@ const WhyUs = () => {
                     src={data.img}
                     alt={`usp-image${i + 1}`}
                     className="whyUs__slider--image"
-                    quality={100}
                   />
                 </div>
               </div>

@@ -11,23 +11,31 @@
   &__content {
     width: 50%;
     padding: 0 2rem;
-    text-align: center;
+    text-align: left;
 
     h3 {
       font-size: 2.8rem;
-      font-weight: gilroy-med, sans-serif;
+      font-weight: 600;
     }
     p {
-      font-size: 2.2rem;
+      font-size: 1.7rem;
       margin-top: 2rem;
-      width: 60%;
+      width: 80%;
+      line-height: 130%;
       display: inline-block;
     }
   }
   &__graphics {
     border-radius: 0.5rem;
-    width: 50%;
-    height: 30rem;
+    span {
+      width: 50%;
+      height: auto !important;
+      img {
+        width: 65rem !important;
+        height: 30rem !important;
+        border-radius: 0.5rem;
+      }
+    }
   }
 
   // ! For tablets (potrait)
@@ -37,24 +45,49 @@
 
     &__content {
       width: 100%;
+      text-align: center;
 
       padding-bottom: 2rem;
 
       p {
-        width: 70%;
+        width: 80%;
       }
     }
     &__graphics {
-      border-radius: 0.5rem;
-      width: 70%;
+      width: 100%;
       margin-bottom: 2rem;
     }
+  }
+  @include respond(phone) {
+    &__content {
+      p {
+        width: 100%;
+      }
+    }
+    &__graphics {
+      span {
+        img {
+          height: 24rem !important;
+        }
+      }
+    }
+  }
+}
 
-    // @include respond(phone-med) {
-    //   width: 70%;
-    // }
-    // @include respond(phone) {
-    //   width: 85%;
-    // }
+.react-multi-carousel-track {
+  margin-bottom: 5rem !important;
+}
+
+.react-multi-carousel-dot-list {
+  li {
+    button {
+      border-color: $color-black !important;
+    }
+  }
+}
+
+@include respond(tab-pot) {
+  .react-multi-carousel-track {
+    margin-bottom: 2rem !important;
   }
 }

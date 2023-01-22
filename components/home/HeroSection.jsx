@@ -9,9 +9,11 @@ const HeroSection = () => {
     <section className="hero row">
       <div className="hero__content">
         <div className="hero__heading hero__content--heading">
-          <h1>Separating the risk from<br/> your lives</h1>
+          <h1>
+            Separating<span> the risk</span> from your lives
+          </h1>
           <p className="hero__content--subheading">
-            As an industrial cable supplier, we are renowned for our quality.
+            As an industrial cable supplier, we are renowned for our quality
           </p>
         </div>
         <div className="hero__content--btn">

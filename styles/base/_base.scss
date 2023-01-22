@@ -1,21 +1,4 @@
-@font-face {
-  font-family: "gilroy-reg";
-  src: url("../../assets/fonts/Gilroy-Regular.ttf");
-}
-@font-face {
-  font-family: "gilroy-med";
-  src: url("../../assets/fonts/Gilroy-Medium.ttf");
-}
-@font-face {
-  font-family: "gilroy-bold";
-  src: url("../../assets/fonts/Gilroy-Bold.ttf");
-}
-
-@font-face {
-  font-family: "grifter";
-  src: url("../../assets/fonts/grifterbold.otf");
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&family=Unbounded:wght@600&display=swap");
 *,
 *::after,
 *::before {
@@ -85,7 +68,8 @@ html {
 
 body {
   box-sizing: border-box;
-  font-family: gilroy-reg, sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
 }
 
 section {

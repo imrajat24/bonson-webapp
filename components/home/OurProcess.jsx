@@ -14,31 +14,32 @@ const OurProcess = () => {
         <div className="ourprocess__contentWrap">
           <div className="ourprocess__contentWrap__card">
             <h3 className="ourprocess__contentWrap__card--heading">
-              Process Number 1
+              Raw materials
             </h3>
             <p className="ourprocess__contentWrap__card--para">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
-              ea.
+              Aluminum, copper, and PVC composite raw materials are utilised to
+              power consumer appliances, wires, cables, and electrical
+              equipment.
+            </p>
+          </div>
+
+          <div className="ourprocess__contentWrap__card">
+            <h3 className="ourprocess__contentWrap__card--heading">Testing </h3>
+            <p className="ourprocess__contentWrap__card--para">
+              Annealing conditions, resistance, tensile strength, wrapping wire,
+              and copper purity are all tested in different phases such as
+              physical and spark testing.
             </p>
           </div>
 
           <div className="ourprocess__contentWrap__card">
             <h3 className="ourprocess__contentWrap__card--heading">
-              Process Number 2
+              Packing & Dispatch
             </h3>
             <p className="ourprocess__contentWrap__card--para">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
-              ea.
-            </p>
-          </div>
-
-          <div className="ourprocess__contentWrap__card">
-            <h3 className="ourprocess__contentWrap__card--heading">
-              Process Number 3
-            </h3>
-            <p className="ourprocess__contentWrap__card--para">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
-              ea.
+              This is the final stage of the process, and we have the best
+              professionals to ensure your products reach their destination
+              correctly packaged and sealed with all essential paperwork.
             </p>
           </div>
         </div>
