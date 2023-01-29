@@ -43,9 +43,11 @@ const Categories = () => {
                       View More
                     </button>
                   </Link>
-                  <button className="product__card__content__btn-enquire btn">
-                    Enquire
-                  </button>
+                  <Link href="/contact">
+                    <button className="product__card__content__btn-enquire btn">
+                      Enquire
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>

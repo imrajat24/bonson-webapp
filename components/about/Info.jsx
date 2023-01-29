@@ -25,6 +25,7 @@ const Info = () => {
         experienced professionals who are always ready to face the challenges of
         the market.
         <br />
+        {/* <br /> */}
         Our brand is known for its trustworthy quality and our success is built
         on a strong emphasis on product, process, quality, and performance. We
         are always investing in Research and Development to bring breakthrough
@@ -34,6 +35,7 @@ const Info = () => {
         to improve our service levels and go above and beyond of our customers'
         expectations.
         <br />
+        {/* <br /> */}
         In addition, our production facilities in Khushkhera, Rajasthan possess
         nationally certified labs, allowing us to test and update our production
         methods and materials to ensure that we deliver our commitment to

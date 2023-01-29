@@ -35,6 +35,7 @@ const Products = () => {
             src={image1}
             className="products__graphics-wrap-image image1"
             alt="wires in hand"
+            priority={true}
           />
         </div>
       </div>

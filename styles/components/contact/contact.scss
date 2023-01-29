@@ -1,13 +1,20 @@
-.contact {
-  height: 90vh;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  &__container {
-    margin: auto;
+.form__heading {
+  width: 100%;
+  padding: 1.5rem 0rem;
+  background-color: $color-black;
+  color: $color-white;
+  text-align: center;
+
+  .heading {
+    font-size: 3.2rem;
+    font-weight: 600;
   }
 }
-.enclosed {
+
+.contact {
+  height: 100vh;
+  display: flex;
+  align-items: center;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -15,72 +22,36 @@
 }
 
 .contact-form-wrap {
-  margin: auto;
-  width: 100%;
-  height: 80vh;
-}
-.contact-form {
+  display: flex;
   flex-direction: column;
   width: 50%;
-
   margin: auto;
   background-color: $color-white;
   border-radius: 0.5rem;
-  display: flex;
+  overflow: hidden;
 }
-.content-wrap {
-  background-color: $color-black;
-  color: $color-white;
-  text-align: center;
 
-  .hero__heading {
-    width: 80%;
-    margin: auto;
-    padding: 1.5rem 0rem;
-
-    .heading {
-      font-size: 3.2rem;
-    }
-    .para {
-      font-size: 1.2rem;
-    }
-  }
-}
 .form {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  padding: 4rem;
   margin: 0 auto;
-  margin-top: 3rem;
-
+  width: 100%;
   input {
     border: 0.5px solid rgb(0, 0, 0, 0.1);
-    margin: 0.6rem 0rem;
-    height: 5.6rem;
+    padding: 1.5rem 2rem;
     border-radius: 0.4rem;
     background-color: #faf9fc;
+    font-family: inherit;
+    margin-bottom: 1.5rem;
+    font-size: 1.6rem;
+    &::placeholder {
+      font-size: 1.6rem;
+    }
+    &:focus {
+      outline: none;
+    }
   }
-  input::-webkit-input-placeholder {
-    /* Chrome/Opera/Safari/Edge */
-    /*styles here*/
-    padding-left: 1rem;
-    font-size: 1.4rem;
-  }
-
-  input::-ms-input-placeholder {
-    /* Microsoft Edge */
-    /*styles here*/
-    padding-left: 1rem;
-    font-size: 1.4rem;
-  }
-
-  input:-ms-input-placeholder {
-    /* IE 10+ */
-    /*styles here*/
-    padding-left: 1rem;
-    font-size: 1.4rem;
-  }
-
   .message {
     height: 15rem;
   }
@@ -88,85 +59,50 @@
 
 .contact-details {
   display: flex;
-  flex-direction: row;
-  height: auto;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-
+  justify-content: space-between;
   .col {
     width: 30%;
-    margin: auto;
     background: rgba(255, 255, 255, 0.06);
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
-    border-radius: 0.8px;
-    height: 20rem;
+    border-radius: 0.5px;
     display: flex;
     flex-direction: column;
     padding: 3rem;
 
     .top {
-      width: 100%;
-      height: 20%;
-      font-size: 1.4rem;
+      font-size: 2rem;
       color: $color-primary;
+      font-weight: 600;
     }
     .botton {
-      width: 80%;
-      height: 80%;
-      margin: auto;
       font-size: 1.8rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      margin-top: 2rem;
     }
   }
 }
 
 .map {
-  width: 100%;
-  height: 50vh;
-  background-color: rgb(207, 207, 207);
-  text-align: center;
 }
 
 // media queries in tablet
 @include respond(tab-land) {
+  .contact {
+    height: 80vh;
+  }
   .contact-form-wrap {
-    height: 60vh;
-  }
-  .contact-form {
     width: 70%;
-    height: fit-content;
-    // height: 80%;
-    .form {
-      height: 75%;
-      display: flex;
-      flex-direction: column;
-      width: 80%;
-      justify-content: center;
-
-      margin: auto;
-      margin-top: 3rem;
-    }
-  }
-  .content-wrap {
-    .hero__heading {
-      width: 80%;
-      margin: auto;
-      padding: 1.5rem 0rem;
-    }
   }
 }
 
 // media query for phone med
 @include respond(phone-med) {
+  .contact-form-wrap {
+    width: 90%;
+  }
   .contact-details {
     flex-wrap: wrap;
     .col {
-      min-width: 25rem;
-      width: 80%;
-
-      margin-top: 2rem;
+      width: 100%;
     }
   }
 }

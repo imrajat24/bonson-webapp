@@ -8,6 +8,7 @@ import Vision from "../components/about/Vision";
 import Team from "../components/about/Team";
 import Certificates from "../components/about/Certificates";
 import OurHistory from "../components/about/OurHistory";
+import CTASection from "../components/home/CTASection";
 
 function AboutUs() {
   return (
@@ -24,9 +25,11 @@ function AboutUs() {
       <Info />
       <MadeIndia />
       <Vision />
-      <Team />
+      {/* <Team /> */}
       <OurHistory />
       {/* <Certificates/> */}
+      <CTASection />
+
       <Footer />
     </>
   );

@@ -1,45 +1,44 @@
 .info {
   display: flex;
-  text-align: justify;
+  // text-align: justify;
+  gap: 5rem;
   &--para {
     width: 50%;
-    padding: 5rem 3rem;
     font-size: 1.8rem;
+    line-height: 130%;
   }
   &__imgContainer {
     position: relative;
-    margin: 5rem;
     width: 50%;
-    padding: 5rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
   }
 }
 @include respond(tab-pot) {
   .info {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
+    gap: 4rem;
+    width: 90%;
 
     &--para {
       width: 100%;
     }
     &__imgContainer {
-      margin: 0rem;
       position: relative;
       width: 100%;
-      height: 30vh;
-      padding: 5rem;
+      height: 50vh;
     }
   }
 }
 @include respond(phone) {
   .info {
     &__imgContainer {
-      margin: 0rem;
       position: relative;
-      width: 80%;
-      height: 30vh;
+      width: 100%;
+      height: 40vh;
       padding: 5rem;
       margin: auto;
-      margin-bottom: 2rem;
     }
   }
 }

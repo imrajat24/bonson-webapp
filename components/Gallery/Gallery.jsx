@@ -16,19 +16,34 @@ const Gallery = () => {
     <section className="gallery__wrap">
       <div className="gallery row">
         <div className="tags_wrap">
-          <h3 className="all" onClick={() => setActivePics("all")}>
+          <h3
+            className={activePics == "all" ? "all active" : "all"}
+            onClick={() => setActivePics("all")}
+          >
             All
           </h3>
-          <h3 className="tags" onClick={() => setActivePics("Plant")}>
+          <h3
+            className={activePics == "Plant" ? "tags active" : "tags"}
+            onClick={() => setActivePics("Plant")}
+          >
             Plant
           </h3>
-          <h3 className="tags" onClick={() => setActivePics("winding-wire")}>
+          <h3
+            className={activePics == "winding-wire" ? "tags active" : "tags"}
+            onClick={() => setActivePics("winding-wire")}
+          >
             Winding Wire
           </h3>
-          <h3 className="tags" onClick={() => setActivePics("copper")}>
+          <h3
+            className={activePics == "copper" ? "tags active" : "tags"}
+            onClick={() => setActivePics("copper")}
+          >
             Copper
           </h3>
-          <h3 className="tags" onClick={() => setActivePics("other")}>
+          <h3
+            className={activePics == "other" ? "tags active" : "tags"}
+            onClick={() => setActivePics("other")}
+          >
             Other
           </h3>
         </div>

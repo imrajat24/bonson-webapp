@@ -1,20 +1,21 @@
 .vision {
   display: flex;
-  padding: 6rem;
+  justify-content: space-between;
+  gap: 3rem;
+  padding-top: 4rem;
+
   &__wrap {
     background-color: $color-black;
   }
 
   &__card {
     background-color: $color-white;
-    width: 30%;
-
-    margin: auto;
+    max-width: 35%;
     position: relative;
-    border-radius: 0.4rem;
+    border-radius: 0.5rem;
     &__content {
-      padding: 3rem;
-      padding-top: 7rem;
+      padding: 2rem;
+      margin-top: 3rem;
 
       &--heading {
         font-size: 2.4rem;
@@ -22,8 +23,7 @@
       }
 
       &--para {
-        font-size: 1.4rem;
-        text-align: justify;
+        font-size: 1.6rem;
         line-height: 130%;
         padding: 2rem;
       }
@@ -47,9 +47,7 @@
 
 @include respond(tab-pot) {
   .vision {
-    display: flex;
     flex-direction: column;
-    padding: 6rem;
     align-items: center;
     justify-content: center;
     &__wrap {
@@ -58,8 +56,18 @@
 
     &__card {
       background-color: $color-white;
-      width: 100%;
-      margin: 4rem;
+      max-width: 50%;
+
+      &:not(:last-of-type) {
+        margin-bottom: 4rem;
+      }
+    }
+  }
+}
+@include respond(phone) {
+  .vision {
+    &__card {
+      max-width: 90%;
     }
   }
 }

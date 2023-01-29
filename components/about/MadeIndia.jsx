@@ -6,7 +6,7 @@ import madeBg from "../../assets/images/make-in-india-bg.png";
 import madeBadge from "../../assets/images/make-in-india-badge.png";
 const MadeIndia = () => {
   return (
-    <div className="madeIndia__wrap">
+    <section className="madeIndia__wrap">
       <div className="madeIndia row">
         <div className="badge">
           <Image src={madeBadge} alt="made in india badge" />
@@ -25,7 +25,7 @@ const MadeIndia = () => {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
