@@ -1,202 +1,150 @@
-import React, { useState, useEffect } from "react";
-import { useRouter } from "next/router";
+import React from "react";
 import Image from "next/image";
-import Certificates from "../about/Certificates";
+// import Certificates from "../about/Certificates";
+import categories from "./categories.json";
 
 // data file
-import Products from "./Products.json";
 // images
 import mainImg from "../../assets/images/66kv product img.png";
 import OtherProducts from "./OtherProducts";
 import ProductSlider from "./ProductSlider";
 
 // function starts--->
-const ProductPage = () => {
-  const router = useRouter();
-  const url = router.query.product;
-
+const ProductPage = ({ id }) => {
   return (
-    <div className="product_wrap">
-      <div className="product">
-        <section>
-          {Products.filter((prod) => prod.url == `/product/${url}`).map(
-            (product) => {
-              return (
-                <>
-                  {/* // Product hero section */}
-                  <section className="product__hero row" key={product.id}>
-                    <div className="product__hero__content">
-                      <h1 className="product__hero__content--heading">
-                        {product.productName}
-                      </h1>
-                      <br />
-                      <p className="product__hero__content--para">
-                        {product.productDesc}
-                      </p>
+    <div className="product">
+      {categories
+        .filter((prod) => prod.id == id.product)
+        .map((product) => {
+          return (
+            <>
+              <div className="product__hero row" key={product.id}>
+                <div className="product__hero__content">
+                  <h1 className="product__hero__content--heading">
+                    {product.categoryHeading}
+                  </h1>
+                  <br />
+                  <p className="product__hero__content--para">
+                    {product.categoryDesc}
+                  </p>
 
-                      <button className="product__hero__content--btn-enquiry btn-enquiry">
-                        Quick Enquiry
-                      </button>
-                    </div>
-                    <div className="product__hero__graphics">
-                      <ProductSlider />
-                    </div>
-                  </section>
-                  {/* product technical section */}
-                  <section className="product__technical">
-                    <div className="row">
-                      <h2 className="product__technical--heading">
-                        Technical Info
-                      </h2>
-                      <br />
-                      <h3 className="product__technical--subHeading">
-                        Standard
-                      </h3>
-                      <p className="product__technical--info">
-                        DIN EN 50525-2-31, VDE 0285-525-2-31, BS EN 50525-2-31.
-                      </p>
-                      <br />
-                      <h3 className="product__technical--subHeading">
-                        Technical Data
-                      </h3>
+                  <button className="btn product__hero__content--btn-enquiry btn-enquiry">
+                    Quick Enquiry
+                  </button>
+                </div>
+                <div className="product__hero__graphics">
+                  <ProductSlider images={product.images} />
+                </div>
+              </div>
 
-                      <p className="product__technical--info">
-                        <b>Voltage Rating :</b> H05V-K 0.5 to 1 mm² - 300 /
-                        500V, H07V-K 1.5 to 240 mm² - 450 / 750V <br />
-                        <b>Temperature Range :</b> -30°C to +70°C <br />
-                        <b>Minimum Bending Radius :</b> Cable diameter ≤ 8 mm :
-                        4 x outer diameter Approx. diameter &gt; 8 to 12 mm : 5
-                        x outer diameter Approx. diameter &gt; 12 mm : 6 x outer
-                        diameter <br />
-                        <b>Test Voltage :</b> 2500V
-                      </p>
-                      <br />
-                      <h3 className="product__technical--subHeading">
-                        Construction
-                      </h3>
-                      <p className="product__technical--info">
-                        DIN EN 50525-2-31, VDE 0285-525-2-31, BS EN 50525-2-31.
-                      </p>
-                    </div>
-                  </section>
+              {/* --------------------------------------------------------------------------------------- */}
 
-                  {/* product application section */}
-                  <section className="product__application ">
-                    <div className="row">
-                      <h2 className="product__application--heading">
-                        Applications
-                      </h2>
-                      <div className="product__application__cardWrap">
-                        {/* Card Starts */}
-                        <div className="product__application__card">
+              {/* Product Application section */}
+              <section className="product__application ">
+                <div className="row">
+                  <h2 className="product__application--heading">
+                    Applications
+                  </h2>
+                  <div className="product__application__cardWrap">
+                    {product.applications.map((application, i) => {
+                      return (
+                        <div className="product__application__card" key={i}>
                           <div className="product__application__card--img">
                             <Image
-                              src={mainImg}
+                              src={product.images[i]}
                               alt="Product Img"
                               layout="fill"
                               objectFit="cover"
                             />
                           </div>
                           <h4 className="product__application__card--heading">
-                            Application #1
+                            <span>#{i + 1}</span>Application
                           </h4>
                           <p className="product__application__card--para">
-                            {product.applicaton1}
+                            {application}
                           </p>
                         </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              </section>
 
-                        {/* Card Starts */}
-                        <div className="product__application__card">
-                          <div className="product__application__card--img">
-                            <Image
-                              src={mainImg}
-                              alt="Product Img"
-                              layout="fill"
-                              objectFit="cover"
-                            />
-                          </div>
-                          <h4 className="product__application__card--heading">
-                            Application #2
-                          </h4>
-                          <p className="product__application__card--para">
-                            {product.applicaton2}
-                          </p>
-                        </div>
+              {/* --------------------------------------------------------------------------------------- */}
 
-                        {/* Card Starts */}
-                        <div className="product__application__card">
-                          <div className="product__application__card--img">
-                            <Image
-                              src={mainImg}
-                              alt="Product Img"
-                              layout="fill"
-                              objectFit="cover"
-                            />
-                          </div>
-                          <h4 className="product__application__card--heading">
-                            Application #3
-                          </h4>
-                          <p className="product__application__card--para">
-                            {product.applicaton3}
-                          </p>
-                        </div>
+              {/* Product Technical section */}
+              <section className="product__technical">
+                <div className="row">
+                  <h2 className="product__technical--heading">
+                    Technical Info
+                  </h2>
+                  <br />
+                  <h3 className="product__technical--subHeading">Standard</h3>
+                  <p className="product__technical--info">
+                    DIN EN 50525-2-31, VDE 0285-525-2-31, BS EN 50525-2-31.
+                  </p>
+                  <br />
+                  <h3 className="product__technical--subHeading">
+                    Technical Data
+                  </h3>
 
-                        {/* Card Starts */}
-                        <div className="product__application__card">
-                          <div className="product__application__card--img">
-                            <Image
-                              src={mainImg}
-                              alt="Product Img"
-                              layout="fill"
-                              objectFit="cover"
-                            />
-                          </div>
-                          <h4 className="product__application__card--heading">
-                            Application #4
-                          </h4>
-                          <p className="product__application__card--para">
-                            {product.applicaton4}
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </section>
+                  <p className="product__technical--info">
+                    <b>Voltage Rating :</b> H05V-K 0.5 to 1 mm² - 300 / 500V,
+                    H07V-K 1.5 to 240 mm² - 450 / 750V <br />
+                    <b>Temperature Range :</b> -30°C to +70°C <br />
+                    <b>Minimum Bending Radius :</b> Cable diameter ≤ 8 mm : 4 x
+                    outer diameter Approx. diameter &gt; 8 to 12 mm : 5 x outer
+                    diameter Approx. diameter &gt; 12 mm : 6 x outer diameter{" "}
+                    <br />
+                    <b>Test Voltage :</b> 2500V
+                  </p>
+                  <br />
+                  <h3 className="product__technical--subHeading">
+                    Construction
+                  </h3>
+                  <p className="product__technical--info">
+                    DIN EN 50525-2-31, VDE 0285-525-2-31, BS EN 50525-2-31.
+                  </p>
+                </div>
+              </section>
 
-                  {/* product advantages section */}
-                  <section className="product__advantages">
-                    <div className="row">
-                      <h2 className="product__advantages--heading">
-                        Advantages
-                      </h2>
-                      <div className="product__advantages--pointsWrap">
-                        <ul className="product__advantages--points">
-                          <li>{product.advantage1}</li>
+              {/* --------------------------------------------------------------------------------------- */}
 
-                          <li>{product.advantage2}</li>
-                          <li>{product.advantage3}</li>
-                        </ul>
-                        <ul className="product__advantages--points">
-                          <li>{product.advantage4}</li>
-                          <li>{product.advantage5}</li>
-                          <li>{product.advantage6}</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </section>
+              {/* Product Advantages section */}
+              <section className="product__advantages">
+                <div className="row">
+                  <h2 className="product__advantages--heading">Advantages</h2>
+                  <div className="product__advantages--pointsWrap">
+                    <ul className="product__advantages--points">
+                      {product.advantages.map((point, i) => {
+                        return i < 2 && <li key={i}>{point}</li>;
+                      })}
+                    </ul>
+                    <ul className="product__advantages--points">
+                      {product.advantages.map((point, i) => {
+                        return i >= 2 && <li key={i}>{point}</li>;
+                      })}
+                    </ul>
+                  </div>
+                </div>
+              </section>
 
-                  {/* import certificate component  */}
-                  <Certificates />
+              {/* --------------------------------------------------------------------------------------- */}
 
-                  {/* imported other products component  */}
-                  <section className="product__otherProducts">
-                    <OtherProducts />
-                  </section>
-                </>
-              );
-            }
-          )}
-        </section>
-      </div>
+              {/* import certificate component  */}
+              {/* <Certificates /> */}
+
+              {/* --------------------------------------------------------------------------------------- */}
+
+              {/* imported other products component  */}
+              <section className="product__otherProducts">
+                <OtherProducts id={id.product} />
+              </section>
+
+              {/* --------------------------------------------------------------------------------------- */}
+            </>
+          );
+        })}
     </div>
   );
 };

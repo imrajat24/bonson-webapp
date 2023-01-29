@@ -1,4 +1,12 @@
 .product-images-slider {
+  margin: 0 auto;
+  // height: auto !important;
+  ul {
+    li {
+      border-radius: 0.5rem;
+    }
+  }
+  height: auto !important;
   .swiper-button-prev {
     left: 0;
     color: #000;
@@ -11,12 +19,13 @@
 }
 
 .product-images-slider-thumbs {
-  .swiper-slide {
-    cursor: pointer;
-    border: 1px solid #dddbdb;
-
-    &-thumb-active {
-      border-color: #ff0000;
+  margin: 0 auto;
+  margin-top: 1rem;
+  li {
+    &:not(:last-of-type) {
+      margin-right: 0.2rem;
     }
+
+    border-radius: 0.5rem;
   }
 }

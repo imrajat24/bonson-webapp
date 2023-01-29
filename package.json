@@ -17,6 +17,7 @@
     "react-router-dom": "^6.6.2",
     "react-scroll": "^1.8.9",
     "sass": "^1.55.0",
+    "sharp": "^0.31.3",
     "swiper": "^8.4.5",
     "yarn": "^1.22.19"
   },

@@ -1,67 +1,74 @@
 import React from "react";
 import Image from "next/image";
-import { useState } from "react";
 import { Navigation, Thumbs } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/thumbs";
-// images
-import mainImg from "../../assets/images/66kv product img.png";
-import mainImg2 from "../../assets/images/66kv product img - Copy.png";
-import mainImg3 from "../../assets/images/66kv product img - Copy - Copy.png";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 
-const ProductSlider = () => {
-  const [activeThumb, setActiveThumb] = useState();
+const ProductSlider = ({ images }) => {
+  const responsive1 = {
+    superLargeDesktop: {
+      breakpoint: { max: 4000, min: 0 },
+      items: 1,
+    },
+  };
+
+  const responsive2 = {
+    desktop: {
+      breakpoint: { max: 4000, min: 0 },
+      items: 4,
+    },
+  };
   return (
-    <div>
-      <Swiper
-        loop={true}
-        spaceBetween={10}
-        navigation={true}
-        modules={[Navigation, Thumbs]}
-        grabCursor={true}
-        thumbs={{ swiper: activeThumb }}
+    <>
+      <Carousel
+        responsive={responsive1}
+        autoPlay={true}
+        autoPlaySpeed={3000}
+        infinite={true}
         className="product-images-slider"
       >
-        <SwiperSlide>
-          <Image src={mainImg} alt="wire img" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image src={mainImg2} alt="wire img" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image src={mainImg3} alt="wire img" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image src={mainImg} alt="wire img" />
-        </SwiperSlide>
-      </Swiper>
-      <Swiper
-        // onSwiper={setActiveThumb}
-        loop={true}
-        spaceBetween={10}
-        slidesPerView={4}
-        modules={[Navigation, Thumbs]}
+        {images.map((image, i) => {
+          return (
+            <div key={i}>
+              <Image
+                src={image}
+                alt="wire img"
+                height={80}
+                width={80}
+                layout="responsive"
+              />
+            </div>
+          );
+        })}
+      </Carousel>
+
+      <Carousel
+        responsive={responsive2}
+        arrows={false}
+        swipeable={true}
         className="product-images-slider-thumbs"
       >
-        <SwiperSlide>
-          <div className="product-images-slider-thumbs-wrapper">
-            <Image src={mainImg} alt="wire img" />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="product-images-slider-thumbs-wrapper">
-            <Image src={mainImg2} alt="wire img" />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="product-images-slider-thumbs-wrapper">
-            <Image src={mainImg3} alt="wire img" />
-          </div>
-        </SwiperSlide>
-      </Swiper>
-    </div>
+        {images.map((image, i) => {
+          return (
+            <SwiperSlide key={i}>
+              <div className="product-images-slider-thumbs-wrapper">
+                <Image
+                  src={image}
+                  alt="wire img"
+                  width={50}
+                  height={50}
+                  layout="responsive"
+                />
+              </div>
+            </SwiperSlide>
+          );
+        })}
+      </Carousel>
+    </>
   );
 };
 

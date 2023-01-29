@@ -4,8 +4,7 @@ import Nav from "../components/Nav";
 import Categories from "../components/Product/Categories";
 import Products from "../components/Product/Products";
 
-function ProductsPage({ data }) {
-  console.log(data);
+function ProductsPage() {
   return (
     <>
       <Head>
@@ -19,8 +18,6 @@ function ProductsPage({ data }) {
       <div className="nav__wrap">
         <Nav />
       </div>
-      {data}
-
       <Products />
       <Categories />
       <Footer />

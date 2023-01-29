@@ -76,6 +76,7 @@ const WhyUs = () => {
           showDots={true}
           autoPlay={true}
           infinite={true}
+          className="whyUs__slider__wrap"
         >
           {uspData?.map((data, i) => {
             return (

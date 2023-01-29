@@ -1,57 +1,58 @@
 .products {
   display: flex;
-  flex-direction: row;
-
-  height: 90vh;
-
+  padding: 8rem 0;
   .hero__heading {
     width: 50%;
-    margin: auto;
+    h1 {
+      font-size: 4.2rem;
+    }
+    p {
+      font-size: 2rem;
+      width: 90%;
+    }
   }
 
   &__graphics {
-    display: flex;
-
     width: 50%;
 
     &-wrap {
-      width: 100%;
-      position: relative;
-      cursor: pointer;
     }
+  }
+
+  button {
+    border: 1px solid $color-primary;
+    color: $color-primary;
   }
 }
 
 @include respond(tab-land) {
   .products {
     .hero__heading {
-      padding: 5rem;
+      // padding: 5rem;
     }
 
     &__graphics {
-      width: 50%;
+      // width: 50%;
     }
   }
 }
 
 @include respond(tab-pot) {
   .products {
-    display: flex;
     flex-direction: column-reverse;
-
-    height: 90vh;
-
+    align-items: center;
     .hero__heading {
-      width: 100%;
-      margin: auto;
+      width: 80%;
+
+      p {
+        display: inline-block;
+        text-align: center;
+      }
     }
 
     &__graphics {
-      display: flex;
-      height: 100%;
       width: 70%;
-      margin: auto;
-
+      margin-bottom: 3rem;
       &-wrap {
         width: 100%;
         height: 100%;

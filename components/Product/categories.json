@@ -1,61 +1,140 @@
 [
   {
     "id": 1,
-    "category": "category3",
-    "catImg": "/assets/images/66kv product img.png",
-    "productName": "2-core round cables",
-    "productDesc": "  2-core round cables are utilized in a wide range of applications, from low-voltage lighting, 2 phase home appliances like coolers, air conditioners, fans, etc. The most popular varieties are made of copper and aluminum and have a cross-sectional area ranging from 0.5 to 6 square millimeters.",
-    "mainImg": "/assets/images/66kv product img.png",
-    "techInfo-1": "Lorem ipsum dolor sit,  Recusandae non ",
-    "techInfo-2": "Lorem ipsum dolor sit,  Recusandae non ",
-    "btn-viewMore": "product1"
+    "categoryHeading": "Housewire & Industrial Cables",
+    "categoryDesc": "A homes electrical outlets and fixtures are connected via house wire. From 0.5 square millimeters to 70 square millimeters, a variety of sizes are provided. High-quality copper is used in the construction of house wire, which is intended for reliable operation.",
+    "images": [
+      "https://res.cloudinary.com/dypttf0yz/image/upload/v1674747448/Bonson/housewireIndustrial/houseWire_main_stap9h.webp",
+      "https://res.cloudinary.com/dypttf0yz/image/upload/v1674750523/Bonson/housewireIndustrial/20230107_140134_1_fu4jcw.jpg",
+      "https://res.cloudinary.com/dypttf0yz/image/upload/v1674750523/Bonson/housewireIndustrial/20230107_140134_1_fu4jcw.jpg",
+      "https://res.cloudinary.com/dypttf0yz/image/upload/v1674750523/Bonson/housewireIndustrial/20230107_140134_1_fu4jcw.jpg"
+    ],
+    "applications": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan."
+    ],
+    "advantages": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan."
+    ]
   },
-
   {
     "id": 2,
-    "category": "category3",
-    "catImg": "/assets/images/66kv product img.png",
-    "productName": " 3-core round cables",
-    "productDesc": " 3-core round cables are available in a variety of thicknesses ranging from 0.5 sq. mm to 25 sq. mm and are made of high-quality copper and are insulated with Heat Resistant PVC. These are used in heavy-duty appliances and industrial applications such as Street Lighting, Heavy Duty Air Conditioners, electrical motors, etc.",
-    "mainImg": "/assets/images/66kv product img.png",
-    "techInfo-1": "Lorem ipsum dolor sit,  Recusandae non ",
-    "techInfo-2": "Lorem ipsum dolor sit,  Recusandae non ",
-    "btn-viewMore": "product2"
+    "categoryHeading": "3 Core flat submersible cables",
+    "categoryDesc": "The three-core flat submersible cables are available in a range of sizes from 1.5 sq. mm. to 25 sq. mm. They are built to withstand the rigors of submersion. These cables are perfect for a range of applications, including submersible water pumping.",
+    "images": [
+      "https://res.cloudinary.com/dypttf0yz/image/upload/v1674749217/Bonson/3coreFlatSubmersible/3coreSubmesible_1_auesbk.webp",
+      "https://res.cloudinary.com/dypttf0yz/image/upload/v1674749858/Bonson/3coreFlatSubmersible/20230111_140902_bkdaws.png",
+      "https://res.cloudinary.com/dypttf0yz/image/upload/v1674749247/Bonson/3coreFlatSubmersible/3core_rkayuo.webp",
+      "https://res.cloudinary.com/dypttf0yz/image/upload/v1674749173/Bonson/3coreFlatSubmersible/3coreSubmersible_main_jmeycr.jpg"
+    ],
+    "applications": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan."
+    ],
+    "advantages": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan."
+    ]
   },
-
   {
     "id": 3,
-    "category": "category3",
-    "catImg": "/assets/images/66kv product img.png",
-    "productName": "4-core round cables",
-    "productDesc": " The 4-core round cables come in sizes ranging from 0.5 sq. mm to 25 sq. mm and are designed to give an outstanding electrical performance. Power distribution from electrical panels to machines. These cables are tested under heavy stress to withstand the heavy current transfers.",
-    "mainImg": "/assets/images/66kv product img.png",
-    "techInfo-1": "Lorem ipsum dolor sit,  Recusandae non ",
-    "techInfo-2": "Lorem ipsum dolor sit,  Recusandae non ",
-    "btn-viewMore": "product3"
+    "categoryHeading": "Multicore flexible cables",
+    "categoryDesc": "Our multicore flexible cables are constructed with multiple individual wires or conductors bundled together within a flexible insulation. This design allows for easy installation and maneuverability in tight spaces or in applications where the cable needs to move or bend frequently.",
+    "images": [
+      "https://res.cloudinary.com/dypttf0yz/image/upload/v1674748787/Bonson/multicoreFlexible/multicore_main_jhva3z.png",
+      "https://res.cloudinary.com/dypttf0yz/image/upload/v1674748787/Bonson/multicoreFlexible/multicore_main_jhva3z.png",
+      "https://res.cloudinary.com/dypttf0yz/image/upload/v1674748787/Bonson/multicoreFlexible/multicore_main_jhva3z.png",
+      "https://res.cloudinary.com/dypttf0yz/image/upload/v1674748787/Bonson/multicoreFlexible/multicore_main_jhva3z.png"
+    ],
+    "applications": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan."
+    ],
+    "advantages": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan."
+    ]
   },
-
   {
     "id": 4,
-    "category": "category4",
-    "catImg": "/assets/images/66kv product img.png",
-    "productName": "Aluminium 2-Core cable",
-    "productDesc": "Aluminium 2-Core cable is a high-tension cable that is perfect for electrical installations. Made from aluminum, this cable is durable and can withstand high voltages. The PVC insulation protects the cores from damage and makes them resistant to corrosion. They are generally used in home and office fittings.",
-    "mainImg": "/assets/images/66kv product img.png",
-    "techInfo-1": "Lorem ipsum dolor sit,  Recusandae non ",
-    "techInfo-2": "Lorem ipsum dolor sit,  Recusandae non ",
-    "btn-viewMore": "product4"
+    "categoryHeading": "Aluminium Multi core cable",
+    "categoryDesc": "Our aluminium multicore cables are constructed with multiple individual aluminium conductors bundled together within a durable and flexible insulation. This design allows for easy installation and maneuverability in tight spaces or in applications where the cable needs to move or bend frequently.",
+    "images": [
+      "https://res.cloudinary.com/dypttf0yz/image/upload/v1674747680/Bonson/aluminiumMultiCore/aluminium_main_csrwb0.png",
+      "https://res.cloudinary.com/dypttf0yz/image/upload/v1674749998/Bonson/aluminiumMultiCore/0019903_polycab-10-sq-mm-4-core-aluminium-armoured-power-cable_600_rp0erv.jpg",
+      "https://res.cloudinary.com/dypttf0yz/image/upload/v1674749998/Bonson/aluminiumMultiCore/0019903_polycab-10-sq-mm-4-core-aluminium-armoured-power-cable_600_rp0erv.jpg",
+      "https://res.cloudinary.com/dypttf0yz/image/upload/v1674749998/Bonson/aluminiumMultiCore/0019903_polycab-10-sq-mm-4-core-aluminium-armoured-power-cable_600_rp0erv.jpg"
+    ],
+    "applications": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan."
+    ],
+    "advantages": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan."
+    ]
   },
-
   {
     "id": 5,
-    "category": "category4",
-    "catImg": "/assets/images/66kv product img.png",
-    "productName": " Aluminium 3-core and 4-core electrical wires",
-    "productDesc": " Aluminium 3-core and 4-core electrical wires are used in industrial fittings to transfer heavy electrical loads. They are made with special PVC to withstand high mechanical abrasion. These are available from 10 sq. mm to 70 sq. mm.",
-    "mainImg": "/assets/images/66kv product img.png",
-    "techInfo-1": "Lorem ipsum dolor sit,  Recusandae non ",
-    "techInfo-2": "Lorem ipsum dolor sit,  Recusandae non ",
-    "btn-viewMore": "product5"
+    "categoryHeading": "Copper Wire",
+    "categoryDesc": "We also deal in bare copper wire, annealed bare copper wire, and fine copper wire which is used in industries as a raw material for further processing. We also have a provision for an online resistance annealer to double anneal the copper to provide even higher softness in our copper. We may also offer Bunched copper as per your requirement.",
+    "images": [
+      "https://res.cloudinary.com/dypttf0yz/image/upload/v1674747691/Bonson/copper/copper_main_hezvvt.png",
+      "https://res.cloudinary.com/dypttf0yz/image/upload/v1674750209/Bonson/copper/copper___1_aon8qm.png",
+      "https://res.cloudinary.com/dypttf0yz/image/upload/v1674750075/Bonson/copper/copper___4_abjlnu.png",
+      "https://res.cloudinary.com/dypttf0yz/image/upload/v1674750128/Bonson/copper/copper___20_s9z1yq.webp"
+    ],
+    "applications": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan."
+    ],
+    "advantages": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan."
+    ]
+  },
+  {
+    "id": 6,
+    "categoryHeading": "Submersible Poly Winding Wire",
+    "categoryDesc": "Submersible Poly Winding Wire is a common type of insulated wire used in electrical motors. This wire is resistant to water and other liquids, making it an excellent choice for submersible pumps and motors. To satisfy the needs of various electrical systems, the wire is offered in a variety of gauges and conductor diameters.",
+    "images": [
+      "https://res.cloudinary.com/dypttf0yz/image/upload/v1674748897/Bonson/submersiblePollyBinding/polybinding_main_qengyg.png",
+      "https://res.cloudinary.com/dypttf0yz/image/upload/v1674748897/Bonson/submersiblePollyBinding/polybinding_main_qengyg.png",
+      "https://res.cloudinary.com/dypttf0yz/image/upload/v1674748897/Bonson/submersiblePollyBinding/polybinding_main_qengyg.png",
+      "https://res.cloudinary.com/dypttf0yz/image/upload/v1674748897/Bonson/submersiblePollyBinding/polybinding_main_qengyg.png"
+    ],
+    "applications": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan."
+    ],
+    "advantages": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan."
+    ]
   }
 ]

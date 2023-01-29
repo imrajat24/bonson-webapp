@@ -4,6 +4,10 @@
   cursor: pointer;
   font-family: inherit;
   text-transform: capitalize;
+
+  &:focus {
+    outline: none;
+  }
 }
 
 .btn--nav {
@@ -41,17 +45,6 @@
   margin-top: 4rem;
 }
 
-.product__hero__content--btn-enquiry {
-  font-size: 1.8rem;
-  padding: 1.4rem 4rem;
-  border-radius: 0.4rem;
-  background-color: $color-primary;
-  color: $color-white;
-  font-weight: 500;
-  margin-top: 10rem;
-  border: none;
-}
-
 .products__content--btnExplore {
   font-size: 1.8rem;
   padding: 1rem 4rem;
@@ -62,7 +55,7 @@
   color: $color-black;
   font-weight: 600;
   border: 0.5px solid rgba(0, 0, 0, 0.29);
-  border-radius: 8px;
+  border-radius: 0.8px;
   margin-top: 4rem;
   margin-left: 1rem;
   width: 26rem;
@@ -79,11 +72,7 @@
   color: $color-black;
 
   border: 0.5px solid rgba(0, 0, 0, 0.29);
-  border-radius: 8px;
-  margin-bottom: 2rem;
-  margin-top: 4rem;
-  margin-left: 1rem;
-  width: 20rem;
+  border-radius: 0.8px;
 }
 
 .product__card__content__btn-enquire {
@@ -101,7 +90,7 @@
   color: $color-white;
 
   border: 0.5px solid rgba(0, 0, 0, 0.29);
-  border-radius: 8px;
+  border-radius: 0.8px;
   margin-bottom: 3rem;
   margin-top: 3rem;
   margin-left: 1rem;
