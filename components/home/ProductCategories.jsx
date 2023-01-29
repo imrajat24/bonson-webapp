@@ -103,7 +103,7 @@ const uspData = [
   {
     title: "3 core flat submersible cables",
     para: "Our company manufactures its own copper products from beginning to end. The process begins with the mining of copper ore, which is then purified and smelted into pure copper, and it subsequently manufactures copper wire and tubing in a variety of sizes and shapes.",
-    img: "https://res.cloudinary.com/dypttf0yz/image/upload/v1674749247/Bonson/3coreFlatSubmersible/3core_rkayuo.webp",
+    img: "https://res.cloudinary.com/dypttf0yz/image/upload/v1674749858/Bonson/3coreFlatSubmersible/20230111_140902_bkdaws.png",
   },
   {
     title: "Multicore flexible cables",
@@ -111,8 +111,8 @@ const uspData = [
     img: "https://res.cloudinary.com/dypttf0yz/image/upload/v1674748787/Bonson/multicoreFlexible/multicore_main_jhva3z.png",
   },
   {
-    title: "Copper Wire",
+    title: "Annealed Bare Core",
     para: "High-speed extrusion lines are extremely efficient, producing a great volume of product in a short period of time. They are frequently utilised in our high-volume manufacturing applications where speed and volume are crucial.",
-    img: "https://res.cloudinary.com/dypttf0yz/image/upload/v1674747691/Bonson/copper/copper_main_hezvvt.png",
+    img: "https://res.cloudinary.com/dypttf0yz/image/upload/v1674750128/Bonson/copper/copper___20_s9z1yq.webp",
   },
 ];
