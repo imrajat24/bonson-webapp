@@ -10,7 +10,11 @@ const BannerHead = () => {
       <div className="bannerHead row">
         <div className="hero__heading">
           <h1>About Us</h1>
-          <p>Meet the winning teamMeet the winning teamMeet the winning team</p>
+          <p>
+            A leading provider of innovative and high-quality cable solutions,
+            and a commitment to excellence to deliver reliable and
+            cost-effective products to meet the evolving needs of our customers.
+          </p>
         </div>
       </div>
     </div>

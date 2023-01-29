@@ -9,13 +9,13 @@
       width: 50%;
 
       &--heading {
-        font-size: 4.8rem;
+        font-size: 3.8rem;
         font-weight: 700;
       }
       &--para {
         font-size: 1.6rem;
         line-height: 130%;
-        width: 80%;
+        width: 90%;
       }
 
       &--btn-enquiry {
@@ -74,14 +74,12 @@
     }
 
     &__card {
-      // width: 20%;
       display: flex;
       flex-direction: column;
       align-items: center;
+      justify-content: space-between;
       text-align: center;
       &--img {
-        position: relative;
-        width: 70%;
         aspect-ratio: 1/1;
         border-radius: 100%;
         overflow: hidden;
@@ -111,7 +109,6 @@
     &--heading {
       font-size: 3.6rem;
       text-align: center;
-
       color: $color-black;
     }
     &--pointsWrap {
@@ -207,9 +204,7 @@
       &--heading {
         font-size: 3.6rem;
         text-align: center;
-
         color: $color-black;
-        padding: 3rem;
       }
       &--pointsWrap {
         display: flex;

@@ -40,7 +40,10 @@ const OtherProducts = ({ id }) => {
         <Carousel responsive={responsive}>
           {/* card starts */}
           {categories.map((product, i) => {
-            if (product.id != id) {
+            if (
+              product.id != id &&
+              product.categoryHeading !== "Aluminium Multi core cable"
+            ) {
               return (
                 <Link href={`/product/${product.id}`} key={i}>
                   <div className="otherProduct__card">
@@ -59,10 +62,10 @@ const OtherProducts = ({ id }) => {
                       {/* <p className="otherProduct__card__content--issueDate">
                         issueDate in company
                       </p> */}
-                      <p className="otherProduct__card__content--para">
+                      {/* <p className="otherProduct__card__content--para">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Phasellus tellus quam, gravida vitae
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                 </Link>

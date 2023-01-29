@@ -42,15 +42,7 @@ const Info = () => {
         quality while adhering to BIS Standards. The facilities are audited on a
         regular basis to ensure that they continue to fulfil these criteria.
       </p>
-      <div className="info__imgContainer">
-        <Image
-          src={mainImg}
-          alt="warehouse image"
-          className="info--img"
-          layout="fill"
-          objectFit="cover"
-        />
-      </div>
+      <div className="info__imgContainer"></div>
     </section>
   );
 };

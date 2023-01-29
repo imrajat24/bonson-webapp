@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 // import Certificates from "../about/Certificates";
 import categories from "./categories.json";
+import Link from "next/link";
 
 // data file
 // images
@@ -24,13 +25,12 @@ const ProductPage = ({ id }) => {
                     {product.categoryHeading}
                   </h1>
                   <br />
-                  <p className="product__hero__content--para">
-                    {product.categoryDesc}
-                  </p>
-
-                  <button className="btn product__hero__content--btn-enquiry btn-enquiry">
-                    Quick Enquiry
-                  </button>
+                  <p className="product__hero__content--para">{product.desp}</p>
+                  <Link href="/contact">
+                    <button className="btn product__hero__content--btn-enquiry btn-enquiry">
+                      Quick Enquiry
+                    </button>
+                  </Link>
                 </div>
                 <div className="product__hero__graphics">
                   <ProductSlider images={product.images} />
@@ -53,12 +53,12 @@ const ProductPage = ({ id }) => {
                             <Image
                               src={product.images[i]}
                               alt="Product Img"
-                              layout="fill"
-                              objectFit="cover"
+                              height={200}
+                              width={200}
                             />
                           </div>
                           <h4 className="product__application__card--heading">
-                            <span>#{i + 1}</span>Application
+                            <span>#{i + 1}</span>
                           </h4>
                           <p className="product__application__card--para">
                             {application}
@@ -80,31 +80,29 @@ const ProductPage = ({ id }) => {
                   </h2>
                   <br />
                   <h3 className="product__technical--subHeading">Standard</h3>
-                  <p className="product__technical--info">
-                    DIN EN 50525-2-31, VDE 0285-525-2-31, BS EN 50525-2-31.
-                  </p>
+                  <p className="product__technical--info">{product.standard}</p>
                   <br />
                   <h3 className="product__technical--subHeading">
                     Technical Data
                   </h3>
 
                   <p className="product__technical--info">
-                    <b>Voltage Rating :</b> H05V-K 0.5 to 1 mm² - 300 / 500V,
-                    H07V-K 1.5 to 240 mm² - 450 / 750V <br />
-                    <b>Temperature Range :</b> -30°C to +70°C <br />
-                    <b>Minimum Bending Radius :</b> Cable diameter ≤ 8 mm : 4 x
-                    outer diameter Approx. diameter &gt; 8 to 12 mm : 5 x outer
-                    diameter Approx. diameter &gt; 12 mm : 6 x outer diameter{" "}
-                    <br />
-                    <b>Test Voltage :</b> 2500V
+                    {Object.entries(product?.techData).map((data, i) => {
+                      return (
+                        <>
+                          <b>{data[0]} :</b> {data[1]}
+                          <br />
+                        </>
+                      );
+                    })}
                   </p>
                   <br />
-                  <h3 className="product__technical--subHeading">
+                  {/* <h3 className="product__technical--subHeading">
                     Construction
                   </h3>
                   <p className="product__technical--info">
                     DIN EN 50525-2-31, VDE 0285-525-2-31, BS EN 50525-2-31.
-                  </p>
+                  </p> */}
                 </div>
               </section>
 

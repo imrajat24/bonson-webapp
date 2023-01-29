@@ -8,10 +8,13 @@
     line-height: 130%;
   }
   &__imgContainer {
-    position: relative;
+    // position: relative;
     width: 50%;
     border-radius: 0.5rem;
     overflow: hidden;
+    background-image: url("https://res.cloudinary.com/dypttf0yz/image/upload/v1674996944/Bonson/Plant/20230121_160530_rrlajv.jpg");
+    background-position: right;
+    background-size: cover;
   }
 }
 @include respond(tab-pot) {

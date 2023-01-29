@@ -16,20 +16,33 @@
   }
 
   .hero__heading {
-    width: 100%;
     margin: auto;
+    p {
+      width: 50%;
+      line-height: 130%;
+    }
   }
 }
 @include respond(tab-pot) {
   .bannerHead__wrap {
-    height: 40vh;
+    height: 50vh;
   }
   .hero__heading {
     text-align: center;
+    p {
+      margin: auto;
+      width: 80% !important;
+    }
   }
 }
 @include respond(phone) {
   .bannerHead__wrap {
-    height: 25vh;
+    height: 40vh;
+  }
+
+  .hero__heading {
+    p {
+      width: 100% !important;
+    }
   }
 }

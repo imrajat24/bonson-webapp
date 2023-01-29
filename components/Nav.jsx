@@ -75,6 +75,9 @@ function Nav() {
             <Link href={"/about"}>about us</Link>
           </li>
           <li>
+            <Link href={"/products"}>Products</Link>
+          </li>
+          <li>
             <Link href="/gallery">gallery</Link>
           </li>
         </ul>
