@@ -28,7 +28,7 @@ const Footer = () => {
               E-41 C, RIICO, Khushkhera, Rajasthan
             </p>
             <div className="footer__contents_contact--phone">
-              <p>+91 9773343083</p>
+              <p>+91 1493 294 181</p>
               <p>info@bonson.in</p>
             </div>
           </div>

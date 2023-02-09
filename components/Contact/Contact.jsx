@@ -39,7 +39,7 @@ const Contact = () => {
       <section className="contact-details row">
         <div className="col phone">
           <p className="top">Phone Number</p>
-          <p className="botton">+91 9773343083</p>
+          <p className="botton">+91 1493 294 181</p>
         </div>
         <div className="col email">
           <p className="top">Email</p>
