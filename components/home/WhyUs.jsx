@@ -8,7 +8,7 @@ import "react-multi-carousel/lib/styles.css";
 import sliderImage1 from "../../assets/images/pvc-pipe.jpg";
 import sliderImage2 from "../../assets/images/copper-winding-slider.webp";
 // import sliderImage3 from "../../assets/images/machine-slider.webp";
-// import sliderImage4 from "../../assets/images/motor-slider.jpg";
+import sliderImage4 from "../../assets/images/motor-slider.jpg";
 import sliderImage5 from "../../assets/images/wireProduct-slider.jpg";
 
 const WhyUs = () => {
@@ -43,17 +43,17 @@ const WhyUs = () => {
     {
       title: "In-house copper drawing",
       para: "Copper drawing is an essential process in wire and cable manufacturing that involves reducing the diameter of copper wire to achieve a desired size and shape. By having its own copper drawing techniques, a company can exert complete control over the quality and consistency of the copper wire used in its products, resulting in reliable electrical performance.",
-      img: sliderImage2,
+      img: "https://res.cloudinary.com/dypttf0yz/image/upload/v1674750128/Bonson/copper/copper___20_s9z1yq.webp",
     },
     {
       title: "Modernized Machinery",
       para: "Our modernized machinery provides numerous benefits, including increased efficiency, improved quality control, and flexibility. Investing in state-of-the-art technology has not only given us a competitive advantage in the market but has also been able to provide high-quality products and exceptional customer service while remaining ahead of the competition. ",
-      img: "https://res.cloudinary.com/dypttf0yz/image/upload/v1674750128/Bonson/copper/copper___20_s9z1yq.webp",
+      img: "https://res.cloudinary.com/dypttf0yz/image/upload/v1676127904/Bonson/OVEN_2_eqhxe7.jpg",
     },
     {
       title: "High-speed extrusion lines",
       para: "High-speed extrusion is a critical production process in the manufacture of wire and cable products and it has allowed us to maximize production efficiency. Our triple crosshead extruder is a specialized piece of machinery that is designed to produce both household and industrial wire at extremely high speeds without compromising on safety and quality.",
-      img: "https://res.cloudinary.com/dypttf0yz/image/upload/v1676127904/Bonson/OVEN_2_eqhxe7.jpg",
+      img: sliderImage4,
     },
     {
       title: "Superior-quality products",
