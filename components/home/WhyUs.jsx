@@ -7,8 +7,8 @@ import "react-multi-carousel/lib/styles.css";
 // images
 import sliderImage1 from "../../assets/images/pvc-pipe.jpg";
 import sliderImage2 from "../../assets/images/copper-winding-slider.webp";
-import sliderImage3 from "../../assets/images/machine-slider.webp";
-import sliderImage4 from "../../assets/images/motor-slider.jpg";
+// import sliderImage3 from "../../assets/images/machine-slider.webp";
+// import sliderImage4 from "../../assets/images/motor-slider.jpg";
 import sliderImage5 from "../../assets/images/wireProduct-slider.jpg";
 
 const WhyUs = () => {
@@ -36,28 +36,28 @@ const WhyUs = () => {
   // ! data for usps
   const uspData = [
     {
-      title: "Production of PVC in-house",
-      para: "PVC is a versatile plastic that can be used for a wide range of applications, from pipes and tubing to windows and doors, and we produce high-quality PVC that fulfills our customer-specific requirements.",
+      title: "In-house PVC production",
+      para: "Incorporating in-house production of PVC for the insulator and sheathing of our wires and cables allows us to exert complete control over the quality and consistency of these critical components. This, in turn, ensures that our wires and cables meet the highest industry standards and provide reliable performance in a variety of applications and environments.",
       img: sliderImage1,
     },
     {
       title: "In-house copper drawing",
-      para: "Our company manufactures its own copper products from beginning to end. The process begins with the mining of copper ore, which is then purified and smelted into pure copper, and it subsequently manufactures copper wire and tubing in a variety of sizes and shapes.",
+      para: "Copper drawing is an essential process in wire and cable manufacturing that involves reducing the diameter of copper wire to achieve a desired size and shape. By having its own copper drawing techniques, a company can exert complete control over the quality and consistency of the copper wire used in its products, resulting in reliable electrical performance.",
       img: sliderImage2,
     },
     {
       title: "Modernized Machinery",
-      para: "We constantly update our machinery to stay up with the latest industry trends and advancements, allowing us to remain competitive and ensuring that our production process is efficient and smooth.",
-      img: sliderImage3,
+      para: "Our modernized machinery provides numerous benefits, including increased efficiency, improved quality control, and flexibility. Investing in state-of-the-art technology has not only given us a competitive advantage in the market but has also been able to provide high-quality products and exceptional customer service while remaining ahead of the competition. ",
+      img: "https://res.cloudinary.com/dypttf0yz/image/upload/v1674750128/Bonson/copper/copper___20_s9z1yq.webp",
     },
     {
       title: "High-speed extrusion lines",
-      para: "High-speed extrusion lines are extremely efficient, producing a great volume of product in a short period of time. They are frequently utilised in our high-volume manufacturing applications where speed and volume are crucial.",
-      img: sliderImage4,
+      para: "High-speed extrusion is a critical production process in the manufacture of wire and cable products and it has allowed us to maximize production efficiency. Our triple crosshead extruder is a specialized piece of machinery that is designed to produce both household and industrial wire at extremely high speeds without compromising on safety and quality.",
+      img: "https://res.cloudinary.com/dypttf0yz/image/upload/v1676127904/Bonson/OVEN_2_eqhxe7.jpg",
     },
     {
       title: "Superior-quality products",
-      para: "We feel that producing a lesser quantity of superior quality products is preferable to producing a bigger number of inferior",
+      para: "At our company, we place a strong emphasis on providing high-quality products that meet and exceed industry standards. We believe that delivering exceptional products is essential to providing the best experience for our customers. That is why we are dedicated to making market-ready products that meet rigorous quality control standards.",
       img: sliderImage5,
     },
   ];
@@ -77,6 +77,7 @@ const WhyUs = () => {
           autoPlay={true}
           infinite={true}
           className="whyUs__slider__wrap"
+          autoPlaySpeed={5000}
         >
           {uspData?.map((data, i) => {
             return (
@@ -90,6 +91,8 @@ const WhyUs = () => {
                     src={data.img}
                     alt={`usp-image${i + 1}`}
                     className="whyUs__slider--image"
+                    height={500}
+                    width={500}
                   />
                 </div>
               </div>

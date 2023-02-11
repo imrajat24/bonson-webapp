@@ -19,7 +19,7 @@ const CTASection = () => {
           </p>
           <Link href="/contact">
             <button className="ctaSection__content--btn-quote btn">
-              Get a Quote
+              Contact Us
             </button>
           </Link>
         </div>
