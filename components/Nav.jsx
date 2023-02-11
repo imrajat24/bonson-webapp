@@ -85,7 +85,7 @@ function Nav() {
 
       <div className="nav__buttonWrap" id="nav__btnWrap">
         <Link href="/contact">
-          <button className="btn btn--nav">Contact Us</button>
+          <button className="btn btn--nav">Get A Quote</button>
         </Link>
       </div>
 

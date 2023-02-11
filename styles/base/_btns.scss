@@ -12,10 +12,11 @@
 
 .btn--nav {
   color: $color-white;
-  border: 1px solid $color-white;
+  // border: 1px solid $color-white;
   padding: 0.8rem 5rem;
   border-radius: 0.4rem;
   font-size: 1.8rem;
+  background-color: $color-primary;
 }
 .btn--primary {
   color: $color-white;
