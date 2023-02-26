@@ -51,8 +51,10 @@ const OurHistory = () => {
             <div className="history__content">
               <h3 className="history__content--year">1998</h3>
               <p className="history__content--para">
-                Launched its first electrical products, which were wires and
-                cables
+                Launched the first electrical products plant with wires and
+                cables. Started manufacturing House and Industrial Wires,
+                Submersible 3 Core Flat Wires, Multicore Copper and Aluminium
+                Wires.
               </p>
             </div>
           </div>
@@ -73,7 +75,7 @@ const OurHistory = () => {
               <h3 className="history__content--year">2005</h3>
               <p className="history__content--para">
                 {" "}
-                Began working on winding wire
+                Added Poly-Winding Wire to its portfolio.
               </p>
             </div>
           </div>
@@ -93,7 +95,7 @@ const OurHistory = () => {
             <div className="history__content">
               <h3 className="history__content--year">2009</h3>
               <p className="history__content--para">
-                We began supplying and distributing ceiling fans
+                Started manufacturing ceiling fans
               </p>
             </div>
           </div>
@@ -113,7 +115,8 @@ const OurHistory = () => {
             <div className="history__content">
               <h3 className="history__content--year">2010</h3>
               <p className="history__content--para">
-                We proceeded to the copper wire drawing
+                Established the first copper wire drawing plant enabling better
+                control over quality of raw material.
               </p>
             </div>
           </div>
@@ -133,7 +136,9 @@ const OurHistory = () => {
             <div className="history__content">
               <h3 className="history__content--year">2011</h3>
               <p className="history__content--para">
-                PVC manufacturing and selling began in 2011
+                Started manufacturing PVC Compound in house to eliminate the raw
+                material quality and availability issue in our wire and cable
+                pipeline.
               </p>
             </div>
           </div>

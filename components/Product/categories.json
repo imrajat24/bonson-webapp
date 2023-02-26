@@ -2,7 +2,7 @@
   {
     "id": 1,
     "categoryHeading": "Housewire & Industrial Cables",
-    "categoryDesc": "A homes electrical outlets and fixtures are connected via house wire. From 0.5 square millimeters to 70 square millimeters, a variety of sizes are provided. High-quality copper is used in the construction of house wire, which is intended for reliable operation.",
+    "categoryDesc": "Electrical Wiring is an electrical installation of cabling and associated devices such as switches, distribution boards, sockets, and light fittings in a structure. They are subject to safety standards for design and installation. Allowable wire and cable types and sizes are specified according to the circuit operating voltage and electric current capability, with further restrictions on the environmental conditions, such as ambient temperature range, moisture levels, and exposure to sunlight and chemicals. ",
     "desp": "We believe in using only the finest raw materials for our housewires and Industrial Cables. Our range spans from 0.5 to 70 square millimeters and undergoes stringent quality control measures. We understand the importance of durability and safety, which is why we offer anti-rodent and anti-termite options, made with 100% electrolytic copper and conductivity of over 101%. Our products meet National Organization for Standardization standards, ensuring that you receive only the highest quality cables on the market.",
     "images": [
       "https://res.cloudinary.com/dypttf0yz/image/upload/v1674747448/Bonson/housewireIndustrial/houseWire_main_stap9h.webp",
@@ -33,7 +33,7 @@
   {
     "id": 2,
     "categoryHeading": "3 Core flat submersible cables",
-    "categoryDesc": "The three-core flat submersible cables are available in a range of sizes from 1.5 sq. mm. to 25 sq. mm. They are built to withstand the rigors of submersion. These cables are perfect for a range of applications, including submersible water pumping.",
+    "categoryDesc": "The PVC insulated and sheathed 3 core flat cables are mainly used in pump connections. They are also used in many industrial applications. The sheath is specially made out to resist tough and difficult outdoor conditions & the rigors of submersion. ",
     "desp": "The three-core flat submersible cables are available in a range of sizes from 1.5 sq. mm. to 25 sq. mm. They are built to withstand the rigors of submersion. A 3-core submersible flat cable is a type of electrical cable designed for use in underwater or wet environments. It is typically used to power and control submersible equipment such as pumps, lights, and boats. The cable is flat in shape, which makes it flexible and easy to install, even in tight spaces. Additionally, it is designed to withstand exposure to water and other harsh elements, making it a reliable and long-lasting option for electrical systems in these environments.",
     "images": [
       "https://res.cloudinary.com/dypttf0yz/image/upload/v1674749858/Bonson/3coreFlatSubmersible/20230111_140902_bkdaws.png",
@@ -64,7 +64,7 @@
   {
     "id": 3,
     "categoryHeading": "Multicore flexible cables",
-    "categoryDesc": "Our multicore flexible cables have multiple conductors within a flexible insulation for easy installation and maneuverability. In addition to our innovative multicore flexible cables, we offer a comprehensive range of flexible cables in three categories to meet the diverse needs of our customers - 2-core, 3-core, and 4-core.",
+    "categoryDesc": "Multicore flexible cables are used for installation in all electrically operated machines and equipment's such as air conditioners, refrigerators, motors etc. these wires have flexible conductor and very soft sheathing to provide the required flexibility and the best-in-class protection all around. Moreover, they do not wear or tear and work efficiently even under pressure. ",
     "desp": "Our multicore flexible cables feature an innovative design with multiple conductors bundled together within a flexible insulation. This unique construction allows for easy installation and maximum maneuverability in tight spaces or dynamic applications where the cable needs to move or bend. Our commitment to providing innovative and high-quality products ensures that you get the perfect solution for your electrical needs. In addition to our innovative multicore flexible cables, we offer a comprehensive range of flexible cables in three categories to meet the diverse needs of our customers - 2-core, 3-core, and 4-core. ",
     "images": [
       "https://res.cloudinary.com/dypttf0yz/image/upload/v1674748787/Bonson/multicoreFlexible/multicore_main_jhva3z.png",
@@ -100,7 +100,7 @@
   {
     "id": 4,
     "categoryHeading": "Aluminium Multi core cable",
-    "categoryDesc": "Our aluminium multicore cables are constructed with multiple individual aluminium conductors bundled together within a durable and flexible insulation. This design allows for easy installation and maneuverability in tight spaces or in applications where the cable needs to move or bend frequently.",
+    "categoryDesc": "Our aluminium multicore cables are constructed with multiple individual aluminium conductors bundled together within a durable and flexible insulation and a tough yet smooth sheath layer. This design allows for easy installation and manoeuvrability in tight spaces or in applications where the cable needs to bend and slide. ",
     "images": [
       "https://res.cloudinary.com/dypttf0yz/image/upload/v1674997167/Bonson/aluminiumMultiCore/Bonson-What_do_we_offer_wr9yls.png",
       "https://res.cloudinary.com/dypttf0yz/image/upload/v1674749998/Bonson/aluminiumMultiCore/0019903_polycab-10-sq-mm-4-core-aluminium-armoured-power-cable_600_rp0erv.jpg",
@@ -121,20 +121,20 @@
     ],
     "standard": "IS:8130-1984 (Specification for wires of copper for electrical purposes) and IS:694-1990 (Specification for Polyethylene Insulated Copper conductor for working voltages upto and including 1100 Volts).",
     "techData": {
-      "": "More than 101% conductivity.",
-      "": "99.99% electrolytic copper.",
-      "": "Low electrical resistance, which is important for efficient power transmission.",
-      "": "High tensile strength",
-      "": "Diameter between 0.5 mm to 4 mm."
+      "1": "More than 101% conductivity.",
+      "2": "99.99% electrolytic copper.",
+      "3": "Low electrical resistance, which is important for efficient power transmission.",
+      "4": "High tensile strength",
+      "5": "Diameter between 0.5 mm to 4 mm."
     }
   },
   {
     "id": 5,
     "categoryHeading": "Annealed Bare Core",
-    "categoryDesc": "We also deal in bare copper wire, annealed bare copper wire, and fine copper wire which is used in industries as a raw material for further processing. We also have a provision for an online resistance annealer to double anneal the copper to provide even higher softness in our copper. We may also offer Bunched copper as per your requirement.",
+    "categoryDesc": "We also deal in bare copper wire, annealed bare copper wire, and fine copper wire which is used in industries as a raw material for further processing. We also have a provision for an online resistance annealer to double anneal the  copper to provide even higher softness in our copper. We also offer Bunched copper as per the client’s requirement. ",
     "desp": "Bare copper wire is a single conductor electrical signal wire made of pure copper metal. Annealed Bare Copper Wire is created through a process of hardening and heating the copper below its melting point to increase its flexibility. This wire is made from high-quality annealed copper material, making it a versatile and reliable choice for various electrical applications. The annealing process ensures that the wire has the desired mechanical and electrical properties, making it a preferred choice for electrical engineers and distributors/traders.",
     "images": [
-      "https://res.cloudinary.com/dypttf0yz/image/upload/v1674750209/Bonson/copper/copper___1_aon8qm.png",
+      "https://res.cloudinary.com/dypttf0yz/image/upload/v1674750075/Bonson/copper/copper___4_abjlnu.png",
       "https://res.cloudinary.com/dypttf0yz/image/upload/v1674750128/Bonson/copper/copper___20_s9z1yq.webp",
       "https://res.cloudinary.com/dypttf0yz/image/upload/v1674750075/Bonson/copper/copper___4_abjlnu.png",
       "https://res.cloudinary.com/dypttf0yz/image/upload/v1674997553/Bonson/copper/ANNEALER_OP_2_rdkueo.jpg"
@@ -163,7 +163,7 @@
   {
     "id": 6,
     "categoryHeading": "Submersible Poly Winding Wire",
-    "categoryDesc": "Submersible Poly Winding Wire is a common type of insulated wire used in electrical motors. This wire is resistant to water and other liquids, making it an excellent choice for submersible pumps and motors. To satisfy the needs of various electrical systems, the wire is offered in a variety of gauges and conductor diameters.",
+    "categoryDesc": "We also deal in bare copper wire, annealed bare copper wire, and fine copper wire which is used in industries as a raw material for further processing. We also have a provision for an online resistance annealer to double anneal the  copper to provide even higher softness in our copper. We also offer Bunched copper as per the client’s requirement. ",
     "desp": "Submersible Poly Winding Wire is a specially designed insulated wire used in electrical motors for underwater applications. The wire features a high-quality polyurethane or polyethylene insulation material that provides superior resistance to water and other liquids. This makes the wire an ideal choice for use in submersible motors and pumps that are operating in wet or damp environments. To ensure consistent performance, the wire is manufactured to meet rigorous industry standards and undergoes strict quality control measures during production.",
     "images": [
       "https://res.cloudinary.com/dypttf0yz/image/upload/v1676128950/Bonson/20230125_141159-min_oizvnt.jpg",

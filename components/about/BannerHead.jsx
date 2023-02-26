@@ -11,9 +11,9 @@ const BannerHead = () => {
         <div className="hero__heading">
           <h1>About Us</h1>
           <p>
-            A leading provider of innovative and high-quality cable solutions,
-            and a commitment to excellence to deliver reliable and
-            cost-effective products to meet the evolving needs of our customers.
+            A leading manufacturer and provider of high-quality cable solutions,
+            and a commitment to excellence, deliver reliable and cost-effective
+            products to meet the evolving needs of our customers.
           </p>
         </div>
       </div>

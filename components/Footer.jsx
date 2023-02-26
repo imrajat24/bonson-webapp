@@ -25,7 +25,7 @@ const Footer = () => {
           </div>
           <div className="footer__contents_contact">
             <p className="footer__contents_contact--address">
-              E-41 C, RIICO, Khushkhera, Rajasthan
+              E-41(C), RIICO Industrial Area, Khushkhera, Rajasthan-301707
             </p>
             <div className="footer__contents_contact--phone">
               <p>+91 1493 294 181</p>

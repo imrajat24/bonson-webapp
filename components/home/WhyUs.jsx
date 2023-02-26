@@ -37,27 +37,27 @@ const WhyUs = () => {
   const uspData = [
     {
       title: "In-house PVC production",
-      para: "Incorporating in-house production of PVC for the insulator and sheathing of our wires and cables allows us to exert complete control over the quality and consistency of these critical components. This, in turn, ensures that our wires and cables meet the highest industry standards and provide reliable performance in a variety of applications and environments.",
+      para: "In-House PVC production for both insulation and sheathing of our wires and cables allows us to exercise complete control over the quality and consistency of our product. The mindset of providing quality beyond national standards ensures that our products provide you the best performance and longevity, keeping in mind the safety of your family.",
       img: sliderImage1,
     },
     {
       title: "In-house copper drawing",
-      para: "Copper drawing is an essential process in wire and cable manufacturing that involves reducing the diameter of copper wire to achieve a desired size and shape. By having its own copper drawing techniques, a company can exert complete control over the quality and consistency of the copper wire used in its products, resulting in reliable electrical performance.",
+      para: "The conductor is the most important part of any wire and cable. With In-House copper wire,drawing and proper testing of incoming copper rod we ensure that no low-quality copper sets,foot in or out of our company. Drawing is the process of reducing the size of copper rod to the,desired size according to cable design. Online resistance annealers and offline annealers ensure,that fine copper wire is ductile and malleable enough for the process of bunching and extrusion,and also provide the desired flexibility to the wire and cable.",
       img: "https://res.cloudinary.com/dypttf0yz/image/upload/v1674750128/Bonson/copper/copper___20_s9z1yq.webp",
     },
     {
       title: "Modernized Machinery",
-      para: "Our modernized machinery provides numerous benefits, including increased efficiency, improved quality control, and flexibility. Investing in state-of-the-art technology has not only given us a competitive advantage in the market but has also been able to provide high-quality products and exceptional customer service while remaining ahead of the competition. ",
+      para: "Modernized machinery provides numerous benefits including increased efficiency, improved,quality, and reduced wastage. Investing in state-of-the-art technology has not only given us a,competitive advantage in the market but also, has enabled us to provide higher-quality products,and exceptional customer service in comparison to competitors.",
       img: "https://res.cloudinary.com/dypttf0yz/image/upload/v1676127904/Bonson/OVEN_2_eqhxe7.jpg",
     },
     {
       title: "High-speed extrusion lines",
-      para: "High-speed extrusion is a critical production process in the manufacture of wire and cable products and it has allowed us to maximize production efficiency. Our triple crosshead extruder is a specialized piece of machinery that is designed to produce both household and industrial wire at extremely high speeds without compromising on safety and quality.",
+      para: "Extrusion is the most critical process in the manufacturing of Wires and Cables. High-Speed,extrusion lines provide improved efficiency, reduced wastage of raw materials, savings on time,and an enormous output of product. Our triple cross head extruder is a specialized piece of,technology that is designed to produced industrial cables at very high speed without,compromising with quality which is of utmost importance at our company.",
       img: sliderImage4,
     },
     {
       title: "Superior-quality products",
-      para: "At our company, we place a strong emphasis on providing high-quality products that meet and exceed industry standards. We believe that delivering exceptional products is essential to providing the best experience for our customers. That is why we are dedicated to making market-ready products that meet rigorous quality control standards.",
+      para: "At our company, we place a strong emphasis on manufacturing and selling only high-quality,products that meet and exceed industry standards. We believe that delivering exceptional,products is essential to provide the best experience to our customers. That is why we are,dedicated to making market-ready products that meet rigorous quality control standards.",
       img: sliderImage5,
     },
   ];

@@ -12,11 +12,11 @@ const Products = () => {
         <h1 className="products__content--heading">Product Range Offered</h1>
         <p className="products__content--para">
           As a fast-growing manufacturer of industrial cables, we offer a wide
-          variety of options according to the market needs, including control
-          cables, multicore cables, low and high-voltage cables, and more. Our
-          cables are safe, dependable, heat retardant, fire resistant, and made
-          to the highest standards while adhering to national standards and
-          meeting environmental requirements.
+          variety of options according to the market needs, including Control
+          cables, Multicore cables, LT & HT cables, 3 Core Flat Cables, Poly
+          Winding Wire, and more. Our cables are safe, dependable and heat
+          retardant, made to the highest quality while adhering to national
+          standards and meeting environmental requirements.
         </p>
 
         <Link

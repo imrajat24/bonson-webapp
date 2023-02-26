@@ -9,6 +9,7 @@
     p {
       font-size: 2rem;
       width: 90%;
+      text-align: justify;
     }
   }
 
@@ -22,6 +23,7 @@
   button {
     border: 1px solid $color-primary;
     color: $color-primary;
+    margin-left: 0;
   }
 }
 

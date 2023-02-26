@@ -23,7 +23,7 @@ const ProductCategories = () => {
               Product Categories
             </h2>
             <p className="categories__headingSection__content--para">
-              The Products that are of best qualitty and at market affordable.
+              Products that are of the best quality and at affordable prices.
             </p>
           </div>
           <div className="categories__headingSection__btnWrap">
@@ -108,11 +108,11 @@ const uspData = [
   {
     title: "Multicore flexible cables",
     para: "We constantly update our machinery to stay up with the latest industry trends and advancements, allowing us to remain competitive and ensuring that our production process is efficient and smooth.",
-    img: "https://res.cloudinary.com/dypttf0yz/image/upload/v1674748787/Bonson/multicoreFlexible/multicore_main_jhva3z.png",
+    img: "https://res.cloudinary.com/dypttf0yz/image/upload/v1674999562/Bonson/multicoreFlexible/20230111_143006_dxeibc.jpg",
   },
   {
     title: "Annealed Bare Core",
     para: "High-speed extrusion lines are extremely efficient, producing a great volume of product in a short period of time. They are frequently utilised in our high-volume manufacturing applications where speed and volume are crucial.",
-    img: "https://res.cloudinary.com/dypttf0yz/image/upload/v1674750128/Bonson/copper/copper___20_s9z1yq.webp",
+    img: "https://res.cloudinary.com/dypttf0yz/image/upload/v1674747691/Bonson/copper/copper_main_hezvvt.png",
   },
 ];
