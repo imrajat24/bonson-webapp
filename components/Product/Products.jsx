@@ -26,9 +26,7 @@ const Products = () => {
           offset={0}
           duration={500}
         >
-          <button className="products__content--btnExplore btn">
-            Explore is out of line.
-          </button>
+          <button className="products__content--btnExplore btn">Explore</button>
         </Link>
       </div>
       <div className="products__graphics">
