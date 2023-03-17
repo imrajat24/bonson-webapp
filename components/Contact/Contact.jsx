@@ -48,8 +48,8 @@ const Contact = () => {
         <div className="col address">
           <p className="top">Address</p>
           <p className="botton">
-            Bonson Electical Industries Pvt. Ltd E-41 C RIICO Industrial Area
-            Khushkhera, Rajasthan 301707
+            Bonson Electrical Industries Pvt Ltd, E-41(C), RIICO Industrial
+            Area, Khushkhera, Rajasthan-301707
           </p>
         </div>
       </section>
