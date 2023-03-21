@@ -60,7 +60,7 @@ const Contact = () => {
             width="100%"
             height={400}
             frameborder="0"
-            src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=E-41(C),%20RIICO%20Industrial%20Area,%20Khushkhera,%20District%20Alwar,%20Rajasthan-301707+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3518.6601390779674!2d76.79318321504122!3d28.126385413558555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d4b06fadbf66d%3A0x5d7dc31186e844bf!2sBonson%20Electrical%20Industries%20India%20Private%20Limited!5e0!3m2!1sen!2sin!4v1679387504512!5m2!1sen!2sin"
           ></iframe>
         </div>
       </div>
