@@ -23,10 +23,10 @@ export default function Home() {
         </div>
         <HeroSection />
         <WhyUs />
-        <OurProcess />
+        {/* <OurProcess /> */}
         <ProductCategories />
-        <CTASection/>
-        <Footer/>
+        <CTASection />
+        <Footer />
       </main>
     </>
   );

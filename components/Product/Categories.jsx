@@ -38,11 +38,13 @@ const Categories = () => {
                 </div>
 
                 <div className="product__card__content__btn-wrap">
-                  <Link href={`/product/${category.id}`}>
-                    <button className="product__card__content__btn-viewmore btn">
-                      View More
-                    </button>
-                  </Link>
+                  {category.categoryPage === "yes" && (
+                    <Link href={`/product/${category.id}`}>
+                      <button className="product__card__content__btn-viewmore btn">
+                        View More
+                      </button>
+                    </Link>
+                  )}
 
                   <Link href="/contact">
                     <button className="product__card__content__btn-enquire btn">

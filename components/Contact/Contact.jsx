@@ -15,9 +15,11 @@ const Contact = () => {
             className="form"
           >
             <input type="text" placeholder="Full Name" name="name" required />
+            <input type="text" placeholder="Name of Company" name="company" />
+            <input type="email" placeholder="Email" name="email" required />
             <input
-              type="text"
-              placeholder="Email or Phone Number"
+              type="tel"
+              placeholder="Phone Number"
               name="email"
               required
             />
@@ -30,7 +32,7 @@ const Contact = () => {
             />
 
             <button className="btn btn-submit" type="submit">
-              Get a Quote
+              Connect with Us
             </button>
           </form>
         </div>
