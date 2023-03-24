@@ -3,7 +3,11 @@ import Image from "next/image";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 // images
-import team1 from "../../assets/images/history-slider.png";
+import team1 from "../../assets/images/ABout/1997.png";
+import team2 from "../../assets/images/ABout/2005.png";
+import team3 from "../../assets/images/ABout/2009.png";
+import team4 from "../../assets/images/ABout/2010.png";
+import team5 from "../../assets/images/ABout/2011.png";
 import Link from "next/link";
 
 const OurHistory = () => {
@@ -64,7 +68,7 @@ const OurHistory = () => {
             <div className="history__graphics">
               <div className="history__graphics--image img1">
                 <Image
-                  src={team1}
+                  src={team2}
                   alt="team"
                   layout="fill"
                   objectFit="contain"
@@ -85,7 +89,7 @@ const OurHistory = () => {
             <div className="history__graphics">
               <div className="history__graphics--image img1">
                 <Image
-                  src={team1}
+                  src={team3}
                   alt="team"
                   layout="fill"
                   objectFit="contain"
@@ -105,7 +109,7 @@ const OurHistory = () => {
             <div className="history__graphics">
               <div className="history__graphics--image img1">
                 <Image
-                  src={team1}
+                  src={team4}
                   alt="team"
                   layout="fill"
                   objectFit="contain"
@@ -126,7 +130,7 @@ const OurHistory = () => {
             <div className="history__graphics">
               <div className="history__graphics--image img1">
                 <Image
-                  src={team1}
+                  src={team5}
                   alt="team"
                   layout="fill"
                   objectFit="contain"
