@@ -16,12 +16,16 @@ const MadeIndia = () => {
             Honestly Make in India
           </h2>
           <p className="madeIndia__content--para">
-            We are proud to have attained all important certifications on our
-            products that are indicative of out commitment of producing safe
-            products of high quality. <br />
-            <br />
-            These certifications are extremely valuable for us as they are a
-            proof of our dedication, expertise, compliance and reliability.
+            As a company committed to the &quot;Make in India&quot; concept, we
+            take pride in our ability to manufacture products that are not only
+            of high quality but also meet the strictest safety standards.
+            <br></br>We understand the importance of certifications in
+            demonstrating our expertise, compliance, and reliability, and are
+            proud to have achieved all the necessary government certifications
+            for our products. These certifications are a testament to our
+            dedication to producing safe and reliable products that meet the
+            needs of our customers, while also contributing to the growth of
+            Indian manufacturing. <br />
           </p>
         </div>
       </div>
