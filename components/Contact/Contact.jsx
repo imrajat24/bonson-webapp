@@ -17,10 +17,13 @@ const Contact = () => {
             <input type="text" placeholder="Full Name" name="name" required />
             <input type="text" placeholder="Name of Company" name="company" />
             <input type="email" placeholder="Email" name="email" required />
+
             <input
               type="tel"
+              name="country_code"
               placeholder="Phone Number"
-              name="email"
+              title="Error Message"
+              pattern="[1-9]{1}[0-9]{9}"
               required
             />
             <input
