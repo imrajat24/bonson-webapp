@@ -5,7 +5,7 @@ import Link from "next/link";
 import Dropdown from "react-dropdown";
 import "react-dropdown/style.css";
 
-import logoMain from "../assets/images/logoMain.svg";
+import logoMain from "../assets/images/logoMain.png";
 import arrowDown from "../assets/icons/arrowDown.svg";
 import arrowUp from "../assets/icons/arrowUp.svg";
 import hamburger from "../assets/icons/hamburger.svg";
