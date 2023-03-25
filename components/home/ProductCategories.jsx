@@ -113,6 +113,6 @@ const uspData = [
   {
     title: "Annealed Bare Core",
     para: "High-speed extrusion lines are extremely efficient, producing a great volume of product in a short period of time. They are frequently utilised in our high-volume manufacturing applications where speed and volume are crucial.",
-    img: "https://res.cloudinary.com/dypttf0yz/image/upload/v1679577691/Bonson/History-2010/2010/ANNEALER_OP_2_1_catxvl.jpg",
+    img: "https://res.cloudinary.com/dypttf0yz/image/upload/v1679743340/Bonson/History-2010/2010/6_jeuxfu.png",
   },
 ];
