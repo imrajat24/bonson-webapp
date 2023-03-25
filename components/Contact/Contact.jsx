@@ -21,7 +21,7 @@ const Contact = () => {
             <input
               type="tel"
               name="country_code"
-              placeholder="Phone Number"
+              placeholder="Phone Number(10 Digit Number) "
               title="Error Message"
               pattern="[1-9]{1}[0-9]{9}"
               required
