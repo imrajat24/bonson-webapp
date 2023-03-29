@@ -4,7 +4,7 @@
     "categoryHeading": "Housewire & Industrial Cables",
     "categoryPage": "yes",
     "categoryDesc": "Electrical Wiring is an electrical installation of cabling and associated devices such as switches, distribution boards, sockets, and light fittings in a structure. They are subject to safety standards for design and installation. Allowable wire and cable types and sizes are specified according to the circuit operating voltage and electric current capability, with further restrictions on the environmental conditions, such as ambient temperature range, moisture levels, and exposure to sunlight and chemicals. ",
-    "desp": "We believe in using only the finest raw materials for our housewires and Industrial Cables. Our range spans from 0.5 to 70 square millimeters and undergoes stringent quality control measures. We understand the importance of durability and safety, which is why we offer anti-rodent and anti-termite options, made with 100% electrolytic copper and conductivity of over 101%. Our products meet National Organization for Standardization standards, ensuring that you receive only the highest quality cables on the market.",
+    "desp": "We believe in using only the finest raw materials for our house wires and Industrial Cables. Our range spans from 0.5 to 70 square millimetres and undergoes stringent quality control measures. We understand the importance of durability and safety, which is why we offer Heat resistant, anti-rodent, anti-termite, made with 100% electrolytic copper with conductivity of over 101%. Our products meet the highest of national standards and even go beyond them for your safety.",
     "images": [
       "https://res.cloudinary.com/dypttf0yz/image/upload/v1674747448/Bonson/housewireIndustrial/houseWire_main_stap9h.webp",
       "https://res.cloudinary.com/dypttf0yz/image/upload/v1674750523/Bonson/housewireIndustrial/20230107_140134_1_fu4jcw.jpg",
@@ -13,22 +13,21 @@
     ],
     "applications": [
       "Electrical wiring in homes, apartments, and other residential buildings for the distribution of power and lighting.",
-      "Controlling and powering heavy machinery and equipment in factories, mines, and other industrial settings.",
-      "Low-voltage wiring for doorbell systems, security systems, and home automation systems.",
-      "High-temperature and hazardous-area wiring in petrochemical plants, refineries, and other hazardous environments."
+      "Controlling and managing signals in electrical panels and switchgears.",
+      "Low-voltage wiring for doorbell systems, security systems, and home automation systems."
     ],
     "advantages": [
       "At our company, we recognize the critical role that material choice plays in the overall performance of electrical systems. Copper and aluminum are widely used as conductors in electrical cables and wires due to their exceptional electrical conductivity. Our state-of-the-art in-house drawing and testing capabilities allow us to produce top-quality products that meet and exceed customer expectations. Trust us to deliver reliable, high-performing electrical cables and wires.",
-      "Our understanding of the balance between selecting the right cable or wire size for electrical systems is way much more precise than other industry players. The conductor must be of sufficient diameter to carry the necessary current, while also being compact enough to fit in the limited space available. To address the diverse requirements of our customers, we offer a comprehensive range of cable sizes, ensuring you get the perfect fit for your electrical system.",
+      "Our understanding of the balance between selecting the right cable or wire size for electrical systems is way much more precise than other industry players. The conductor must be of sufficient diameter to carry the necessary current, while also being compact enough to fit in the limited space available. We keep our cable design precisely in line with the national standards so that our products are cohesive with your other electrical products and fittings.",
       "Our belief is that investing in high-quality electrical cables and wires is an investment in the performance and reliability of your electrical system. By choosing premium quality products, you can expect improved electrical conductivity, lower resistance, and reduced energy loss, resulting in increased efficiency and lower electricity bills. Our commitment to delivering superior products and exceptional customer service means you can trust us to provide you with the best options to enhance the performance and longevity of your electrical system.",
-      "Our cables are designed and manufactured with safety and trustworthiness in mind. We use the latest technologies to produce cables that are fire-retardant, fire-resistant, and environmentally friendly. Our products are lead-free and halogen-free, ensuring the health and safety of both the users and the environment. Our strict adherence to industry standards, combined with our commitment to eco-friendly production methods, means you can trust us to provide you with safe, reliable, and high-performing electrical cables."
+      "Our cables are designed and manufactured with safety and trustworthiness in mind. We use the latest technologies to produce cables that are Heat resistant, fire-retardant, and environmentally friendly. Our products are lead-free, ensuring the health and safety of both the users and the environment. Our strict adherence to industry standards, combined with our commitment to eco-friendly production  methods, means you can trust us to provide you with safe, reliable, and high- performing electrical cables."
     ],
-    "standard": "IS 694:1990, IS 7098(Part-1), IS 9968(Part-1), IS 14255, IS 8130, IS 1554(Part-1).",
+    "standard": "IS 694, IS 8130, IS: 5831.",
     "techData": {
       "Conductor Type": "Stranded or Solid",
-      "Insulation Material": "PVC or Rubber",
-      "Voltage Rating": "600V or less",
-      "Temperature Rating": "90°C (194°F) or less"
+      "Insulation Material": "PVC",
+      "Voltage Rating": "up-to and including 1100",
+      "Temperature Rating": "90°C (194°F) or less."
     }
   },
   {
@@ -36,7 +35,7 @@
     "categoryHeading": "3 Core flat submersible cables",
     "categoryPage": "yes",
     "categoryDesc": "The PVC insulated and sheathed 3 core flat cables are mainly used in pump connections. They are also used in many industrial applications. The sheath is specially made out to resist tough and difficult outdoor conditions & the rigors of submersion. ",
-    "desp": "The three-core flat submersible cables are available in a range of sizes from 1.5 sq. mm. to 25 sq. mm. They are built to withstand the rigors of submersion. A 3-core submersible flat cable is a type of electrical cable designed for use in underwater or wet environments. It is typically used to power and control submersible equipment such as pumps, lights, and boats. The cable is flat in shape, which makes it flexible and easy to install, even in tight spaces. Additionally, it is designed to withstand exposure to water and other harsh elements, making it a reliable and long-lasting option for electrical systems in these environments.",
+    "desp": "The three-core flat submersible cables are available in a range of sizes from 1.5 sq. mm. to 25 sq. mm. They are built to withstand the rigors of submersion. A 3-core submersible flat cable is a type of electrical cable designed for use in underwater environment. It is typically used to power and control submersible equipment such as submersible water pumps and underwater lighting. The cable is flat in shape, which makes it flexible and easy to install, even in tight spaces. Additionally, it is designed to withstand exposure to water and other harsh elements, making it a reliable and long-lasting option for electrical systems in these environments.",
     "images": [
       "https://res.cloudinary.com/dypttf0yz/image/upload/v1674749858/Bonson/3coreFlatSubmersible/20230111_140902_bkdaws.png",
       "https://res.cloudinary.com/dypttf0yz/image/upload/v1674749217/Bonson/3coreFlatSubmersible/3coreSubmesible_1_auesbk.webp",
@@ -46,16 +45,15 @@
     "applications": [
       "Submersible pumps: For controlling and powering submersible pumps used in wells, fountains, and aquariums.",
       "Marina and docks: To power boats, docks, and other equipment in marine environments.",
-      "Flood lighting: In underwater lighting systems for fountains, swimming pools, and other water features.",
-      "Mining operations: For powering and controlling submersible equipment used in mining operations."
+      "Flood lighting: In underwater lighting systems for fountains, swimming pools, and other water features."
     ],
     "advantages": [
       "At our company, we recognize the critical role that material choice plays in the overall performance of electrical systems. Copper and aluminum are widely used as conductors in electrical cables and wires due to their exceptional electrical conductivity. Our state-of-the-art in-house drawing and testing capabilities allow us to produce top-quality products that meet and exceed customer expectations. Trust us to deliver reliable, high-performing electrical cables and wires.",
-      "Our understanding of the balance between selecting the right cable or wire size for electrical systems is way much more precise than other industry players. The conductor must be of sufficient diameter to carry the necessary current, while also being compact enough to fit in the limited space available. To address the diverse requirements of our customers, we offer a comprehensive range of cable sizes, ensuring you get the perfect fit for your electrical system.",
+      "Our understanding of the balance between selecting the right cable or wire size for electrical systems is way much more precise than other industry players. The conductor must be of sufficient diameter to carry the necessary current, while also being compact enough to fit in the limited space available. We keep our cable design precisely in line with the national standards so that our products are cohesive with your other electrical products and fittings.",
       "Our belief is that investing in high-quality electrical cables and wires is an investment in the performance and reliability of your electrical system. By choosing premium quality products, you can expect improved electrical conductivity, lower resistance, and reduced energy loss, resulting in increased efficiency and lower electricity bills. Our commitment to delivering superior products and exceptional customer service means you can trust us to provide you with the best options to enhance the performance and longevity of your electrical system.",
-      "Our cables are designed and manufactured with safety and trustworthiness in mind. We use the latest technologies to produce cables that are fire-retardant, fire-resistant, and environmentally friendly. Our products are lead-free and halogen-free, ensuring the health and safety of both the users and the environment. Our strict adherence to industry standards, combined with our commitment to eco-friendly production methods, means you can trust us to provide you with safe, reliable, and high-performing electrical cables."
+      "Our cables are designed and manufactured with safety and trustworthiness in mind. We use the latest technologies to produce cables that are Heat resistant, fire-retardant, and environmentally friendly. Our products are lead-free, ensuring the health and safety of both the users and the environment. Our strict adherence to industry standards, combined with our commitment to eco-friendly production  methods, means you can trust us to provide you with safe, reliable, and high- performing electrical cables."
     ],
-    "standard": "IS 694: 2010, IS 5831: 1984, IS 9968(Part-1): 1976.",
+    "standard": "IS 694, IS 5831, IS 8130",
     "techData": {
       "Conductor": "Electrolytic grade annealed copper",
       "Core Colour": "Red, yellow (centre core), blue",
@@ -68,7 +66,7 @@
     "categoryHeading": "Multicore flexible cables",
     "categoryPage": "yes",
     "categoryDesc": "Multicore flexible cables are used for installation in all electrically operated machines and equipment's such as air conditioners, refrigerators, motors etc. these wires have flexible conductor and very soft sheathing to provide the required flexibility and the best-in-class protection all around. Moreover, they do not wear or tear and work efficiently even under pressure. ",
-    "desp": "Our multicore flexible cables feature an innovative design with multiple conductors bundled together within a flexible insulation. This unique construction allows for easy installation and maximum maneuverability in tight spaces or dynamic applications where the cable needs to move or bend. Our commitment to providing innovative and high-quality products ensures that you get the perfect solution for your electrical needs. In addition to our innovative multicore flexible cables, we offer a comprehensive range of flexible cables in three categories to meet the diverse needs of our customers - 2-core, 3-core, and 4-core. ",
+    "desp": "control systems: Multicore flexible cables are commonly used in the control and instrumentation systems of industrial and lab equipment. They are used to distribute signals in form of electrical current from the main panel or motherboard to the various parts of machine or instrument so that they work in sync to achieve the desired task.",
     "images": [
       "https://res.cloudinary.com/dypttf0yz/image/upload/v1674748787/Bonson/multicoreFlexible/multicore_main_jhva3z.png",
       "https://res.cloudinary.com/dypttf0yz/image/upload/v1674999561/Bonson/multicoreFlexible/20230111_143002_ikbwzy.jpg",
@@ -78,25 +76,24 @@
     "applications": [
       "Power distribution and control systems: These cables are ideal for use in electrical power distribution and control systems, including electrical panels, switchboards, transformers, and other electrical equipment.",
       "Instrumentation and control systems: Multicore flexible cables are commonly used in the control and instrumentation systems of various industrial processes, such as chemical plants, oil refineries, and manufacturing facilities.",
-      "Manufacturing and process control systems: These cables are used in the automation and control of manufacturing processes and machines, including conveyors, robots, and other industrial machinery.",
-      "Domestic appliances: These cables are used in the electrical equipment for domestic appliances, such as refrigerators, washing machines, and dishwashers."
+      "Manufacturing and process control systems: These cables are used in the automation and control of manufacturing processes and machines, including conveyors, robots, and other industrial machinery."
     ],
     "advantages": [
       "At our company, we recognize the critical role that material choice plays in the overall performance of electrical systems. Copper and aluminum are widely used as conductors in electrical cables and wires due to their exceptional electrical conductivity. Our state-of-the-art in-house drawing and testing capabilities allow us to produce top-quality products that meet and exceed customer expectations. Trust us to deliver reliable, high-performing electrical cables and wires.",
-      "Our understanding of the balance between selecting the right cable or wire size for electrical systems is way much more precise than other industry players. The conductor must be of sufficient diameter to carry the necessary current, while also being compact enough to fit in the limited space available. To address the diverse requirements of our customers, we offer a comprehensive range of cable sizes, ensuring you get the perfect fit for your electrical system.",
+      "Our understanding of the balance between selecting the right cable or wire size for electrical systems is way much more precise than other industry players. The conductor must be of sufficient diameter to carry the necessary current, while also being compact enough to fit in the limited space available. We keep our cable design precisely in line with the national standards so that our products are cohesive with your other electrical products and fittings.",
       "Our belief is that investing in high-quality electrical cables and wires is an investment in the performance and reliability of your electrical system. By choosing premium quality products, you can expect improved electrical conductivity, lower resistance, and reduced energy loss, resulting in increased efficiency and lower electricity bills. Our commitment to delivering superior products and exceptional customer service means you can trust us to provide you with the best options to enhance the performance and longevity of your electrical system.",
-      "Our cables are designed and manufactured with safety and trustworthiness in mind. We use the latest technologies to produce cables that are fire-retardant, fire-resistant, and environmentally friendly. Our products are lead-free and halogen-free, ensuring the health and safety of both the users and the environment. Our strict adherence to industry standards, combined with our commitment to eco-friendly production methods, means you can trust us to provide you with safe, reliable, and high-performing electrical cables."
+      "Our cables are designed and manufactured with safety and trustworthiness in mind. We use the latest technologies to produce cables that are Heat resistant, fire-retardant, and environmentally friendly. Our products are lead-free, ensuring the health and safety of both the users and the environment. Our strict adherence to industry standards, combined with our commitment to eco-friendly production  methods, means you can trust us to provide you with safe, reliable, and high- performing electrical cables."
     ],
-    "standard": "IS 694:1990- which specifies the requirements for Polyvinyl Chloride (PVC) insulated multicore cables for electrical installations. Voltage rating up to 1100 volts. Frequencies up to 1000 Hz.",
+    "standard": "IS 694 Voltage rating up to and including 1100 volts. Frequencies up to 1000",
     "techData": {
-      "Conductor": "Stranded bare or tinned copper",
-      "Insulation": "PVC or XLPE",
-      "Sheath": "PVC or LSZH",
+      "Conductor": "SElectrolytic Grade annealed copper as per IS 8130",
+      "Insulation": "PVC",
+      "Sheath": "PVC",
       "Number of cores": "2, 3 or 4",
-      "Nominal cross-section": "0.5mm² to 6mm²",
+      "Nominal cross-section": "0.5 mm2 to 25 mm2",
       "Operating voltage": "300/500V or 450/750V",
       "Testing voltage": "3000V or 6000V",
-      "Operating temperature": "-30°C to +70°C",
+      "Operating temperature": "up to +70°C",
       "Flame retardant": "IEC 60332-1, IEC 60332-3-24"
     }
   },
@@ -114,14 +111,13 @@
     "applications": [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan.",
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan.",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan.",
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus quam, gravida vitae bibendum nec, viverra eget erat. Donec odio ex, rhoncus non iaculis id, sagittis accumsan."
     ],
     "advantages": [
       "At our company, we recognize the critical role that material choice plays in the overall performance of electrical systems. Copper and aluminum are widely used as conductors in electrical cables and wires due to their exceptional electrical conductivity. Our state-of-the-art in-house drawing and testing capabilities allow us to produce top-quality products that meet and exceed customer expectations. Trust us to deliver reliable, high-performing electrical cables and wires.",
-      "Our understanding of the balance between selecting the right cable or wire size for electrical systems is way much more precise than other industry players. The conductor must be of sufficient diameter to carry the necessary current, while also being compact enough to fit in the limited space available. To address the diverse requirements of our customers, we offer a comprehensive range of cable sizes, ensuring you get the perfect fit for your electrical system.",
+      "Our understanding of the balance between selecting the right cable or wire size for electrical systems is way much more precise than other industry players. The conductor must be of sufficient diameter to carry the necessary current, while also being compact enough to fit in the limited space available. We keep our cable design precisely in line with the national standards so that our products are cohesive with your other electrical products and fittings.",
       "Our belief is that investing in high-quality electrical cables and wires is an investment in the performance and reliability of your electrical system. By choosing premium quality products, you can expect improved electrical conductivity, lower resistance, and reduced energy loss, resulting in increased efficiency and lower electricity bills. Our commitment to delivering superior products and exceptional customer service means you can trust us to provide you with the best options to enhance the performance and longevity of your electrical system.",
-      "Our cables are designed and manufactured with safety and trustworthiness in mind. We use the latest technologies to produce cables that are fire-retardant, fire-resistant, and environmentally friendly. Our products are lead-free and halogen-free, ensuring the health and safety of both the users and the environment. Our strict adherence to industry standards, combined with our commitment to eco-friendly production methods, means you can trust us to provide you with safe, reliable, and high-performing electrical cables."
+      "Our cables are designed and manufactured with safety and trustworthiness in mind. We use the latest technologies to produce cables that are Heat resistant, fire-retardant, and environmentally friendly. Our products are lead-free, ensuring the health and safety of both the users and the environment. Our strict adherence to industry standards, combined with our commitment to eco-friendly production  methods, means you can trust us to provide you with safe, reliable, and high- performing electrical cables."
     ],
     "standard": "IS:8130-1984 (Specification for wires of copper for electrical purposes) and IS:694-1990 (Specification for Polyethylene Insulated Copper conductor for working voltages upto and including 1100 Volts).",
     "techData": {
@@ -137,7 +133,7 @@
     "categoryHeading": "Annealed Bare Core",
     "categoryPage": "yes",
     "categoryDesc": "We also deal in bare copper wire, annealed bare copper wire, and fine copper wire which is used in industries as a raw material for further processing. We also have a provision for an online resistance annealer to double anneal the  copper to provide even higher softness in our copper. We also offer Bunched copper as per the client’s requirement. ",
-    "desp": "Bare copper wire is a single conductor electrical signal wire made of pure copper metal. Annealed Bare Copper Wire is created through a process of hardening and heating the copper below its melting point to increase its flexibility. This wire is made from high-quality annealed copper material, making it a versatile and reliable choice for various electrical applications. The annealing process ensures that the wire has the desired mechanical and electrical properties, making it a preferred choice for electrical engineers and distributors/traders.",
+    "desp": "Bare copper wire is a single strand of 99.99% copper wire. Annealed Bare Copper Wire is formed by the process of reheating the bare copper above its crystallization temperature and held there until all previous thermal history is remove and is then cooled. This results in the crystalline matrix to regrow along a linear path increasing the metals ductility and reducing its hardness. The annealing process ensures that the wire has the desired mechanical and electrical properties, making it a preferred choice for electrical cables and wires.",
     "images": [
       "https://res.cloudinary.com/dypttf0yz/image/upload/v1674750075/Bonson/copper/copper___4_abjlnu.png",
       "https://res.cloudinary.com/dypttf0yz/image/upload/v1674750128/Bonson/copper/copper___20_s9z1yq.webp",
@@ -145,24 +141,23 @@
       "https://res.cloudinary.com/dypttf0yz/image/upload/v1674997553/Bonson/copper/ANNEALER_OP_2_rdkueo.jpg"
     ],
     "applications": [
-      "Electrical Wiring: Annealed bare copper is often used in building electrical systems, as it is a highly conductive and flexible material.",
-      "Grounding: Annealed bare copper is used as a grounding wire due to its conductivity and resistance to corrosion.",
+      "Electrical Wires and cables: Annealed bare copper is used to manufacture electrical wires and cables which in turn have numerous applications.",
       "Electronic Devices: Annealed bare copper is used in electronic devices such as motors, generators, and switches, as well as in electrical circuits.",
       "Transformers: Annealed bare copper wire is used in the production of electrical transformers as a conductor for high voltage and current applications."
     ],
     "advantages": [
       "At our company, we recognize the critical role that material choice plays in the overall performance of electrical systems. Copper and aluminum are widely used as conductors in electrical cables and wires due to their exceptional electrical conductivity. Our state-of-the-art in-house drawing and testing capabilities allow us to produce top-quality products that meet and exceed customer expectations. Trust us to deliver reliable, high-performing electrical cables and wires.",
-      "Our understanding of the balance between selecting the right cable or wire size for electrical systems is way much more precise than other industry players. The conductor must be of sufficient diameter to carry the necessary current, while also being compact enough to fit in the limited space available. To address the diverse requirements of our customers, we offer a comprehensive range of cable sizes, ensuring you get the perfect fit for your electrical system.",
+      "Our understanding of the balance between selecting the right cable or wire size for electrical systems is way much more precise than other industry players. The conductor must be of sufficient diameter to carry the necessary current, while also being compact enough to fit in the limited space available. We keep our cable design precisely in line with the national standards so that our products are cohesive with your other electrical products and fittings.",
       "Our belief is that investing in high-quality electrical cables and wires is an investment in the performance and reliability of your electrical system. By choosing premium quality products, you can expect improved electrical conductivity, lower resistance, and reduced energy loss, resulting in increased efficiency and lower electricity bills. Our commitment to delivering superior products and exceptional customer service means you can trust us to provide you with the best options to enhance the performance and longevity of your electrical system.",
-      "Our cables are designed and manufactured with safety and trustworthiness in mind. We use the latest technologies to produce cables that are fire-retardant, fire-resistant, and environmentally friendly. Our products are lead-free and halogen-free, ensuring the health and safety of both the users and the environment. Our strict adherence to industry standards, combined with our commitment to eco-friendly production methods, means you can trust us to provide you with safe, reliable, and high-performing electrical cables."
+      "Our cables are designed and manufactured with safety and trustworthiness in mind. We use the latest technologies to produce cables that are Heat resistant, fire-retardant, and environmentally friendly. Our products are lead-free, ensuring the health and safety of both the users and the environment. Our strict adherence to industry standards, combined with our commitment to eco-friendly production  methods, means you can trust us to provide you with safe, reliable, and high- performing electrical cables."
     ],
-    "standard": "IS:8130-1984 (Specification for wires of copper for electrical purposes) and IS:694-1990 (Specification for Polyethylene Insulated Copper conductor for working voltages upto and including 1100 Volts).",
+    "standard": "IS 8130 FOR CONDUCTOR DESIGN AS WELL AS TESTING",
     "techData": {
       "Conductivity": "More than 101% conductivity.",
       "Electolytic Property": "99.99% electrolytic copper.",
-      "Electrical Transmission": "Low electrical resistance, which is important for efficient power transmission.",
+      "Electrical Transmission": "Low electrical resistance",
       "Tensile Strength": "High tensile strength",
-      "Diameter": "Diameter between 0.5 mm to 4 mm."
+      "Diameter": "Diameter between 0.18 mm to 3 mm."
     }
   },
   {
@@ -170,7 +165,7 @@
     "categoryHeading": "Submersible Poly Winding Wire",
     "categoryPage": "yes",
     "categoryDesc": "Submersible Poly Winding Wire is a common type of insulated wire used in electrical motors. This wire is resistant to water and other liquids, making it an excellent choice for submersible pumps and motors. To satisfy the needs of various electrical systems, the wire is offered in a variety of covering thickness and conductor gauges.",
-    "desp": "Submersible Poly Winding Wire is a specially designed insulated wire used in electrical motors for underwater applications. The wire features a high-quality polyurethane or polyethylene insulation material that provides superior resistance to water and other liquids. This makes the wire an ideal choice for use in submersible motors and pumps that are operating in wet or damp environments. To ensure consistent performance, the wire is manufactured to meet rigorous industry standards and undergoes strict quality control measures during production.",
+    "desp": "Submersible Poly Winding Wire is a specially designed insulated wire used in electrical motors for the main power coil. The wire features a high-quality poly vinyl chloride insulation material that provides superior resistance to water and other liquids. This makes the wire an ideal choice for use in submersible motors and pumps that are operating in wet or damp environments. To ensure consistent performance, the wire is manufactured to meet rigorous industry standards and undergoes strict quality control measures during production.",
     "images": [
       "https://res.cloudinary.com/dypttf0yz/image/upload/v1676128950/Bonson/20230125_141159-min_oizvnt.jpg",
       "https://res.cloudinary.com/dypttf0yz/image/upload/v1674997593/Bonson/submersiblePollyBinding/20230111_142609_f8fbo0.jpg",
@@ -180,21 +175,21 @@
     "applications": [
       "Submersible pumps: These are used in water wells, sewage treatment plants, and other applications where the motor must be submerged in water.",
       "Electric motors: Motors that are frequently exposed to water or other liquids require submersible polywinding wire to function properly and avoid electrical failure.",
-      "Agricultural equipment: Agricultural machinery that is exposed to water and moisture, such as irrigation systems, can benefit from the use of submersible polywinding wire.",
-      "Marine equipment: Boats, ships, and other marine vessels often require electrical equipment that is resistant to water and moisture, making submersible polywinding wire a suitable choice."
+      "Agricultural equipment: Agricultural machinery that is exposed to water and moisture, such as irrigation systems, can benefit from the use of submersible polywinding wire."
     ],
     "advantages": [
       "At our company, we recognize the critical role that material choice plays in the overall performance of electrical systems. Copper and aluminum are widely used as conductors in electrical cables and wires due to their exceptional electrical conductivity. Our state-of-the-art in-house drawing and testing capabilities allow us to produce top-quality products that meet and exceed customer expectations. Trust us to deliver reliable, high-performing electrical cables and wires.",
-      "Our understanding of the balance between selecting the right cable or wire size for electrical systems is way much more precise than other industry players. The conductor must be of sufficient diameter to carry the necessary current, while also being compact enough to fit in the limited space available. To address the diverse requirements of our customers, we offer a comprehensive range of cable sizes, ensuring you get the perfect fit for your electrical system.",
+      "Our understanding of the balance between selecting the right cable or wire size for electrical systems is way much more precise than other industry players. The conductor must be of sufficient diameter to carry the necessary current, while also being compact enough to fit in the limited space available. We keep our cable design precisely in line with the national standards so that our products are cohesive with your other electrical products and fittings.",
       "Our belief is that investing in high-quality electrical cables and wires is an investment in the performance and reliability of your electrical system. By choosing premium quality products, you can expect improved electrical conductivity, lower resistance, and reduced energy loss, resulting in increased efficiency and lower electricity bills. Our commitment to delivering superior products and exceptional customer service means you can trust us to provide you with the best options to enhance the performance and longevity of your electrical system.",
-      "Our cables are designed and manufactured with safety and trustworthiness in mind. We use the latest technologies to produce cables that are fire-retardant, fire-resistant, and environmentally friendly. Our products are lead-free and halogen-free, ensuring the health and safety of both the users and the environment. Our strict adherence to industry standards, combined with our commitment to eco-friendly production methods, means you can trust us to provide you with safe, reliable, and high-performing electrical cables."
+      "Our cables are designed and manufactured with safety and trustworthiness in mind. We use the latest technologies to produce cables that are Heat resistant, fire-retardant, and environmentally friendly. Our products are lead-free, ensuring the health and safety of both the users and the environment. Our strict adherence to industry standards, combined with our commitment to eco-friendly production  methods, means you can trust us to provide you with safe, reliable, and high- performing electrical cables."
     ],
     "standard": "IS:694, the Indian standard for flexible polymer-insulated cables for rated voltages up to and including 450/750V. This standard ensures that the wire is safe, reliable, and performs as intended when used in submersible motors and pumps.",
     "techData": {
-      "Conductor Type": "Stranded or Solid",
-      "Insulation Material": "High Insulation Resistance",
+      "Conductor Type": "Solid",
+      "Insulation Material": "High quality poly vinyl chloride in the form of tapes",
       "Voltage Rating": "High Proof Voltage",
-      "Temperature Rating": "Higher Temp, Index-110°C"
+      "Temperature Rating": "Higher Temp, Index-110°C",
+      "Conductor Sizes": "0.4 mm to 3 mm with increment of 0.1 mm"
     }
   }
 ]
