@@ -40,6 +40,7 @@ const ProductSlider = ({ images }) => {
                 height={80}
                 width={80}
                 layout="responsive"
+                objectFit="cover"
               />
             </div>
           );
@@ -62,6 +63,7 @@ const ProductSlider = ({ images }) => {
                   width={50}
                   height={50}
                   layout="responsive"
+                  objectFit="cover"
                 />
               </div>
             </SwiperSlide>
