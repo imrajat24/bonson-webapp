@@ -55,6 +55,7 @@ const ProductPage = ({ id }) => {
                               alt="Product Img"
                               height={200}
                               width={200}
+                              objectFit="cover"
                             />
                           </div>
                           <h4 className="product__application__card--heading">
